@@ -100,6 +100,7 @@ ISO-8859-9
 Inexact
 InstalledLocales
 Insufficient storage
+Invalid
 Invalid context
 Invalid operation
 KOI8-R
@@ -520,6 +521,7 @@ RBNFRules
 Rounded
 RuleBasedTransliteratorIDs
 Second
+Sequence
 Shift_JIS
 Sort Key = %vb
 SpelloutRules
@@ -5146,6 +5148,7 @@ islamic-rgsa
 islamic-tbla
 islamic-umalqura
 iso8601
+item
 item_per_mole
 izrule_clone_73
 izrule_close_73
@@ -5303,6 +5306,7 @@ numbers
 numbers=jpanyear
 numeric
 oblique
+offset
 or-narrow
 or-short
 other
@@ -5424,6 +5428,7 @@ starred-relation string is not all NFD-inert
 starred-relation string range contains U+FFFD, U+FFFE or U+FFFF
 starred-relation string range contains a surrogate
 starred-relation string range is not all NFD-inert
+start
 stone
 string contains U+FFFD, U+FFFE or U+FFFF
 string contains an unpaired surrogate
@@ -5436,6 +5441,7 @@ tablespoon
 tailoring primary after ignorables not supported
 tailoring quaternary after tertiary ignorables not supported
 tailoring relative to an unassigned code point not supported
+target
 target string = %vb 
 target string = %vh 
 teaspoon
@@ -6692,6 +6698,7 @@ utrie2_set32_73
 utrie2_setRange32_73
 variableTop
 vocative
+volume
 vtable for icu_73::AlphabeticIndex
 vtable for icu_73::AlphabeticIndex::Bucket
 vtable for icu_73::AlphabeticIndex::ImmutableIndex

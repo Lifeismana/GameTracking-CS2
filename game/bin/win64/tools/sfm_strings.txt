@@ -44,11 +44,12 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (08@HPX`hpx
- (08@HPX`j 
- (08@HPXb
- (08@HPZ 
- (08@HR
- (0X`hpz
+ (08@HPX`j
+ (08@HPXbP
+ (08@HPZ
+ (08@HRP
+ (08@JP
+ (0X`hpzP
  (repeat)
  (x2 - stereoscopic)
  * Animation Stack %s Layer %s - %s\n
@@ -93,6 +94,7 @@
  cn?4
  delay: %.3f
  duration 
+ google/protobuf/descriptor.proto
  google/protobuf/descriptor.proto*
  in Perforce?\n\n\n
  offset 
@@ -218,6 +220,7 @@
 "pixelAspectRatio" attribute not found in the header.
 "screenWindowCenter" attribute not found in the header.
 "screenWindowWidth" attribute not found in the header.
+"u\n!CNETMsg_SpawnGroup_ManifestUpdate
 # Samples
 # of channels is zero.\n
 ##GameUI_Disconnect_BadRelayPassword
@@ -283,16 +286,23 @@ $#GameUI_Disconnect_MessageParseError
 $#GameUI_Disconnect_Request_HLTVRelay
 $#Player_DisconnectReason_TeamHurting
 $#Player_DisconnectReason_TeamKilling
+$AMBIENTSCALE
 $COLORWARP
+$COLORWARPINTENSITY
 $ChamberLight
 $CounterDigitHundreds
 $CounterDigitOnes
 $CounterDigitTens
 $CounterIcon
 $DETAIL2
+$DETAIL2BLENDFACTOR
+$DETAIL2ROTATION
+$DETAIL2SCALE
 $DIFFUSEWARP
+$DIFFUSEWARPBLENDTOFULL
 $DryEraseMarker
 $ENVMAP
+$ENVMAPINTENSITY
 $FRESNELCOLORWARP
 $FRESNELWARP
 $FrameNumber
@@ -302,16 +312,44 @@ $FrameNumber3
 $HealthLights
 $IconCoordOffset
 $IconCoordScale
+$METALNESSBLENDTOFULL
 $PistolChamberReadout
 $PistolClipReadoutOffset
 $PistolClipReadoutScale
 $PistolHopperReadout
+$REFLECTIONSTINTBYBASEBLENDTONONE
+$RIMLIGHTCOLOR
+$RIMLIGHTSCALE
+$SELFILLUMBLENDTOFULL
 $SFXColorWarp
+$SFXColorWarpAmount
 $SFXDetail
+$SFXDetailAmount
+$SFXDetailTextureScale
+$SFXDetailTextureScrollX
+$SFXDetailTextureScrollY
+$SFXDetailTextureScrollZ
 $SFXMetalness
+$SFXMetalnessAmount
 $SFXNormal
+$SFXNormalAmount
 $SFXRoughness
+$SFXRoughnessAmount
 $SFXSelfIllum
+$SFXSelfIllumAmount
+$SFXTextureOffsetX
+$SFXTextureOffsetY
+$SFXTextureOffsetZ
+$SFXTextureScale
+$SFXTextureScrollX
+$SFXTextureScrollY
+$SFXTextureScrollZ
+$SFXUseModelUVs
+$SPECULARBLENDTOFULL
+$SPECULARCOLOR
+$SPECULAREXPONENT
+$SPECULAREXPONENTBLENDTOFULL
+$SPECULARSCALE
 $SPECULARWARP
 $SlideLight
 $WristIconFrame
@@ -319,6 +357,7 @@ $[?setRange@QDoubleValidator@@UEAAXNNH@Z
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 $\n\fsignon_state
 $\n\vorientation
+$\tV_fmodd
 $cloakfactor
 $fullycloakedrefractfactor
 $keys
@@ -393,7 +432,7 @@ $schemasystem/schema_enable_defines.h
 %?RemapIndexTo@?$FbxLayerElementTemplate@VFbxVector4@fbxsdk@@@fbxsdk@@QEAAHW4EMappingMode@FbxLayerElement@2@@Z
 %[?setRange@QIntValidator@@UEAAXHH@Z
 %\?setUnderline@QFont@@QEAAX_N@Z
-%\tV_fmodd
+%\tV_fmodf
 %]?sibling@QStandardItemModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
 %^?strokePath@QPainter@@QEAAXAEBVQPainterPath@@AEBVQPen@@@Z
 %d trace results\n
@@ -543,7 +582,6 @@ $schemasystem/schema_enable_defines.h
 &\n"SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP
 &\nNx+\nCh,\n'
 &\r?hideColumn@QTreeView@@QEAAXH@Z
-&\tV_fmodf
 &a?viewport@QPainter@@QEBA?AVQRect@@XZ
 ' ?timerEvent@QPlainTextEdit@@MEAAXPEAVQTimerEvent@@@Z
 '#GameUI_Disconnect_BadSpectatorPassword
@@ -583,7 +621,7 @@ $schemasystem/schema_enable_defines.h
 (\f?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
 (\r?hideEvent@QAbstractSpinBox@@MEAAXPEAVQHideEvent@@@Z
 (\t"\r\n\vCNETMsg_NOP"'\n
-(\t"u\n!CNETMsg_SpawnGroup_ManifestUpdate
+(\tV_fpclassifyd
 (\v2 .google.protobuf.DescriptorProto
 (\v2!.google.protobuf.EnumValueOptions"
 (\v2$.google.protobuf.EnumDescriptorProto
@@ -607,7 +645,7 @@ $schemasystem/schema_enable_defines.h
 (\v2\t.CMsgRGBA
 (\v2\v.CMsgQAngle
 (\v2\v.CMsgVector
-(\v2\v.CMsg_CVars"
+(\v2\v.CMsg_CVars:
 (\v?enterEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
 (multiple presets with different descriptions)
 (null)
@@ -618,11 +656,10 @@ $schemasystem/schema_enable_defines.h
 )#Player_DisconnectReason_ConvictedAccount
 )#Player_DisconnectReason_UntrustedAccount
 )\f?focusOutEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
-)\fpfk
 )\n?displayText@QStyledItemDelegate@@UEBA?AVQString@@AEBVQVariant@@AEBVQLocale@@@Z
 )\r?hideEvent@QComboBox@@MEAAXPEAVQHideEvent@@@Z
 )\t?buddy@QAbstractItemModel@@UEBA?AVQModelIndex@@AEBV2@@Z
-)\tV_fpclassifyd
+)\tV_fprintf
 )\v?createData@QMapDataBase@@SAPEAU1@XZ
 )\v?enterEvent@QWidget@@MEAAXPEAVQEvent@@@Z
 * ?timerEvent@QTextEdit@@MEAAXPEAVQTimerEvent@@@Z
@@ -647,10 +684,12 @@ $schemasystem/schema_enable_defines.h
 *?Transpose@FbxMatrix@fbxsdk@@QEBA?AV12@XZ
 *NONE*VALID*
 *StO9>T
+*XQn
 *\f?focusOutEvent@QAbstractSpinBox@@MEAAXPEAVQFocusEvent@@@Z
 *\n"host_computationtime_std_deviation
 *\r?endArray@QSettings@@QEAAXXZ
-*\tV_fprintf
+*_left
+*_right
 + ?timerEvent@QToolButton@@MEAAXPEAVQTimerEvent@@@Z
 +"?updateGeometries@QListView@@MEAAXXZ
 +?sAmbient@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
@@ -686,12 +725,6 @@ $schemasystem/schema_enable_defines.h
 -\nLx.\nAh/\n/4h
 -cmd
 -memory-
--sfm_autolayoff
--sfm_layoffframerange
--sfm_layoffshotlist
--sfm_layoffshotrange
--sfm_moviesettings
--sfm_rendersettings
 -y -loglevel panic -sameq -f image2 -i %9d.png -vcodec mpeg4 -aspect 16:9 -s 1280x720 -r 23.976 -vb 8000000 <FULL_MOVIE_PATH>
 .#?windowTitle@QWidget@@QEBA?AVQString@@XZ
 .,?sVectorDisplacementColor@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
@@ -3709,15 +3742,15 @@ $schemasystem/schema_enable_defines.h
 00000000
 000000000
 08@HP
-08@HR 
-08@J
-08B 
+08@HR
+08@JP
 08\fj
 0:<\n\fdelta_ignore
 0L6?
 0T.Q
 0\fE04_
 0iN>/
+0lzn
 0x%1
 0x%llx
 0x%p = %s '%s'
@@ -4112,7 +4145,6 @@ $schemasystem/schema_enable_defines.h
 2048 x 1536
 2048 x 2048
 2048 x 858 (2K)
-20Z+
 23.976
 24 fps
 256 (override)
@@ -4159,11 +4191,14 @@ $schemasystem/schema_enable_defines.h
 2WeightChanged( int, float )
 2WidgetUpdated( int )
 2WidgetUpdated(int)
+2XQn
 2\f?focusOutEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 2\n?doItemsLayout@QListView@@UEAAXXZ
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\rU2t
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
+2\vpl
+2\vpt
 2aboutToHide()
 2aboutToShow()
 2accepted()
@@ -4214,6 +4249,7 @@ $schemasystem/schema_enable_defines.h
 2modelAboutToBeReset()
 2modelReset ()
 2modelReset()
+2pJ+
 2pressed()
 2progressRangeChanged(int,int)
 2progressValueChanged(int)
@@ -4301,6 +4337,7 @@ $schemasystem/schema_enable_defines.h
 6\t?bytesAvailable@QProcess@@UEBA_JXZ
 6\v?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
 6\v?event@QComboBox@@UEAA_NPEAVQEvent@@@Z
+6p\fy
 7'?SetAt@FbxLayerElementArray@fbxsdk@@QEAAXHPEBXW4EFbxType@2@@Z
 720p
 7H?i
@@ -4368,7 +4405,6 @@ $schemasystem/schema_enable_defines.h
 <h1>%1%2</h1>
 <no shot selected>
 <no vsnds>
-<obsolete>
 <p>Copyright by Valve Corporation. All rights reserved.                     
 <sil>
 <table>
@@ -4403,6 +4439,7 @@ $schemasystem/schema_enable_defines.h
 >a2e
 >cQ6
 >jtm}S
+>model_default_preview_sequence_name
 >tFT>f
 >xze
 >xzu
@@ -5102,6 +5139,7 @@ $schemasystem/schema_enable_defines.h
 ?LooksLikeKV3TextData@@YA_NPEBXHPEAUKV3ID_t@@PEADH@Z
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
 ?MakeRelativePath@CBufferString@@QEAAPEBDPEBD0_N@Z
+?MatchesPattern@CUtlString@@QEBA_NAEBV1@H@Z
 ?MoveFrom@CBufferString@@QEAAXAEAV1@@Z
 ?ParallelCallQueued@CCallQueue@@QEAAXPEBDPEAVIThreadPool@@@Z
 ?ParseToken@CUtlBuffer@@QEAA_NPEBD0PEADH@Z
@@ -5172,7 +5210,6 @@ $schemasystem/schema_enable_defines.h
 ?TrimTail@CBufferString@@QEAAPEBDPEBD@Z
 ?TruncateAt@CBufferString@@QEAAPEBDH_N@Z
 ?UUUUUU
-?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnregisterEventListener_Base@CEventDispatcher_Base@@IEAA_NAEBVCUtlAbstractDelegate@@AEAV?$CUtlVector@UEventListenerInfo_t@CEventDispatcher_Base@@HV?$CUtlVectorMemory_Growable@UEventListenerInfo_t@CEventDispatcher_Base@@H$0A@@@@@@Z
 ?V_UnicodeRepair@@YAHPEADW4EStringConvertErrorPolicy@@@Z
 ?V_UnicodeValidate@@YA_NPEBD@Z
@@ -5180,6 +5217,7 @@ $schemasystem/schema_enable_defines.h
 ?V_strnlen@@YAHPEBDH@Z
 ?\f?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
 ?\n?availableGeometry@QScreen@@QEBA?AVQRect@@XZ
+?\tV_isinfd
 ?aT2
 ?about@QMessageBox@@SAXPEAVQWidget@@AEBVQString@@1@Z
 ?aboutQt@QApplication@@SAXXZ
@@ -6855,17 +6893,18 @@ $schemasystem/schema_enable_defines.h
 ?ysB
 @#?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
 @08@HPX`hpx
-@08ND
+@08N
 @HPX
 @HPX&I
-@HPX`hv0
+@HPX`hv
 @Integer overflow in %s
 @Node
 @\n?document@QPlainTextEdit@@QEBAPEAVQTextDocument@@XZ
-@\tV_isinfd
+@\tV_isnand
 @\v?event@QFrame@@MEAA_NPEAVQEvent@@@Z
 @^8U)zj
 @control_point
+@htp
 @merged
 @spawn
 A picker dialog is active
@@ -6888,7 +6927,6 @@ ATI_TC_ConvertTexture_Wrapper
 AVI (*.avi);;All Files (*.*)
 A\n!NETWORK_DISCONNECT_REJECT_NOLOBBY
 A\n\nannotation
-A\tV_isnand
 A`?translate@QPainter@@QEAAXAEBVQPoint@@@Z
 Abort Floating Modification Layer
 AbortTextEntry
@@ -6994,6 +7032,7 @@ AddUndoElement '%s'\n
 Adding %s helper key at %d value 
 Adding bone %s\n
 Additional information can be found on the internet: <a href="http://www.youtube.com/SourceFilmmaker" style="color: #9c8f62;">YouTube</a> | <a href="http://www.reddit.com/r/sfm" style="color: #9c8f62;">Reddit</a> | <a href="http://www.facebook.com/SourceFilmmaker" style="color: #9c8f62;">Facebook</a> | <a href="http://twitter.com/#!/SourceFilmmaker" style="color: #9c8f62;">Twitter</a> | <a href="http://www.sourcefilmmaker.com/faq" style="color: #9c8f62;">FAQ</a> | <a href="https://developer.valvesoftware.com/wiki/Source_Filmmaker" style="color: #9c8f62;">Wiki</a>
+Additive
 Addr
 Address
 Adjust Timing And Motion
@@ -7007,7 +7046,6 @@ After Movie Command
 Ago : lower-mid central unrounded vowel
 Ago : mid-central unrounded vowel
 Ahd=<c]^7if1Rjg
-Aim At
 Aim Constrain
 Aim Work Camera At Manipulator
 AimWorkCameraAtManipulator
@@ -7023,6 +7061,7 @@ Alpha Fade and Decay
 Alpha Random
 Alpha:
 Ambient Effects
+Ambient Occlusion
 Ambient Occlusion Mode:
 Amount:
 AnalogBalance
@@ -7091,6 +7130,7 @@ Ate : upper-mid front unrounded vowel
 AtlasToVolumeTextureConversion(3086): Error! Unable to parse grid/slice count from volume atlas filename: %s\n
 Attach IK Rig
 Attach Spline Rig
+Attachments
 Attempted to add the same remapped control "%s" twice!\n
 Attempted to add two format updaters with the same file format (%s)!\n
 Attempted to add two legacy updaters with the same file format (%s)!\n
@@ -7100,6 +7140,7 @@ Attempted to read an attribute ("%s") of an inappropriate type!\n
 Attempted to read an attribute ("%s") of unknown type %s!\n
 Attempting to register the command %s for context %s multiple times\n
 Attribute Operations
+Auto
 Auto Aim
 Auto Aim Work Camera
 Auto Attach Rigs
@@ -7126,6 +7167,7 @@ B\f?focusWidget@QApplication@@SAPEAVQWidget@@XZ
 B\nP\t0
 B`5?yX
 B`?translate@QPainter@@QEAAXAEBVQPointF@@@Z
+Back
 BackBufferBlit
 BackGroundFill_t
 BackGroundStyle_t
@@ -7163,6 +7205,7 @@ BaselineSharpness
 BayerGreenSplit
 Begin mouse capture [%i]: %s\n
 BestQualityScale
+Bezier
 Big : voiced alveolar stop
 Binary
 Binary (deterministic sequential ids)
@@ -7182,6 +7225,7 @@ BladeClips
 BladeClipsAndBakeOffset
 Blend Keys
 BlendLayersUsingTimeSelection
+Body
 Bogus times passed into GenerateRotationLog\n
 Bookmark
 Bookmark Set
@@ -7289,7 +7333,7 @@ CCITT Group 4
 CCITT RLE
 CCITT RLE/W
 CChoreoScene::ImportEventFromKV3( %s ):  discarding invalid event of type '%s' [%f -> %f]\n
-CChoreoScene::ParseEvent( %s ):  discarding invalid event of type '%s' [%f -> %f]\n
+CChoreoScene::ParseEvent( %s ): discarding invalid event of type '%s' [%f -> %f]\n
 CDOTAPlayerPawn
 CDataModel:  %i elements left in memory!!!\n
 CDataModel: Failed to open file "%s"\n
@@ -7451,13 +7495,16 @@ CNETMsg_SpawnGroup_Load
 CNETMsg_SpawnGroup_Unload
 CNETMsg_SplitScreenUser
 CNETMsg_StringCmd
+CNewParticleEffect
 CNewParticleEffect::DetectChanges
+CNo free conversion of %s variant to Vector right now\n
 COMMAND_TEXT_MODE_BUTTON
 COMMAND_TEXT_MODE_ICON
 COMMAND_TEXT_MODE_MENU
 COMMAND_TEXT_MODE_NONE
 CORD
-CParticleMgr::SimulateParticles(), C:\buildworker\csgo_rel_win64\build\src\particleslib\particlemgr.cpp:1077
+CParticleMgr::SimulateParticles(), C:\buildworker\csgo_rel_win64\build\src\particleslib\particlemgr.cpp:1140
+CParticleProperty
 CParticleProperty::AddControlPoint
 CParticleProperty::SetControlPoint
 CParticleSystemQuery::GetTintOnCPEntity not yet implemented!\n
@@ -7465,6 +7512,9 @@ CParticleSystemQuery::SetMaterialOverrideOnCPEntity not yet implemented!\n
 CParticleSystemQuery::SetRenderAttrFloatValueOnCPEntity not yet implemented!\n
 CParticleSystemQuery::SetRenderAttrVectorValueOnCPEntity not yet implemented!\n
 CParticleSystemQuery::SetTintOnCPEntity not yet implemented!\n
+CPulseCell_BaseLerp
+CPulseCell_BaseValue
+CPulse_ResumePoint
 CQActionCheckBox
 CQAdjustTimingAndMotionDialog
 CQAnimationController
@@ -8066,6 +8116,8 @@ CVertexListSceneObject
 CVisibilityMgr
 C_AI_BaseNPC
 C_AnimInteractable
+C_BaseCSGrenadeProjectile
+C_BasePropDoor
 C_BlindZombie
 C_DOTAPlayerController
 C_DOTAPropCustomTexture
@@ -8094,16 +8146,20 @@ C_DOTA_Unit_Fountain
 C_DOTA_Unit_Hero_
 C_DOTA_Unit_Templar_Gate
 C_DOTA_Unit_Twin_Gate
+C_DynamicProp
 C_DynamicPropClientside
 C_NPC_BaseHeadcrab
 C_NPC_BaseZombie
 C_NPC_Combine
 C_NPC_RunnerHeadcrab
 C_NPC_VR_Barnacle
+C_ParticleSystem
+C_PhysicsProp
 C_Strider
 C`?translate@QPainter@@QEAAXNN@Z
 CalibrationIlluminant1
 CalibrationIlluminant2
+Camera
 Camera orbit scale.
 Camera pan speed
 CameraCalibration1
@@ -8161,6 +8217,7 @@ Catmull-Rom
 Catmull-Rom (Norm X)
 Catmull-Rom (Norm)
 Catmull-Rom (Tangent)
+Causes each execution cursor to pause at this node for a fixed period of time. Each cursor will wake up and resume execution when the time expires, unless aborted or early-woken.
 CellLength
 CellWidth
 Center Pivot In View
@@ -8349,6 +8406,7 @@ Couldn't write stereo-pair image.\n
 CounterStrike
 Courier
 Courier New
+Create
 Create %s Constraint
 Create %s Multi-Constraint
 Create Animation Set
@@ -8433,7 +8491,9 @@ Current
 Current Binding
 CurrentICCProfile
 CurrentPreProfileMatrix
+Curve
 Curve Fit
+Custom
 Custom Color
 Custom Colors
 Custom Layout %1
@@ -8476,7 +8536,8 @@ DNGVersion
 D_BORDER
 D_COLOR_WARP
 D_DECALS_ENABLED
-D_DEPTH_OUTLINE
+D_DETAIL
+D_DETAIL_2
 D_DYNAMIC_HIGHLIGHT
 D_ENABLE_CLOAK
 D_MSAA_MODE
@@ -8549,6 +8610,7 @@ DeleteSamples
 DeleteSelectedKeys
 DeleteTrack
 DeleteWorldModelPickerDialog
+Delta
 Depth
 Depth Of Field
 Depth of Field
@@ -8573,6 +8635,7 @@ Dialog
 DidResize
 Dig : voiced alveolar flap or tap
 Dig : voiced bilabial stop
+Directional
 Directory:
 DirectoryEntries
 Disable Shadows
@@ -8845,6 +8908,8 @@ Drop Film Clips Operation
 Drop: Blend each control towards that control's values prior to starting the floating modification layer
 DropClipDialog
 DummyNoOp
+Dump all new particles, optional name substring.
+Dump all simulating particles, optional name substring.
 Dump float log to console
 DumpModeDecode: Not enough data for scanline %d
 Duplicate Preset Name
@@ -9113,6 +9178,7 @@ ExtraSamples
 Extract
 Extract Phonemes
 ExtractPhonemesDialog
+Eyes
 F>l\ty?n
 FBX Mesh "%s" Invalid %s Channel On Blender Encoded Split Color Map "%s", missing 
 FBX Mesh "%s" Morph "%s" Will Not Have Morphed Normals
@@ -9345,6 +9411,8 @@ Gameplay
 Generate
 Generate Log
 Generate Log...
+Generate a random float between min and max (inclusive)
+Generate a random integer between min and max (inclusive)
 GenerateLogSamples
 GeneratedCodeInfo
 Generic DMX
@@ -9455,12 +9523,14 @@ H"?IsValidBindPose@FbxPose@fbxsdk@@QEAA_NPEAVFbxNode@2@NPEAVFbxStatus@2@@Z
 H%?RemoveBadPolygonsFromMeshes@FbxGeometryConverter@fbxsdk@@QEAAXPEAVFbxScene@2@PEAV?$FbxArray@PEAVFbxNode@fbxsdk@@$0BA@@2@@Z
 H.264
 H.FM
+HDRColorScale
 HH:mm:ss
 HSL Grain
 HSLA
 HSLA\t
 HSVA
 HSVA\t
+HSequence
 H\v??DFbxMatrix@fbxsdk@@QEBA?AV01@AEBV01@@Z
 Hack Dota Layer Opaque
 Hack Dota Layer Opaque Translucent
@@ -9476,6 +9546,7 @@ Handle Frames Post:
 Handle Frames Pre:
 Hardware config info:\n
 HasMaterialOverride
+Head
 HeadLockOverwriteHasChanged
 HeadLockedHasChanged
 Height:
@@ -9509,20 +9580,22 @@ Hold
 Hold values and linearly falloff before and after
 Hold values between keys
 Hold: Retime each control by shifting any animation in the falloff towards the hold region
-Holster Weapon
 Home
 Horizontal differencing "Predictor" not supported with %d-bit samples
 HorizontalStrafeCamera
 HostComputer
+Houdini
 HoverItemChanged
 I ?toggleViewAction@QDockWidget@@QEBAPEAVQAction@@XZ
 IBindTarget
 IBindableCameraScene
 IBookmarkSource
 ICC Profile
+ICON
 ICSFMOperationWidget
 IControlSelectionChangedListener
 IDEMPOTENCY_UNKNOWN
+IDLE
 IDataModelChangedListener
 IDmAttributeAddedListener
 IDmAttributeChangedListener
@@ -9548,6 +9621,8 @@ INITY
 INTERACTIVE
 INVALID ROOT ELEMENT
 IOSRoot
+IParticleCollection
+IParticleEffect
 IPauseStateHasChangedListener
 IQCPropertyEditorDelegate
 IQCTabbedObject
@@ -9578,9 +9653,7 @@ IdempotencyLevel
 IdleAnim
 If "Trim Type" is "Trim To Shot With Handles", this value is added to "Shot End Frame" to determine the last frame of exported animation
 If "Trim Type" is "Trim To Shot With Handles", this value is subtracted from "Shot Start Frame" to determine the first frame of exported animation
-Ignore AI
 Ignore Alpha Fade
-Ignore Collision
 Ignore External Lookats
 Ignore Global Desaturation
 IgnoreConsoleKeypress
@@ -9865,11 +9938,13 @@ Layouts
 Layouts_%1
 Leaking %i elements\n
 LeaveCriticalSection
+Left
 Left Mouse (Point)
 LeftArm3_JNT
 LeftFingers
 LeftLeg2_JNT
 Legs
+Length
 LensInfo
 Less Options <<<
 LfArm3_JNT
@@ -9891,6 +9966,7 @@ LightmapUVW
 Lights
 Lights:
 Line length mismatch
+Linear
 Linear Interp.
 Linear Tangents
 Linear tangents
@@ -10016,6 +10092,7 @@ Mat : voiced bilabial nasal
 MatGrp:
 Match Particle Velocities
 Matched %d channels; missing %d channels; skipped %d channels.
+Material
 Material Browser
 Material Group:
 MaterialPreviewUseLayerViewportExtents
@@ -10062,6 +10139,8 @@ Misc Sounds
 Misc. Entities
 Misc. Props
 MissingRequired
+Mode
+Model
 Model Browser
 Model conversion: %d conversions in %.3fsec (%.3fms each)\n
 ModelScale
@@ -10136,6 +10215,7 @@ Movement Maintain Position Along Path
 Movement Match Particle Velocities
 Movement Max Velocity
 Movement Speed: %0.*fx   [%s] to reset
+MovementGaitId_t
 Movie Layoff Progress
 Movie Settings
 Movie Settings...
@@ -10219,6 +10299,7 @@ NETWORK_DISCONNECT_UNUSUAL
 NETWORK_DISCONNECT_USERCMD
 NO COMMAND TARGET
 NO SESSION
+NONE
 NOT USED
 NOT an attr
 NO_SIDE_EFFECTS
@@ -10261,7 +10342,6 @@ NextCharacter
 NextSlide
 No : voiced alveolar nasal
 No Active Window
-No Blinking
 No DATA block for resource\n
 No Document available
 No Focus Widget
@@ -10283,7 +10363,6 @@ No conversion from KV3 to variant type %d (%s)
 No dags found!
 No document
 No elements found...
-No free conversion of %s variant to Vector right now\n
 No map loaded
 No map models are replaced with SFM models.
 No recent documents
@@ -10324,6 +10403,7 @@ Not remapping controls on channel '%s' because unable to find flex '%s'\n
 Not remapping controls on channel '%s' because unable to find model '%s'\n
 Not safe to 'new' this class due to alignment requirements
 NotProcedural!!!
+Note
 NoteValueChanged
 NotifySelectionChanged
 NotifyTimeChanged
@@ -10370,9 +10450,9 @@ O\n(NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP
 O\n(NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED
 O\n?done@QFileDialog@@MEAAXH@Z
 O\n\nAnnotation
+O\tV_log10f
 Oa?width@QImage@@QEBAHXZ
 ObjectID
-OccludedColorB
 Old outflow: %s\n
 Old-style JPEG
 Old-style LZW codes, convert file
@@ -10427,6 +10507,7 @@ OnBrowseDirectory
 OnCameraAnimationSet
 OnCancel
 OnCancelled
+OnCellChanged
 OnCellDoubleClicked
 OnCheckBoxClicked
 OnChooseAnimationsSets
@@ -10441,6 +10522,7 @@ OnCloseWindow
 OnCollapseClicked
 OnCollapsedIndex
 OnColorAccepted
+OnColorChanged
 OnColorEditingFinished
 OnColorEditingStarted
 OnColorPicked
@@ -10742,6 +10824,7 @@ Or Filter
 Orient
 Orient Constrain
 Orient Rotation to 2D Direction
+Orientation
 OriginalRawFileData
 OriginalRawFileName
 Orthographic
@@ -10755,6 +10838,7 @@ Output File
 Output Path
 Output memory size is zero
 OutputDebugStringW
+Overlay
 Overlay Texture
 OverlayProjectionDirection
 Override
@@ -10770,9 +10854,9 @@ OverridingFrameRate
 Overwrite
 Overwrite With Current
 P'?SetBoolProp@FbxIOSettings@fbxsdk@@QEAAXPEBD_N@Z
-P08@J
-P08J`
-P08ND
+P08@JP
+P08J
+P08N
 P4 Operation failed
 P4InteractionDialog
 P4OpenFilesDialog
@@ -10799,7 +10883,6 @@ P\f?font@QTableWidgetItem@@QEBA?AVQFont@@XZ
 P\n#NETWORK_DISCONNECT_BADRELAYPASSWORD
 P\n#NETWORK_DISCONNECT_RELIABLEOVERFLOW
 P\n#NETWORK_DISCONNECT_SNAPSHOTOVERFLOW
-P\tV_log10f
 PackBits
 PackBitsDecode: Not enough data for scanline %ld
 PackBitsDecode: discarding %ld bytes to avoid buffer overrun
@@ -10822,6 +10905,7 @@ Partially Locked (Driven by some random choices in current config)
 Particle Configuration File
 Particle Definition Browser
 Particle Rename
+Particle System
 ParticleSystem
 Particles
 Particles Outside Camera Frustum
@@ -10860,6 +10944,7 @@ PasteColorSetFromClipboard
 PasteKeysFromClipboard
 PasteKeysToComponent
 PasteSamples
+Path
 Path %1 doesn't exist
 PatternType
 Pause Sequences
@@ -10923,12 +11008,15 @@ Player %d Models
 PlayerRenderClipPlane
 Playhead
 Playhead: Blend each control towards that control's current value
+Plzn
+Point
 Point Constrain
 Policy
 PopupClosed
 Pose Parameters
 PoseParameterChanged
 PoseParameterEditingFinished
+Position
 Position Along Path Random
 Position Along Path Sequential
 Position From Parent Particles
@@ -10978,6 +11066,7 @@ PreviousSlide
 Primary Viewport
 PrimaryChromaticities
 PrimaryTimelineEditor
+Print model load-time conversion info
 Problems in interaction with Perforce
 Procedural
 Progressive Refinement
@@ -10994,6 +11083,7 @@ PropertyEditorOpenRawFile
 PropertyEditorTarget
 PropertyEditorWidget
 PropertyEditorWidget_1
+Props
 Publish Image to Steam
 Publish Video to YouTube and Steam
 Put; voiceless alveolar stop
@@ -11136,6 +11226,7 @@ R?modifiers@QKeyEvent@@QEBA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
 R?mouseButtons@QGuiApplication@@SA?AV?$QFlags@W4MouseButton@Qt@@@@XZ
 RAW (*.raw);;All Files (*.*)
 RF?z
+RGBA
 RGBA\t
 RGBA\t%1\t%2\t%3\t%4
 RMouse
@@ -11143,15 +11234,21 @@ RMouseDoubleClick
 RSDSe
 RW?restore@QPainter@@QEAAXXZ
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
+R\fpl
+R\n0t
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
+R\tV_log2f
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
-R\vpl
+R\vpt
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 Radius (Frames):
 Radius Random
+Radius Scale
 Ramp
 Ramp: Blend each control towards a linear falloff between the start and end of the time selection's hold region
 Random Cull
+Random Float
+Random Integer
 Randomly Flip Yaw
 RawDataUniqueID
 RayTracingEnvironment::RefineNode
@@ -11302,6 +11399,7 @@ Rendering Settings Too Low
 Renumbering
 Reorder Animationsets
 Reparent Animationsets
+Replace
 Replace AnimationSet(s) With Map Models
 Replace Clips
 Replace Gap With Slug
@@ -11338,6 +11436,7 @@ Reset Time Offset
 ResetLayouts
 ResetMoveSpeed
 Resettable
+Resolution
 ResolutionUnit
 Resolve
 RestartSim
@@ -11361,6 +11460,7 @@ RigConstraints
 RigHelpers
 RigLegs
 RigRoot
+Right
 Right Mouse (Average)
 RightArm3_JNT
 RightFingers
@@ -11393,6 +11493,7 @@ Rotate(Z Axis)
 RotateAboutTarget3D
 RotateLights
 Rotate\n[Shift] Global Rotate
+Rotation
 Rotation Axis:
 Rotation Basic
 Rotation Mode
@@ -11407,6 +11508,7 @@ Rotation Y
 Rotation Yaw Flip Random
 Rotation Yaw Random
 Rotation Z
+Round
 Round: Blend each control towards a spline fitted through the four time selection times
 Row pixels integer overflow (rowpixels %u)
 RowsPerStrip
@@ -11538,7 +11640,7 @@ S\n%NETWORK_DISCONNECT_CONNECTION_FAILURE
 S\n'NETWORK_DISCONNECT_DELTAENTMSG_OVERFLOW
 S\n'NETWORK_DISCONNECT_REJECT_FAILEDCHANNEL
 S\n,NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE
-S\tV_log2f
+S\tV_logd
 Sample Pixel Color
 Sample Rate:
 SampleFormat
@@ -11582,6 +11684,7 @@ Schema description file
 Scopes: %s\n
 ScrLk
 ScrToggle
+Screen
 Screencast
 Screencast Slides
 ScreencastSettings
@@ -11648,6 +11751,7 @@ Selecting File
 SelectionOutline
 SelectionStencilNoDepth
 Separate WAV File
+Sequence
 Sequence Layers
 Sequence Numbers
 Sequence Random
@@ -11680,6 +11784,7 @@ Set Clip Color
 Set Clip Name
 Set Clip Text
 Set Clip Volume
+Set Color
 Set Color Tint
 Set Color Tint...
 Set Control Drawn As Bones
@@ -11733,6 +11838,7 @@ Set Texture Plane Texture
 Set Time Offset
 Set Time Scale
 Set To Default
+Set Value
 Set Volume
 Set Work Camera Lock
 Set graph editor controls
@@ -11835,6 +11941,7 @@ ShaderVar_WireframeBackfaces
 ShadowAtlasHeight
 ShadowAtlasWidth
 ShadowScale
+Shape
 Shard model '%s' changed to '%s'\n
 SharedToolCommands
 Shift
@@ -11932,6 +12039,7 @@ Shown
 Shown (but invisible)
 Shutdown
 Shutter Speed
+SideFX
 Signal '%s' not compatible with slot '%s'
 Sim_ChangeClip
 Simple Cubic
@@ -11942,6 +12050,7 @@ Single File (side by side)
 Sit : voiceless alveolar fricative
 SizePolicy
 SizePolicy array must have two elements
+Skeleton
 SkinnedObject
 Skip Entites More Than
 Skip Entities Not Visible From Camera Position
@@ -11972,6 +12081,7 @@ Some of the selected animationsets have locked controls or constraints.\nDo you 
 Some of the selected controls are locked to controls outside the selection.\nDo you want those controls to be unlocked before copying animation sets\nand relocked again afterwards, or do you want to cancel the copy?\nContinuing will resample the original animation data for any locked controls,\nbut should be otherwise safe to do.\n
 Sort by Name
 SortByName
+Sound
 Sound Browser
 Sound Clip
 Sound Editing
@@ -12123,7 +12233,7 @@ T\n&NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR
 T\n)NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
 T\n+NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT
 T\t?canFetchMore@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
-T\tV_logd
+T\tV_logf
 TabStyle_t
 TabWindow
 TabbedController
@@ -12169,7 +12279,9 @@ Temp Morph Scene
 TemporarilyBakeLocksAndConstraintsForFunctor
 Terminate()
 TerminateProcess
+Text Color
 TextProgramaticallyChanged
+Texture
 Texture Browser
 Texture Configuration File
 Texture Plane
@@ -12177,6 +12289,7 @@ Texture Planes
 TextureFormat
 TextureOverlayFXClip
 TextureWrapModes
+Textures
 The document has been modified.
 The ending frame to export, computed from the above choices
 The existing document could not be closed.
@@ -12423,6 +12536,7 @@ Trying to record particle system with no entity owner! (%s)\n
 TtD?
 TtT?
 Twist
+Type
 Type Column
 Type in key time
 Type in key value
@@ -12475,7 +12589,6 @@ U\n&NETWORK_DISCONNECT_SERVERINFO_OVERFLOW
 U\n&NETWORK_DISCONNECT_SERVER_INCOMPATIBLE
 U\n(NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN
 U\r?home@QTextBrowser@@UEAAXXZ
-U\tV_logf
 U\v?event@QPlainTextEdit@@MEAA_NPEAVQEvent@@@Z
 Unable To Create IK Rig
 Unable To Create Spline Rig
@@ -12755,6 +12868,7 @@ WireframeTranslucent
 With : voiced labial-velar approximant
 Work Camera
 Work Needed
+World
 World Files
 World Node Files
 World Sounds
@@ -12794,8 +12908,9 @@ X\n'NETWORK_DISCONNECT_KICKED_NOSTEAMTICKET
 X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
 X\r?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
 X\t?canReadLine@QProcess@@UEBA_NXZ
+X\tV_modfd
 X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
-X`hr 
+X`hr
 Y?setData@QStandardItem@@UEAAXAEBVQVariant@@H@Z
 Y?setData@QStandardItemModel@@UEAA_NAEBVQModelIndex@@AEBVQVariant@@H@Z
 Y?setDecimals@QDoubleValidator@@QEAAXH@Z
@@ -12824,7 +12939,6 @@ Y\f?fontMetrics@QWidget@@QEBA?AVQFontMetrics@@XZ
 Y\n)NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
 Y\n*NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
 Y\n0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
-Y\tV_modfd
 Y\v?event@QRadioButton@@MEAA_NPEAVQEvent@@@Z
 Yacht : voiced palatal approximant
 YawCameraLeft
@@ -13007,8 +13121,7 @@ Zpm"U
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
 \f\t?beginReadArray@QSettings@@QEAAHAEBVQString@@@Z
-\f\tV_atofloat32
-\fp\vPh
+\fp\v`lzn
 \game\
 \n ?textValue@QInputDialog@@QEBA?AVQString@@XZ
 \n CSVCMsg_GameSessionConfiguration
@@ -13072,6 +13185,7 @@ Zpm"U
 \n?editorEvent@QItemDelegate@@MEAA_NPEAVQEvent@@PEAVQAbstractItemModel@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
 \n?editorEvent@QStyledItemDelegate@@MEAA_NPEAVQEvent@@PEAVQAbstractItemModel@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
 \nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
+\nXQn
 \n\fCNETMsg_Tick
 \n\fFieldOptions
 \n\fLITE_RUNTIME
@@ -13119,7 +13233,7 @@ Zpm"U
 \n\rpreviouslevel
 \n\rreserved_name
 \n\rtick_interval
-\n\tV_atanf
+\n\tV_atof
 \n\tjson_name
 \n\tmap_entry
 \n\tname_part
@@ -13193,6 +13307,7 @@ Zpm"U
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
+\r\tV_atoi
 \t??8FbxMatrix@fbxsdk@@QEBA_NAEBV01@@Z
 \t?addPixmap@QIcon@@QEAAXAEBVQPixmap@@W4Mode@1@W4State@1@@Z
 \t?addRoundedRect@QPainterPath@@QEAAXNNNNNNW4SizeMode@Qt@@@Z
@@ -13238,7 +13353,6 @@ Zpm"U
 \tV_asinf
 \tV_atan2d
 \tV_atan2f
-\tV_atoi
 \tV_atoui64
 \tV_cosf
 \tV_expd
@@ -13250,6 +13364,7 @@ Zpm"U
 \tVendorId / DeviceId:     0x%x / 0x%x\n
 \tWarning
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+\t\tV_atanf
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUnsupported PSD color mode!\n
 \t_MakeGlobalSymbol
@@ -13272,8 +13387,6 @@ Zpm"U
 \t_V_strnicmp_fast
 \tcQr
 \tg_Mathlib_GammaToLinearByteTable
-\tg_TSPointerListNodes
-\tg_bUpdateStringTokenDatabase
 \tg_flConfigMaxCoord
 \tg_pMemAlloc
 \tg_pThreadPool
@@ -13318,7 +13431,7 @@ Zpm"U
 \vFu?6
 \vS?moveTo@QPainterPath@@QEAAXNN@Z
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
-\v\tV_atof
+\v\tV_atofloat32
 ]?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
 ]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
 ]\r?horizontalOffset@QListView@@MEBAHXZ
@@ -13342,6 +13455,7 @@ _TIFFVSetField
 _\n,NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT
 _\n-NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
+_\tV_powd
 _\v??GFbxVector4@fbxsdk@@QEBA?AV01@AEBV01@@Z
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 _]?source@QDropEvent@@QEBAPEAVQObject@@XZ
@@ -13389,7 +13503,7 @@ _wjb
 `?valueF@QColor@@QEBANXZ
 `Q?lightnessF@QColor@@QEBANXZ
 `RTTI
-`\tV_powd
+`\tV_powf
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `anonymous namespace'
 `copy constructor closure'
@@ -13402,6 +13516,7 @@ _wjb
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
 `hp\nU
+`htp
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -13432,11 +13547,10 @@ a?windowText@QPalette@@QEBAAEBVQBrush@@XZ
 a?write@QStandardItem@@UEBAXAEAVQDataStream@@@Z
 a?x@QMouseEvent@@QEBAHXZ
 a?y@QMouseEvent@@QEBAHXZ
-aBvD
 aC=H
 aTR>7
 aZure : voiced postalveolar fricative
-a\tV_powf
+a\tV_qsort
 abcdefghijklmnopqrstuvwxyz
 absolutetags
 actions
@@ -13467,7 +13581,6 @@ afterMovieArguments
 afterMovieCommand
 aggregate_value
 aimOffset
-aimat
 align
 allowed_from_client
 alpha_fade
@@ -13500,6 +13613,7 @@ animSetEditorChannels
 animSetList
 anim_duration
 anim_frameRate
+animated
 animation
 animationList
 animationSet
@@ -13598,6 +13712,7 @@ auto_time
 averageColor
 avifile
 axies
+axis
 axisSystem
 bAccepted
 bAddToHistory
@@ -13619,7 +13734,7 @@ bShowMulti
 bShowSequenceNumbers
 bShowSingle
 bValue
-b\tV_qsort
+b\tV_qsort_s
 b\v?currentIndex@QItemSelectionModel@@QEBA?AVQModelIndex@@XZ
 b\v?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
 b\vp\n0
@@ -13697,6 +13812,7 @@ bodygroups
 bold
 bone %d (%s)
 bonemask
+bonename
 bones
 bookmark
 bookmarkSet
@@ -13718,6 +13834,7 @@ box_maxs
 box_mins
 boxproject_maxs
 boxproject_mins
+brightness
 brightness_units
 brightnessscale
 broken pipe
@@ -13733,14 +13850,15 @@ cR?metaObject@QDrag@@UEBAPEBUQMetaObject@@XZ
 cUt : lower-mid back unrounded vowel
 c\r?entryList@QDir@@QEBA?AVQStringList@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
 c\r?horizontalScrollBar@QAbstractScrollArea@@QEBAPEAVQScrollBar@@XZ
-c\tV_qsort_s
 c\v?event@QSplitterHandle@@MEAA_NPEAVQEvent@@@Z
 cable_static
+camera
 camera%d
 camera/cameras
 camera1
 cameraBin
 camera_
+camera_cut_to_datadriven_camera
 can_override_npc_state
 cancelButton
 candle_1
@@ -13768,6 +13886,8 @@ cbTrimLogData
 cc_enable_arenas
 cc_generic_services
 cc_noattenuate
+cctoken
+cctype
 ceil
 cellConfiguration
 cellsNodeID
@@ -13775,6 +13895,7 @@ centralDirectorySize
 centralWidget
 central_widget
 cfg/sfm_default_animation_groups.vcfg
+channel
 channel '%s' invalid
 channelTrackGroup
 channelType
@@ -13789,6 +13910,8 @@ choice_name
 choices
 choicetype
 chunkCount
+cl_aggregate_particles
+cl_demo_view_offset_left
 cl_particle_batch_mode
 cl_particle_fallback_base
 cl_particle_fallback_multiplier
@@ -13797,6 +13920,8 @@ cl_particle_retire_cost
 cl_particle_sim_fallback_base_multiplier
 cl_particle_sim_fallback_threshold_ms
 cl_particle_simulate
+cl_particles_dumplist
+cl_particles_dumpsimlist
 clamping recorded game camera's near and far from [%.3f %.0f] to [%.3f %.0f]\n
 class 
 clearDecals
@@ -13828,6 +13953,7 @@ color log
 color$%d
 color$0
 color$0Indices
+color1
 color255
 colorCorrectionTexture
 colorCorrectionWeight
@@ -14001,6 +14127,7 @@ depthSortBias
 desaturation
 desaturationMax
 desaturationMin
+description
 deselect child
 deselected
 desktopWindowSizeOption
@@ -14071,10 +14198,16 @@ e ?topLevelItem@QTreeWidget@@QEBAPEAVQTreeWidgetItem@@H@Z
 e"?validate@QSpinBox@@MEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 e+000
 eF>t
+eFast
 eG??5
 eGenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
 eLK(w
+eMoveWithGait
 eO@R
+eSlow
+eTeleport
+eWait
+eWaitFacing
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
 e\v?event@QStatusBar@@MEAA_NPEAVQEvent@@@Z
@@ -14172,6 +14305,7 @@ exporttags
 exposurecompensation
 exposurespeeddown
 exposurespeedup
+expression
 expressions
 expressions/heroes/phonemes.txt
 exrCompressionType
@@ -14184,6 +14318,7 @@ extractButton
 eyeOffset
 eye_convergence_channel
 eye_convergence_rescale
+eye_data_list
 eye_target
 eye_target_bone_index
 eye_target_forward
@@ -14205,6 +14340,7 @@ eyes_convergence
 eyes_rightleft
 eyes_updown
 f ?topLevelItemCount@QTreeWidget@@QEBAHXZ
+f3&y
 f5?B>
 fAther : low back unrounded vowel
 fAther : low front unrounded vowel
@@ -14223,6 +14359,7 @@ fadeIn
 fadeOut
 fadetime
 fallOffLineColor
+falloff
 falloff_left
 falloff_right
 false"
@@ -14230,6 +14367,7 @@ false:<\n
 false:=\n
 false:=\n\rvalve_map_key
 false:?\n
+farz
 fast
 fast_strobe
 fbx2dmx
@@ -14238,7 +14376,6 @@ ffValueIn
 fff?
 ffffff
 ffmpeg
-fg*y
 field
 fieldOfView
 file error
@@ -14268,6 +14405,7 @@ flCycle
 flSpeed
 flValue
 flVaue
+flWeight
 flagsToAdd
 flagsToRemove
 flatten log %p lc[%d]
@@ -14341,7 +14479,6 @@ friendly_name
 fromAttribute
 fromElement
 fromIndex
-fs*y
 fullConeAngle
 fullMoviePath
 fullscreen
@@ -14357,6 +14494,7 @@ gDy?
 gO : upper-mid back rounded vowel
 g\r?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 g\r?horizontalScrollbarAction@QTableView@@MEAAXH@Z
+g\tV_roundf
 g\v?event@QTabBar@@MEAA_NPEAVQEvent@@@Z
 g_flBrightnessExposureBias
 g_flRenderOnlyExposureBias
@@ -14632,7 +14770,6 @@ hSD_NO_ZTEST
 hSequence
 h\n,NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
-h\tV_roundf
 h\v?currentPath@QDir@@SA?AVQString@@XZ
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
 ha?window@QPalette@@QEBAAEBVQBrush@@XZ
@@ -14680,7 +14817,6 @@ hold
 holdLineColor
 hold_left
 hold_right
-holsterweapon
 horizontal differencing 
 horizontalAlignment
 horizontalFOV
@@ -14697,6 +14833,7 @@ host_syncfps
 host_unfiltered_frametime
 houdini
 hours
+hpzP
 hscript
 hscript_lightbinding
 http://beta.steamcommunity.com
@@ -14719,8 +14856,6 @@ identifier_value
 ignoreAlphaFade
 ignoreDesaturation
 ignorePhonemes
-ignoreai
-ignorecollision
 ignorelookats
 illegal byte sequence
 illumPositionDag
@@ -14739,6 +14874,7 @@ index
 indices
 indirectlight
 infiniteSelectionEdgeAlpha
+info
 info_hlvr_holo_hacking_plug
 info_hlvr_toner_port
 info_particle_system
@@ -14751,6 +14887,7 @@ inity
 innerConeAngle
 innerConeRatio
 innerconeangle
+input
 insideClipColor
 insideSelectionAlpha
 instance_file
@@ -14759,6 +14896,7 @@ instance_variable
 int log
 int_array
 integer
+intensity
 internalFileAttribs
 interpolator_left
 interpolator_right
@@ -14800,6 +14938,7 @@ is_state_cell
 ishltv
 ispc_texcomp.dll
 italic
+itemName
 itemSelection
 itemSetName
 item_combine_console
@@ -14902,6 +15041,7 @@ l7?N
 lO?insertRow@QStandardItem@@QEAAXHAEBV?$QList@PEAVQStandardItem@@@@@Z
 lR?metaObject@QIntValidator@@UEBAPEBUQMetaObject@@XZ
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+l\tV_sincosf
 l\ti?e
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 l_?toString@QKeySequence@@QEBA?AVQString@@W4SequenceFormat@1@@Z
@@ -15003,40 +15143,75 @@ mX?setBlueF@QColor@@QEAAXN@Z
 m\f?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
 m\n?dragEnterEvent@QPlainTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
 m\nXo
-m\tV_sincosf
 m_Background
 m_BackgroundMap
 m_Bindings
+m_Command
 m_Context
 m_Exposure
 m_Grid
+m_Input
 m_InputMacros
+m_LastMax
+m_LastMin
 m_MapName
+m_OutflowRegisterMap
 m_PointLights
 m_PostProcessing
+m_RefCount
 m_Sky
 m_SpotLights
 m_Suns
+m_bAllocated
+m_bAutoUpdateBBox
 m_bBakedTwoSided
 m_bCanBatchWithDynamicShaderConstants
+m_bCanFreeze
+m_bCastShadows
+m_bDontRemove
 m_bDrawLast
+m_bForceNoDraw
+m_bFreezeTargetState
+m_bFreezeTransitionActive
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingFromVertexStream
+m_bIsAsyncCreate
+m_bIsFirstFrame
 m_bIsNotMatchedToMaterial
+m_bNeedsBBoxUpdate
 m_bNoShadow
 m_bOnlyShadow
 m_bParentToCamera
 m_bParticlesTraceAgainstMap
 m_bRelativePositioning
+m_bRemove
 m_bRender3DSkybox
+m_bShouldCheckFoW
+m_bShouldPerformCullCheck
+m_bShouldSave
+m_bShouldSimulateDuringGamePaused
+m_bSimulate
+m_bSuppressScreenSpaceEffect
 m_bUseCompressedNormalTangent
 m_bUseShadowFastPath
 m_buttonBox
 m_fMoveTo
 m_flAxisScale
+m_flBrightness
+m_flDistance
+m_flFreezeTransitionDuration
+m_flFreezeTransitionOverride
+m_flFreezeTransitionStart
+m_flInnerConeAngle
 m_flLightSourceRadius
 m_flMaxEV
 m_flMinEV
+m_flOuterConeAngle
+m_flRadius
+m_flShadowCascadeDistance0
+m_flShadowCascadeDistance1
+m_flShadowCascadeDistance2
+m_flShadowCascadeDistance3
 m_floatEdit00
 m_floatEdit01
 m_floatEdit02
@@ -15053,11 +15228,23 @@ m_floatEdit30
 m_floatEdit31
 m_floatEdit32
 m_floatEdit33
+m_hOwner
 m_hPostProcessing
+m_hSkyMaterial
 m_label
+m_nDestChunk
+m_nInstruction
 m_nRigType
+m_nSplitScreenUser
+m_pDebugName
+m_pOwningParticleProperty
+m_pParticles
 m_pVertexData
+m_sId
+m_vDirection
 m_vLookAt
+m_vSortOrigin
+m_vecAggregationCenter
 mailto:SFMbugs@valvesoftware.com?subject=Bug Report from SFM user&body=
 maintain position along path
 makefile
@@ -15069,6 +15256,7 @@ mapEntitiesToIgnore
 mapLightScale
 mapNodeName
 mapUsageType
+map_name
 mapbuilder.blocklight
 mapname
 maps/%s.vhcg
@@ -15077,6 +15265,7 @@ master
 matParentToWorld
 materialOverride
 materialgroup
+materials
 materials [
 materials/dev/gray_50.vmat
 materials/dev/sfm_volumetrics_frustum.vmat
@@ -15127,6 +15316,8 @@ maxValue
 max_client_limit
 max_thrust
 maxexposure
+maximum
+maximum_size_bytes
 maxlogexposure
 maxs
 maxvalue
@@ -15141,6 +15332,9 @@ menuAction
 menus
 meshData_%s
 meshGroupMask
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 message size
 message_set_wire_format
 method
@@ -15155,6 +15349,7 @@ min_client_limit
 min_thrust
 minexposure
 minimized
+minimum
 minlogexposure
 mins
 minutes
@@ -15169,8 +15364,10 @@ modelName
 modelPath
 model_attachment
 model_bone
+model_dump_convert_info
 model_path
 modellib
+models
 models/heroes/
 models/props_combine/combine_consoles/glass_tank_01.vmdl
 models/props_combine/combine_consoles/vr_combine_interface_01.vmdl
@@ -15231,6 +15428,7 @@ nCentralDirectoryEntries_Total
 nColumn
 nDataSize > 0
 nDelayInMS
+nIndex
 nLayoffState
 nMode
 nModelIndex
@@ -15251,6 +15449,7 @@ nValue
 nX?setBold@QFont@@QEAAX_N@Z
 n\n0NETWORK_DISCONNECT_KICKED_VACNETABNORMALBEHAVIOR
 n\n?dragEnterEvent@QTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+n\tV_sinf
 n\v?event@QToolButton@@MEAA_NPEAVQEvent@@@Z
 name filter
 nan(ind)
@@ -15301,7 +15500,6 @@ no_interrupts
 no_standard_descriptor_accessor
 no_steam_server
 no_teleport_at_end
-noblink
 nodeID
 node_dest
 node_id_List
@@ -15356,12 +15554,12 @@ oA?P
 oOffset
 oQ?Y
 o\n?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
-o\tV_sinf
 o\v?event@QTreeWidget@@MEAA_NPEAVQEvent@@@Z
 objc_class_prefix
 objects rejected / passing PVS vis check:   %4d / %4d\n
 objects rejected / passing frustum culling: %4d / %4d\n
 obwQ4
+offset
 offsetDelta
 offsetTime
 offsetx
@@ -15419,10 +15617,10 @@ owner dead
 ownerelement
 ownerlog
 p"?value@QSpinBox@@QEBAHXZ
-p08@H^D
-p0j`Z+
+p08@H^
 p0p@
 p4win
+p6`\ny
 p?L7
 p?X94<
 p?vO
@@ -15434,6 +15632,7 @@ pCurrentFocusWidget
 pEt : lower-mid front unrounded vowel
 pEvent
 pFilter
+pItem
 pLightRigButton
 pMapName
 pMenu
@@ -15493,6 +15692,7 @@ phonemes
 php_class_prefix
 php_generic_services
 php_metadata_namespace
+physics
 physicsSimplificationError
 physicsSimplificationOverride
 pickedColor
@@ -15509,6 +15709,7 @@ playdemo %1\ndemo_goto %2 pause\ndemo_resume; %3 %4\n
 player view setup not available!\n
 players_networkids
 playoverscript
+plzn
 point
 point_light
 point_template
@@ -15542,7 +15743,7 @@ precomputedMaxRange
 prediction_sync
 prefab_has_runtime_entity_by_default
 prefab_root
-preferred_name
+preset
 presetGroupInfos
 presetGroups
 presetLabel
@@ -15551,6 +15752,7 @@ presetRemap
 presets
 preview
 print_video_card_config
+priority
 procedural
 procedural model '%s' is named differently than '%s' stored in session, and '%s' probably won't be drawn\n
 proceduralPresets
@@ -15596,6 +15798,7 @@ pvTarget
 py_generic_services
 python
 q\n?dragLeaveEvent@QAbstractScrollArea@@MEAAXPEAVQDragLeaveEvent@@@Z
+q\tV_snprintf
 q\v?currentTime@QTime@@SA?AV1@XZ
 q\v?event@QWidgetAction@@MEAA_NPEAVQEvent@@@Z
 qangle log
@@ -15606,13 +15809,18 @@ quaternion_array
 quiet
 r>TR'>O
 rQ?lineTo@QPainterPath@@QEAAXNN@Z
-r\fpl
-r\tV_snprintf
 r\tVr.>T
+r\vpl
+r\vpt
 r_dota_wind_min_high_freq_strength
 r_freezeparticles
 r_limit_particle_job_duration
 r_particle_timescale
+r_ssao_bias
+r_ssao_radius
+r_ssao_strength
+r_threaded_particle_creation
+r_threaded_particles
 radius of the sfm skeleton display
 radiusScale
 radius_random
@@ -15685,6 +15893,7 @@ resourcecompiler.dll
 resourcehandle
 resourcesystem
 restrict(
+result
 result out of range
 result_left
 result_right
@@ -15733,6 +15942,7 @@ samples
 samples_use_time
 saturation
 savegamefilename
+scale
 scale 
 scaleCompensation
 scaleLockCamera
@@ -15792,6 +16002,7 @@ self
 self_with_wearables
 semanticName
 separator
+sequence
 sequence_random
 sequenceduration
 sequential position along path
@@ -15967,6 +16178,7 @@ snapshot_scales
 snapshot_tints
 soft_x
 soft_y
+sound
 sound event %08x %s restarted %s\n
 sound event %08x %s was playing %s and is now playing %s\n
 soundCopyTrack
@@ -16020,6 +16232,7 @@ stacked
 stacked_one
 staggerinterval
 standard
+start
 startJoint
 startOfCentralDirOffset
 startOffset
@@ -16071,7 +16284,6 @@ synched
 synctofollowinggesture
 syntax
 synthetic_default
-t+\fpfk
 tOO : high back rounded vowel
 t\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@AEBVQMetaMethod@@01W4ConnectionType@Qt@@@Z
 t\t?addFile@QIcon@@QEAAXAEBVQString@@AEBVQSize@@W4Mode@1@W4State@1@@Z
@@ -16090,6 +16302,7 @@ tangent$0Indices
 tangents
 tangentsIndices
 tangentu_signv
+target
 targetGroup
 targetGroupNodeID
 targetMapName
@@ -16118,6 +16331,7 @@ text/plain
 text/sequenceName
 textColor
 text_block
+texture
 textureCoordinates
 textureCoordinatesIndices
 textureFrame
@@ -16165,6 +16379,8 @@ tools.reference_notrace
 tools.toolsmaterial
 tools/colors/shared_colors.txt
 tools/ifm.dll
+tools/images/pulse_editor/exit_cycle_random.png
+tools/images/pulse_editor/inflow_wait.png
 tools/keybindings/global_key_bindings.txt
 tools/keybindings/shared_tool_key_bindings.txt
 toolsVisModeIndex
@@ -16281,6 +16497,7 @@ vector<T> too long
 vectors
 vectorws
 velTolerance
+velocity
 velocity_random
 velocity_tolerance
 versionMadeBy
@@ -16314,6 +16531,7 @@ vmesh
 vmks
 vn?W
 vnotify_ui
+volume
 volume_atten
 volumefogenabled
 volumematcheseventramp
@@ -16327,6 +16545,7 @@ vsDmxIO houdiniSceneIO
 vsUtils.py
 vscale
 vsky
+vsnd
 vsnd_duration
 vsnd_files
 vsndevts_c
@@ -16339,6 +16558,7 @@ vwrld
 w"?valueFromText@QDoubleSpinBox@@UEBANAEBVQString@@@Z
 w\n?connectImpl@QObject@@CA?AVConnection@QMetaObject@@PEBV1@PEAPEAX01PEAVQSlotObjectBase@QtPrivate@@W4ConnectionType@Qt@@PEBHPEBU3@@Z
 w\n?dragLeaveEvent@QLineEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
+w\tV_sscanf
 waiting_group
 warn
 weak
@@ -16347,6 +16567,7 @@ weapon_ar2
 weapon_smg1
 weapons/
 weatherType
+weight
 weight$0
 weighted
 weights
@@ -16397,7 +16618,7 @@ xOffset
 xScale
 xSpeed
 x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
-x\tV_sscanf
+x\tV_sscanf_s
 x\v?changeOverrideCursor@QGuiApplication@@SAXAEBVQCursor@@@Z
 xen_flora_animatedmover
 xen_hearing_flower
@@ -16412,7 +16633,6 @@ yScale
 ySpeed
 yU?qt_metacall@QDoubleValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 y\n?dragLeaveEvent@QPlainTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
-y\tV_sscanf_s
 y\v?eventFilter@QCompleter@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 yields
 yyMMddhhmmss
@@ -16429,14 +16649,17 @@ z\nB\fz
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 zero_value
+zfar
+znear
+{ className = 'IsWaitNode IsControlFlowNode' }
 {X?setBottom@QIntValidator@@QEAAXH@Z
 {\n?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 {\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
 |"?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
+|\tV_stricmp_fast
 }\n?connectOutputInterface@QFutureWatcherBase@@IEAAXXZ
 }\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
 }\r?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z
-}\tV_stricmp_fast
 ~CModelInstance destructor: leaking softbody because physics world disappeared\n
 ~\n?connectSlotsByName@QMetaObject@@SAXPEAVQObject@@@Z
 ~\n?dragMoveEvent@QAbstractScrollArea@@MEAAXPEAVQDragMoveEvent@@@Z

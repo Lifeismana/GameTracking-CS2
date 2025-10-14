@@ -40,6 +40,7 @@ $prefix_element$
 %.10f
 %08x
 %?RemovePose@FbxScene@fbxsdk@@QEAA_NPEAVFbxPose@2@@Z
+%\tV_fmodf
 %d.Add( %s, %d, %.2f )
 %d.Add( %s, %d, %.2f )\n
 %d.Blend( %d, %.2f )
@@ -92,7 +93,6 @@ $prefix_element$
 &?Set@FbxMatrix@fbxsdk@@QEAAXHHN@Z
 &?Set@FbxProperty@fbxsdk@@IEAA_NPEBXAEBW4EFbxType@2@_N@Z
 &Sgw
-&\tV_fmodf
 '?SetControlPointIndicesCount@FbxShape@fbxsdk@@QEAAXH@Z
 '?SetCount@FbxLayerElementArray@fbxsdk@@QEAA_NHW4EFbxMemoryClearMode@2@@Z
 '?SetCurrentAnimationStack@FbxScene@fbxsdk@@QEAAXPEAVFbxAnimStack@2@@Z
@@ -123,6 +123,7 @@ $prefix_element$
 )?SetTransformMatrix@FbxCluster@fbxsdk@@QEAAXAEBVFbxAMatrix@2@@Z
 )?SetTransformationInheritType@FbxNode@fbxsdk@@QEAAXW4EInheritType@FbxTransform@2@@Z
 )?SetTranslation@FbxTexture@fbxsdk@@QEAAXNN@Z
+)\tV_fprintf
 *** Converter error - element "%s" already has a non-int attribute "%s"!\n
 *** Element "%s" has attribute "%s" with an unexpected type!\n
 *** Log "%s" has attribute "%s" with an unexpected type (expected int array)!\n
@@ -136,7 +137,6 @@ $prefix_element$
 **?SetVertexColors@FbxLayer@fbxsdk@@QEAAXPEAVFbxLayerElementVertexColor@2@@Z
 *?Transpose@FbxAMatrix@fbxsdk@@QEBA?AV12@XZ
 *StO9>T
-*\tV_fprintf
 +Auto Tags
 ---- dmxconvert cmdline ----\n
 ---- dmxconvert output ----\n
@@ -990,6 +990,7 @@ $prefix_element$
 .xdata
 .xdata$x
 /TF<)VGy#WH
+0.0 1.0
 0.0 180.0
 0.001 1.0
 0.01 1.0
@@ -1005,6 +1006,7 @@ $prefix_element$
 2(?SetFrame@FbxTime@fbxsdk@@QEAAX_JW4EMode@12@@Z
 2\nP!E
 2\rU2t
+2\vpd
 37>k
 3>N;kU
 3>fvw
@@ -1028,7 +1030,6 @@ $prefix_element$
 == (or missing)
 =cQ6
 =imb;D
-=m_bUseShadowFastPath
 >"?IsValid@FbxProperty@fbxsdk@@QEBA_NXZ
 >cQ6
 >jtm}S
@@ -1297,6 +1298,7 @@ $prefix_element$
 ?alpha
 ?expf
 ?f`Y4
+?model_default_preview_sequence_name
 ?qBJ
 ?ysB
 @^8U)zj
@@ -1350,6 +1352,7 @@ Arms
 AssetEditInfoFilterFunc_t
 AssetEngineCommand_t
 AssetWarningFixType_t
+Attachments
 Attempted to add two format updaters with the same file format (%s)!\n
 Attempted to add two legacy updaters with the same file format (%s)!\n
 Attempted to add two serializers with the same file encoding (%s)!\n
@@ -1361,7 +1364,9 @@ Autodesk
 B-Spline
 BC?>6t9^\tc:>
 BF>^G
+BPy.
 Base Layer
+Bezier
 Binary
 Binary (deterministic sequential ids)
 Binary: Element uses unknown element type %s\n
@@ -1369,6 +1374,7 @@ Bind
 Blend Weight Scale
 Blend weight at which the model will be at full density. Must be between the minimum and maximum blend weight values. The density of this model placement will increase with the blend weight value up to this value at which point it will be at full density.
 BlendLayersUsingTimeSelection
+Body
 BrowInV
 Bump
 C:\buildworker\csgo_rel_win64\build\_build_\utils\exportsystem\_vpc_exportsystem\default\win64\_msvc_\Retail\exportsystem.pdb
@@ -1987,6 +1993,7 @@ GlobalAlloc
 GlobalLock
 GlobalSize
 GlobalUnlock
+HA%2
 HH:mm:ss
 Hammer temp export
 HemiOctAnisoRoughness_RG_BA
@@ -2000,6 +2007,9 @@ If set, the presence of this tag will cause the tools to hide the asset from use
 If set, the presence of this tag will cause the tools to suppress or dissuade use in several ways (and draw a red X over the asset preview)
 Illegal to wait on a task in a Windows Runtime STA
 InfoDataFilter_t
+InfoForResourceTypeCModel
+InfoForResourceTypeCTextureBase
+InfoForResourceTypeCVDataResource
 Inherit Velocity
 Initial Repulsion Velocity
 Initial Scalar Noise
@@ -2082,6 +2092,14 @@ Match Particle Velocities
 Material :: 
 Material group (skin) to assign to use with the model.
 Material.vmat
+MaterialParamBuffer_t
+MaterialParamFloat_t
+MaterialParamInt_t
+MaterialParamString_t
+MaterialParamTexture_t
+MaterialParamVector_t
+MaterialParam_t
+MaterialResourceData_t
 Max Blend Weight
 Max Velocity
 Maximum blend weight value for which the model will be placed. If the blend weight value is more than this value, the model will not be placed.
@@ -2102,6 +2120,7 @@ Minimum range of random offset to apply along the model's local up direction
 Minimum range of the random rotation to apply the model. Random rotation is applied in the local space of the model. Rotation values are ordered pitch, yaw, roll.
 Minimum scale to apply to the model based on the blend weight. Set this if you want the model to scale up as the material blend fades in. The smaller the value, the smaller the model will start as the material begins to fade in.
 Minimum slope on which the target will be placed. Slope is a [ 0, 180 ] value based on the surface normal where horizontal surface (floor) is 0, vertical surface (wall) is 90, and a horizontal upside down surface (ceiling) is 180.
+Model
 Model    :: 
 Model to be displayed.
 MorphOperator::Operate: invalid delta state name: %s\n
@@ -2112,10 +2131,12 @@ Movement Lock to Control Point
 Movement Maintain Position Along Path
 Movement Match Particle Velocities
 Movement Max Velocity
+MovementGaitId_t
 MovieSettings
 MultiByteToWideChar
 NAN(IND)
 NAN(SNAN)
+NONE
 NULL HModel
 NULL HModel passed
 NULL HSequence
@@ -2207,7 +2228,10 @@ RESOURCE_ENCODING_VRMAN
 RESOURCE_ENCODING_VSNAP
 RESOURCE_ENCODING_VTEX
 RSDS
+R\tV_log2f
+R\vpd
 Radius Random
+Radius Scale
 Random Cull
 Randomly Flip Yaw
 Redo\n======\n
@@ -2255,7 +2279,6 @@ SFM TrackGroup
 SSAOBias
 SSAORadius
 SSAOStrength
-S\tV_log2f
 ScalpD
 Schema description file
 Screen space size [ 0, 1 ] (where 1 is the whole screen) at which the model will be completely faded out. Anything smaller than this size will not be visible, anything larger will start fading in.
@@ -2274,6 +2297,7 @@ SetFilePointerEx
 SetLastError
 SetStdHandle
 SetUnhandledExceptionFilter
+Shape
 ShotBoundsChannel
 Should instances of this model generate shadows in the lightmap. Note that shadows in the light map will persist even after the model fades out.
 Simple Cubic
@@ -2287,9 +2311,11 @@ StereoFlip
 SubmitThreadpoolWork
 Symbol table:  %d entries %llu bytes\n
 TUUUU
+T\tV_logf
 Take 001
 TanFrameQuat
 TerminateProcess
+TextBlock()
 Texture  :: %s\n
 Texture Compiler Version Mip 
 Texture Configuration File
@@ -2309,6 +2335,7 @@ TongueD
 TongueH
 TongueV
 TongueWidth
+ToolEditContext_ID_VMDL
 ToolImage( 16 )
 ToolImage( 64 )
 Totals
@@ -2318,7 +2345,6 @@ Tried to rename from '%s' to '%s', but '%s' already exists\n
 TryAcquireSRWLockExclusive
 USER32.dll
 UUUUUU
-U\tV_logf
 Unable find required entry points in %s\n
 Unable to create unknown element %s!\n
 Unable to load %s, error %d\n
@@ -2379,6 +2405,7 @@ WriteConsoleW
 WriteFile
 X)?SetRotationActive@FbxNode@fbxsdk@@QEAAX_N@Z
 X/4B
+Y6'2
 YpU_Z
 Z%?RemoveElementUV@FbxGeometryBase@fbxsdk@@QEAA_NPEAVFbxLayerElementUV@2@@Z
 Z@&LHA'\r:C(
@@ -2403,14 +2430,15 @@ Zpm"U
 \r?AddPolygon@FbxMesh@fbxsdk@@QEAAXHH@Z
 \r?AddPose@FbxScene@fbxsdk@@QEAA_NPEAVFbxPose@2@@Z
 \r\f\v\v\n\n\t\t\t\t\t
+\r\tV_atoi
 \t??8FbxDataType@fbxsdk@@QEBA_NAEBV01@@Z
+\t??8FbxVector4@fbxsdk@@QEBA_NAEBV01@@Z
 \tError\n
 \tN1a
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tV_acosf
 \tV_asinf
 \tV_atan2f
-\tV_atoi
 \tV_cosf
 \tV_expf
 \tV_strnchr
@@ -2431,7 +2459,6 @@ Zpm"U
 \t_V_strncpy
 \tcQr
 \tg_Mathlib_GammaToLinearByteTable
-\tg_bUpdateStringTokenDatabase
 \tg_pMemAlloc
 \tg_pThreadPool
 \tkE>fvw
@@ -2469,6 +2496,7 @@ _specexp_
 _specmask_
 _texcoordNames
 `RTTI
+`\tV_powf
 `anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
@@ -2504,7 +2532,6 @@ _texcoordNames
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a\tV_powf
 abcdefghijklmnopqrstuvwxyz
 activeBookmarkSet
 adding layer %d to stack\n
@@ -2549,7 +2576,9 @@ audioTarget
 autoTime
 auto_time
 axies
+axis
 axisSystem
+b\tV_qsort_s
 background
 backgroundColor
 backgroundFXClip
@@ -2614,14 +2643,15 @@ box_maxs
 box_mins
 boxproject_maxs
 boxproject_mins
+brightness
 brightness_units
 brightnessscale
 broken pipe
 broken promise
 bspline
 cNDS
-c\tV_qsort_s
 cable_static
+camera
 can_override_npc_state
 candle_1
 candle_2
@@ -2635,6 +2665,7 @@ catmullrom_normalize_x
 catmullrom_tangent
 cellConfiguration
 cellsNodeID
+channel
 channelType
 childBindRotation
 chlist
@@ -2649,6 +2680,7 @@ collisionmesh
 color log
 color$0
 color$0Indices
+color1
 color255
 color_array
 color_blue
@@ -2754,8 +2786,14 @@ drawToolRenderablesMask
 durationTime
 e+000
 eF>t
+eFast
 eLK(w
+eMoveWithGait
 eO@R
+eSlow
+eTeleport
+eWait
+eWaitFacing
 easein
 easeinout
 easeout
@@ -2788,11 +2826,13 @@ exporttags
 eyeOffset
 eyelid
 eyes
+f\tV_roundd
 faceSets
 faces
 facial_animation
 fadeIn
 fadeOut
+falloff
 falloff_left
 falloff_right
 fast
@@ -2836,7 +2876,6 @@ func_physbox
 function not supported
 functionName
 future already retrieved
-g\tV_roundd
 game:tools/images/assettypes/generic_lg.png
 game:tools/images/assettypes/generic_sm.png
 gameSoundName
@@ -2867,6 +2906,7 @@ hold_right
 host unreachable
 houdini
 identifier removed
+ik_debug_perlin_solver
 illegal byte sequence
 inappropriate io control operation
 incompatible version
@@ -2877,12 +2917,14 @@ info_particle_system
 initialMass
 initial_mass
 innerconeangle
+input
 instance_file
 instance_parm
 instance_variable
 int log
 int_array
 integer
+intensity
 interpolator_left
 interpolator_right
 interrupted
@@ -2938,6 +2980,13 @@ keyvalues2_v
 kochanek
 kochanek_early
 kochanek_late
+l\tV_sincosf
+labelled_debug_helper_arc_segments
+labelled_debug_helper_enabled
+labelled_debug_helper_scale
+labelled_debug_helper_show_position
+labelled_debug_helper_show_text
+labelled_debug_helper_skeleton_show_bone_names
 layers
 left
 leftEdgeActive
@@ -2978,7 +3027,6 @@ lowprecisionuv1
 m%d%d
 mG4>
 m\nXo
-m\tV_sincosf
 m_AdditionalExtensions
 m_AdditionalInputDependencies
 m_AdditionalRelatedFiles
@@ -2995,6 +3043,7 @@ m_BlockID
 m_Blocks
 m_Checks
 m_ChildResourceList
+m_Command
 m_CompileDependsOnResourceTypes
 m_CompilerIdentifier
 m_Encoding
@@ -3025,6 +3074,7 @@ m_Manifests
 m_MatchSystemExecutable
 m_MaterialGroup
 m_Mod
+m_ModelName
 m_Models
 m_OverrideToolShortcutName
 m_ParameterType
@@ -3050,6 +3100,7 @@ m_TagAliases
 m_TagColor
 m_TagDescription
 m_TagIcon
+m_TagName
 m_Test_InjectSearchable
 m_ThumbnailOverlayImage
 m_Title
@@ -3096,23 +3147,45 @@ m_bTagHidesAssetByDefault
 m_bTagIndicatesRejectedAsset
 m_bUnrecognizedReferencesAreErrors
 m_bUseCompressedNormalTangent
+m_bUseShadowFastPath
+m_dynamicParams
+m_dynamicTextureParams
 m_fMoveTo
 m_flBlendWeightFullDenstity
 m_flBlendWeightMax
 m_flBlendWeightMin
 m_flBlendWeightMinScale
+m_flDensity
+m_flEndFadeSize
 m_flMaxSurfaceSlope
 m_flMinSurfaceSlope
 m_flOrientToSurface
 m_flRandomVerticalOffsetMax
 m_flRandomVerticalOffsetMin
+m_flStartFadeSize
+m_flValue
+m_floatAttributes
+m_floatParams
+m_intAttributes
+m_intParams
+m_materialName
 m_nAssetTypeVersion
 m_nFileCRC
 m_nFingerprint
 m_nFingerprintDefault
 m_nSourceLine
 m_nUserData
+m_pValue
 m_pVertexData
+m_renderAttributesUsed
+m_sId
+m_shaderName
+m_stringAttributes
+m_textureAttributes
+m_textureParams
+m_value
+m_vectorAttributes
+m_vectorParams
 maintain position along path
 makefile
 manipulatorSettings
@@ -3135,6 +3208,9 @@ meshShape
 meshShape_%s
 mesh_%d
 mesh_%s
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 message size
 micDistance
 midJoint
@@ -3178,6 +3254,7 @@ n03>Pu
 nCompressedSize == nUncompressedSize
 nDataSize > 0
 nLayoffState
+n\tV_sinf
 nan(ind)
 nan(snan)
 nearclipplane
@@ -3218,8 +3295,8 @@ note
 npcclass
 numTimeSteps
 oOffset
-o\tV_sinf
 obwQ4
+offset
 offsetTime
 operation canceled
 operation in progress
@@ -3266,6 +3343,7 @@ path_trajectory
 pattern
 permission denied
 phonememap
+physics
 physicsSimplificationError
 physicsSimplificationOverride
 pinEnabled
@@ -3294,9 +3372,11 @@ postprocessing
 posxyz
 prefab_has_runtime_entity_by_default
 prefab_root
+preset
 presetGroups
 presetRemap
 presets
+priority
 procedural
 promise already satisfied
 prop_physics_override
@@ -3307,13 +3387,14 @@ protocol not supported
 purecall
 pvTarget
 q)?SetRow@FbxAMatrix@fbxsdk@@QEAAXHAEBVFbxVector4@2@@Z
+q\tV_snprintf
 q\v??Hfbxsdk@@YA?AVFbxString@0@AEBV10@PEBD@Z
 qangle log
 qangle_array
 quadraticAttenuation
 quaternion log
 quaternion_array
-r\tV_snprintf
+r\fpd
 r\tVr.>T
 radiusScale
 radius_random
@@ -3353,6 +3434,7 @@ resource deadlock would occur
 resource unavailable try again
 resourcesystem
 restrict(
+result
 result out of range
 result_left
 result_right
@@ -3381,6 +3463,7 @@ rotations
 s+?WriterIsFBX@FbxIOPluginRegistry@fbxsdk@@QEBA_NH@Z
 sHF'
 saturation
+scale
 scene
 schemasystem
 screenWindowCenter
@@ -3394,6 +3477,7 @@ selectedControls
 selectedControls2
 selectionGroups
 semanticName
+sequence
 sequence_random
 sequential position along path
 sessionSettings
@@ -3452,6 +3536,7 @@ snapshotOverride
 snapshot_file
 soft_x
 soft_y
+sound
 soundEventScript
 soundname
 sourceDag
@@ -3473,6 +3558,7 @@ spotOuterAngle
 stack buffer overrun (/GS failure)
 staggerinterval
 standard
+start
 startJoint
 startOffset
 startTime
@@ -3503,6 +3589,7 @@ tangent$0Indices
 tangents
 tangentsIndices
 tangentu_signv
+target
 targetGroup
 targetGroupNodeID
 targetName
@@ -3521,6 +3608,7 @@ texcoord$0Indices
 texcoord$1
 text file busy
 text_block
+texture
 textureCoordinates
 textureCoordinatesIndices
 textureFrame
@@ -3592,6 +3680,7 @@ vector4 log
 vector4_array
 vector<T> too long
 velTolerance
+velocity
 velocity_random
 velocity_tolerance
 vertexFormat
@@ -3608,6 +3697,7 @@ vmatrix log
 vmdl
 vmesh
 vmks
+volume
 volumefogenabled
 vphzc
 vpost
@@ -3621,6 +3711,8 @@ vtex
 vvtx
 vwnod
 vwrld
+w\tV_sscanf
+weight
 weight$0
 weights
 weightweight$0
@@ -3636,9 +3728,10 @@ wrinkle$0Indices
 wrinkleIndices
 wrinkleScales
 wrong protocol type
-x\tV_sscanf
-y\tV_sscanf_s
+x\tV_sscanf_s
 z)?SetScale@FbxTexture@fbxsdk@@QEAAXNN@Z
+zfar
+znear
 {+?currentDateTimeGMT@FbxDateTime@fbxsdk@@SA?AV12@XZ
 |BBoneSetup
-}\tV_stricmp_fast
+|\tV_stricmp_fast

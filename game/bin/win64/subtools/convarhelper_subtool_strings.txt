@@ -928,6 +928,7 @@ S9>H
 S?name@QColor@@QEBA?AVQString@@XZ
 S?palette@QGuiApplication@@SA?AVQPalette@@XZ
 Save File
+Set Color
 Set Colors
 SetFilePointerEx
 SetLastError
@@ -1113,11 +1114,11 @@ __vectorcall
 `virtual displacement map'
 abcdefghijklmnopqrstuvwxyz
 bChecked
+b\tV_qsort_s
 background-color:
 bad exception
 bin_
 cR?metaObject@QDrag@@UEBAPEBUQMetaObject@@XZ
-c\tV_qsort_s
 changeColor
 color:
 convarhelper
@@ -1154,6 +1155,7 @@ m_label=
 m_type=
 n03>Pu
 nHeight
+nIndex
 nWidth
 nX?setBold@QFont@@QEAAX_N@Z
 n\n?dragEnterEvent@QTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z

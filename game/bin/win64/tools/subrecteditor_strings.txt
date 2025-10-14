@@ -796,8 +796,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\rU2t
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
-2\vpd
-2\vpl
+2\vp4
 2aboutToShow()
 2activated( int )
 2changed()
@@ -849,10 +848,10 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 <pre>"%s"</pre> Is not an allowed file path. %s<br><br>%s
 =1cb
 =87M
+=\tV_isdigit_str
 =]?size@QScreen@@QEBA?AVQSize@@XZ
 =cQ6
 =imb;D
->\tV_isdigit_str
 >cQ6
 >jtm}S
 ?7zQ6$
@@ -1170,7 +1169,6 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 ?TruncateAt@CBufferString@@QEAAPEBDH_N@Z
 ?TruncateAt@CBufferString@@QEAAPEBDPEBD_N@Z
 ?UUUUUU
-?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnqualifiedFilenameAlloc@CUtlString@@QEBA?AV1@XZ
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?V_strnlen@@YAHPEBDH@Z
@@ -2411,6 +2409,7 @@ Could not check in file(s): %s
 Could not check out file(s): %s
 Could not check out file\n%s
 Courier
+Create
 Create Rectangle
 CreateFileW
 CreateThreadpoolWork
@@ -2622,6 +2621,7 @@ I ?toggleViewAction@QDockWidget@@QEBAPEAVQAction@@XZ
 IAsset*
 IAssetSelectionListener
 IBindTarget
+ICON
 IHelpChangeListener
 IToolFrameListener
 IToolFrameworkAudioSettingsListener
@@ -2686,6 +2686,7 @@ LastLoadDirectory
 LastSaveDirectory
 LaunchEngineTool
 LeaveCriticalSection
+Left
 Load Autosave On Crash
 LoadLibraryExW
 LoadRecentFile
@@ -2705,6 +2706,7 @@ M\v?event@QListWidget@@MEAA_NPEAVQEvent@@@Z
 MapViewOfFile
 MarkSettingsDirty
 MaterialPicker
+Materials
 Max Autosave Space 2
 Max Saves Per Map
 Maximum
@@ -2732,6 +2734,7 @@ N?index@QStandardItemModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
 NAN(IND)
 NAN(SNAN)
 NO COMMAND TARGET
+NONE
 NT?pixelColor@QImage@@QEBA?AVQColor@@HH@Z
 N\v?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z
 NavSystem001
@@ -2830,6 +2833,7 @@ OpenBuildWatch
 OpenFileMappingA
 OpenMutexA
 OpenVConsole
+Orientation
 Other Tools
 OutputDebugStringW
 P?isValid@QColor@@QEBA_NXZ
@@ -2843,6 +2847,7 @@ PgDn
 PgUp
 Policy
 PopupClosed
+Position
 Preferred
 Preview Texture:
 PreviousSession
@@ -2908,10 +2913,9 @@ RMouse
 RMouseDoubleClick
 RSDS
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
-R\fpd
+R\fp4
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
-R\vpl
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 ReSelectOnReturn
 Read Only
@@ -2945,6 +2949,7 @@ Reverted %d file(s).
 Reverted %d file(s).  %d file(s) were not reverted!
 Reverting %d file(s).  Please wait...
 Revision
+Right
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlPcToFileHeader
@@ -3045,6 +3050,7 @@ TW?restoreOverrideCursor@QGuiApplication@@SAXXZ
 T\t?canFetchMore@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
 Tabbed Mode
 TerminateProcess
+Text Color
 TextProgramaticallyChanged
 The autosave directory does not exist and could not be created.\nThe autosave feature will be disabled.
 The autosave feature will be disabled
@@ -3087,6 +3093,7 @@ Tools audio currently muted
 Track Mouse & Focus
 TryAcquireSRWLockExclusive
 TrySendVNotify - SendKV3 failed\n
+Type
 U?qt_metacall@QStandardItemModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 U?qt_metacast@QStandardItemModel@@UEAAPEAXPEBD@Z
 USER32.dll
@@ -3282,6 +3289,7 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \n?edit@QAbstractItemView@@MEAA_NAEBVQModelIndex@@W4EditTrigger@1@PEAVQEvent@@@Z
 \n?editorDestroyed@QAbstractItemView@@MEAAXPEAVQObject@@@Z
 \n\r?heightForWidth@QBoxLayout@@UEBAHH@Z
+\n\tV_atof
 \r?data@QStandardItem@@UEBA?AVQVariant@@H@Z
 \r?data@QStandardItemModel@@UEBA?AVQVariant@@AEBVQModelIndex@@H@Z
 \r?error@QFileDevice@@QEBA?AW4FileError@1@XZ
@@ -3308,6 +3316,7 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\f\v\v\n\n\t\t\t\t\t
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
+\r\tV_atoi
 \t?addPixmap@QIcon@@QEAAXAEBVQPixmap@@W4Mode@1@W4State@1@@Z
 \t?alphaF@QColor@@QEBANXZ
 \t?appendRow@QStandardItemModel@@QEAAXAEBV?$QList@PEAVQStandardItem@@@@@Z
@@ -3327,8 +3336,6 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \t?dataChanged@QListView@@MEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
 \t?dataChanged@QTreeView@@UEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
 \t?defaultWidget@QWidgetAction@@QEBAPEAVQWidget@@XZ
-\tV_atoi
-\tV_strlower_fast
 \tV_vsnprintf
 \tWarning
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -3341,7 +3348,6 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \t_V_strnicmp_fast
 \tcQr
 \tg_Mathlib_GammaToLinearByteTable
-\tg_bUpdateStringTokenDatabase
 \tg_pMemAlloc
 \tg_pThreadPool
 \tkE>fvw
@@ -3362,7 +3368,6 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \v?fixup@QSpinBox@@MEBAXAEAVQString@@@Z
 \v?focusChanged@QApplication@@QEAAXPEAVQWidget@@0@Z
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
-\v\tV_atof
 ]?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
 ]\r?horizontalOffset@QListView@@MEBAHXZ
 ^<V7w
@@ -3387,6 +3392,7 @@ _autosave
 _toolsautosave
 `RTTI
 `\r?entryInfoList@QDir@@QEBA?AV?$QList@VQFileInfo@@@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
+`\tV_powf
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `anonymous namespace'
 `copy constructor closure'
@@ -3425,7 +3431,7 @@ _toolsautosave
 `virtual displacement map'
 a?windowText@QPalette@@QEBAAEBVQBrush@@XZ
 a?write@QStandardItem@@UEBAXAEAVQDataStream@@@Z
-a\tV_powf
+a\tV_qsort
 abcdefghijklmnopqrstuvwxyz
 actions
 address family not supported
@@ -3443,7 +3449,7 @@ ati_compress_wrapper.dll
 b ?topLevelChanged@QDockWidget@@QEAAX_N@Z
 bState
 b\fp\v0
-b\tV_qsort
+b\tV_qsort_s
 b\v?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
 background
 bad address
@@ -3461,7 +3467,6 @@ bold
 bottom
 broken pipe
 broken promise
-c\tV_qsort_s
 centralWidget
 central_widget
 checkstate
@@ -3574,6 +3579,7 @@ i\v?event@QTableWidget@@MEAA_NPEAVQEvent@@@Z
 identifier removed
 illegal byte sequence
 inappropriate io control operation
+info
 inset
 interrupted
 invalid seek
@@ -3599,9 +3605,12 @@ mG4>
 m\f?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
 m\nXo
 m_Bindings
+m_Command
 m_Context
+m_Input
 m_InputMacros
 m_bShutdown
+materials
 menu
 menuAction
 menus
@@ -3610,6 +3619,7 @@ monitor_pid
 n03>Pu
 nCheckState
 nDelayInMS
+nIndex
 nToolId
 nX?setBold@QFont@@QEAAX_N@Z
 n\n?dragEnterEvent@QTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
@@ -3659,6 +3669,7 @@ pAssetMenuObject
 pCurrentFocusWidget
 pEvent
 pFilter
+pItem
 pPrevFocusWidget
 pV?read@QImageReader@@QEAA?AVQImage@@XZ
 pWidget
@@ -3669,6 +3680,7 @@ permission denied
 portrait
 portrait (inverted)
 preview_material
+priority
 process
 promise already satisfied
 properties
@@ -3676,11 +3688,11 @@ protocol error
 protocol not supported
 purecall
 q\n?dragLeaveEvent@QAbstractScrollArea@@MEAAXPEAVQDragLeaveEvent@@@Z
+q\tV_snprintf
 q\v?event@QWidgetAction@@MEAA_NPEAVQEvent@@@Z
 quiet
-r\tV_snprintf
 r\tVr.>T
-r\vpd
+r\vp4
 range check failure
 read only file system
 recovered_autosave
@@ -3756,6 +3768,7 @@ z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 {\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
 |"?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
 |V?reason@QFocusEvent@@QEBA?AW4FocusReason@Qt@@XZ
+|\tV_stricmp_fast
 }\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
-}\tV_stricmp_fast
 ~\n?dragMoveEvent@QAbstractScrollArea@@MEAAXPEAVQDragMoveEvent@@@Z
+~\tV_strlower_fast

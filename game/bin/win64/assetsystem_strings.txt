@@ -170,6 +170,7 @@
 "Predictor" value %d not supported
 "Wlw
 "YEu
+"\tV_fgets
 "`bB303
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
@@ -189,7 +190,6 @@
 #P0_?G0
 #Q7z
 #\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
-#\tV_fgets
 #\v+(bF&drJ:x#
 #k+ka\T
 #lyj
@@ -204,6 +204,7 @@ $HypYkf
 $J6"t
 $JXsZ
 $XI(6
+$\tV_fmodd
 $d`D-laM
 $f;Zv9l\r
 $g#8lu#
@@ -271,7 +272,6 @@ $prefix_element$
 %E5u(
 %Gdnv
 %I64i
-%\tV_fmodd
 %aIwV
 %bw+s
 %d.%d.%d.%d/%d.%d.%d.%d
@@ -388,6 +388,7 @@ $prefix_element$
 'DAE
 'O6n
 'Z9t%
+'\tV_fopenUTF8
 'g0dW
 'id' or 'name' missing
 'pSN.F
@@ -408,7 +409,7 @@ $prefix_element$
 (Placeholder for unrecognized tag)
 (U1h
 (ZdOt\n&
-(\tV_fopenUTF8
+(\tV_fpclassifyd
 (d4t8
 (fS{ggRcjh
 (h`H1pqA
@@ -423,7 +424,7 @@ $prefix_element$
 )J9o
 )TpH
 )Urz
-)\tV_fpclassifyd
+)\tV_fprintf
 )fuG
 )haI
 * %d asset types:\n
@@ -459,7 +460,6 @@ $prefix_element$
 *UlS
 *Y$ve
 *\fhsD
-*\tV_fprintf
 *gFBk
 *hbJ1
 *it%2
@@ -511,7 +511,6 @@ $prefix_element$
 -DBF
 -U`5K
 -\6G5
--assetmergegameother
 -filterassetfiles missing filename\n
 -filterassetfiles unable to open '%s'\n
 -l34
@@ -1359,6 +1358,7 @@ $prefix_element$
 /usr/local/ssl/lib/engines
 /usr/local/ssl/private
 /zt1
+0.0 1.0
 0.0 180.0
 0.001 1.0
 0.01 1.0
@@ -1424,6 +1424,7 @@ $prefix_element$
 2\nP!E
 2\rU2t
 2\rlhp
+2\vpD
 2^pV
 2a"l
 2bT~
@@ -1693,6 +1694,7 @@ $prefix_element$
 ?AddString@CUtlSymbolTable@@QEAA?AVCUtlSymbol@@PEBDPEA_N@Z
 ?AddWatch@CDirTreeWatchManager@@QEAA_NPEBDPEAVVisitor@1@_K@Z
 ?AlignBuffer@CUtlBuffer@@QEAAXH@Z
+?AlignBufferGet@CUtlBuffer@@QEAA_NH@Z
 ?Alloc@CUtlMemoryPoolBase@@QEAAPEAXXZ
 ?AllocAligned@CUtlScratchMemoryPool@@QEAAPEAXHH@Z
 ?AllocSize@CUtlSymbolTable@@QEBA_KXZ
@@ -1801,6 +1803,7 @@ $prefix_element$
 ?Right@CUtlString@@QEBA?AV1@H@Z
 ?SaveKV3@@YA_NAEBUKV3ID_t@@0PEBVKeyValues3@@PEAVCUtlString@@PEAVCUtlBuffer@@I@Z
 ?SaveKV3Text_NoHeader@@YA_NPEBVKeyValues3@@PEAVCUtlString@@1I@Z
+?SaveKV3Text_NoHeader@@YA_NPEBVKeyValues3@@PEAVCUtlString@@PEAVCBufferString@@I@Z
 ?SaveKV3ToFile@@YA_NAEBUKV3ID_t@@0PEBVKeyValues3@@PEAVCUtlString@@PEBD3I@Z
 ?Scanf@CUtlBuffer@@QEAAHPEBDZZ
 ?SeekGet@CUtlBuffer@@QEAAXW4SeekType_t@1@H@Z
@@ -1865,6 +1868,7 @@ $prefix_element$
 @X!pf
 @Zs3
 @\f1OJ
+@\tV_isnand
 @^8U)zj
 @child_asset
 @dKb]
@@ -2100,7 +2104,6 @@ AUTHORITY_KEYID
 AW:S
 AWt.
 A\rjW
-A\tV_isnand
 AbW_
 Abandoning deferred file change for %s after %u attempts\n
 AcG\nt
@@ -2192,6 +2195,7 @@ AssetTypes
 AssetWarningFixType_t
 Assets in asset system: %d
 Assetsystem Table "%s" (%d entries)\n
+Assetsystem cannot start: %s\n
 Assetsystem resource replacement buffer
 Assetsystem skipping reload of %d resources - no resourcesystem!\n
 Assigning replacement buffer to '%s' with parent '%s'\n
@@ -2202,6 +2206,7 @@ At least one out-of-date dependency: test.vtest (file mod changed from 'mid' to 
 At least one out-of-date dependency: test_tga.vtestcontent (file CRC changed
 At least one out-of-date dependency: test_txt.vtestcontent (file CRC changed
 At least one out-of-date dependency: test_vmat.vtest (file CRC changed
+Attachments
 Attempted to add two format updaters with the same file format (%s)!\n
 Attempted to add two legacy updaters with the same file format (%s)!\n
 Attempted to add two serializers with the same file encoding (%s)!\n
@@ -2379,6 +2384,7 @@ Blend Weight Scale
 Blend weight at which the model will be at full density. Must be between the minimum and maximum blend weight values. The density of this model placement will increase with the blend weight value up to this value at which point it will be at full density.
 BlockingReloadCompileReplacementBufferAndChildren
 BoX5
+Body
 BrowInV
 Bs'n
 Bu 5
@@ -2967,6 +2973,7 @@ DBF-
 DBM&(
 DEBUG: CAsset::UpdateDependencyInformationAndCompileState - %s\n
 DEBUG: CAssetSystem::HandleNewPossibleAssetFile - '%s'\n
+DEFAULT
 DEF_ADD_INDEX
 DEF_GET_CLASS
 DEF_LOAD
@@ -3517,7 +3524,6 @@ EOF on memory BIO
 EQuM}
 ERROR DependencyStack: %s\n
 ERROR recompiling: '%s'\n
-ERROR: Assetsystem cannot start: %s\n
 ERROR: Unable to create an attribute handle! Save, quit, restart and clean up your file to have fewer elements!\n
 ERROR: selector [%d] invalid\n
 ESS_ADD_SIGNING_CERT
@@ -4038,6 +4044,7 @@ INT_FREE_EX_DATA
 INT_NEW_EX_DATA
 INT_RSA_VERIFY
 INT_TS_RESP_VERIFY_TOKEN
+INVALID
 INdK
 IP Address
 IP Address:%d.%d.%d.%d
@@ -4081,6 +4088,8 @@ ImplicitDependingOnMe
 Inappropriate photometric interpretation %d for SGILog compression; %s
 Independent
 InfoDataFilter_t
+InfoForResourceTypeCModel
+InfoForResourceTypeCVDataResource
 Information about the current assetsystem database.
 Inherit Velocity
 Inherit all
@@ -4382,6 +4391,7 @@ Missing required special dependency 'TestResource_RequiredDependency'
 MissingRequired
 MlT8
 Mlt(J
+Model
 Model to be displayed.
 Module32First
 Module32Next
@@ -4446,6 +4456,7 @@ NISTP224_PRE_COMP_NEW
 NISTP256_PRE_COMP_NEW
 NISTP521_PRE_COMP_NEW
 NO X509_NAME
+NONE
 NOTICEREF
 NOTICE_SECTION
 NREF_NOS
@@ -4640,6 +4651,7 @@ Operator cycle found during dependency graph traversal!\n
 Optional second key to check
 Order: 
 Orient Rotation to 2D Direction
+Orientation
 OriginalRawFileData
 OriginalRawFileName
 OrqK
@@ -4905,6 +4917,7 @@ Preset File
 PrimaryChromaticities
 Prime:
 Print internal assetsystem data.
+Private
 Private Key
 Private-Key
 Private-Key: (%d bit)\n
@@ -5089,12 +5102,16 @@ RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
 RSDS
 R\r1>Vp
+R\tV_log2f
+R\vpD
 R]Di
 Radius Random
+Radius Scale
 Random Cull
 Randomly Flip Yaw
 RawDataUniqueID
 Rbg.E
+Read KV3 Segment (%s)\n%s\n
 Read-Only AssetSystem: %s does not exist, using default info file\n
 Read-Only AssetSystem: ignoring change to %s in read-only mod\n
 Read-Only Compiled Asset Information Always Up-to-Date
@@ -5361,7 +5378,7 @@ SXNET_add_id_ulong
 SXNET_get_id_asc
 SXNET_get_id_ulong
 SXNetID
-S\tV_log2f
+S\tV_logd
 S\vQN
 Salt Length: 0x
 SampleFormat
@@ -5534,7 +5551,6 @@ TS_VERIFY_CTX_new
 TUUUU
 TXJw^{
 TYPE=
-T\tV_logd
 Tag 
 Tag %d
 Tag Update Failed
@@ -5561,6 +5577,7 @@ TestSimpleVmatTxtAppearance
 TestTgaChangeReloadCounts
 TestTgaChangeReloadCounts_OnlyVtexResident
 TestTwoContentFileResourceType
+TextBlock()
 Texture Configuration File
 TextureFormat
 TextureWrapModes
@@ -5595,6 +5612,7 @@ TongueH
 TongueV
 TongueWidth
 Too much
+ToolEditContext_ID_VMDL
 ToolImage( 16 )
 ToolImage( 64 )
 Tools Auto-Checkout
@@ -5876,6 +5894,7 @@ WrgoI
 Write error at scanline %lu
 WriteConsoleW
 WriteFile
+Writing KV3 Segment (%s)\n%s\n
 X.509 part of OpenSSL 1.0.2j  26 Sep 2016
 X/4B
 X400Name
@@ -6162,6 +6181,7 @@ Z~wl
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 \n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
 \n\tIPSec/IKE/Oakley curve #4 over a 185 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
+\n\tV_atof
 \ndummyfilename.tif
 \nqYu
 \ntM(ie-V
@@ -6181,9 +6201,10 @@ Z~wl
 \rY=QX
 \rYYHl
 \r\f\v\v\n\n\t\t\t\t\t
+\r\tV_atoi
 \r\vpL1
 \r^mX
-\rgame:tools/images/assettypes/generic_lg.png
+\rgame:tools/images/assettypes/generic_sm.png
 \ri1I
 \rjwB\t
 \roKK
@@ -6203,10 +6224,8 @@ Z~wl
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tV_atan2d
 \tV_atan2f
-\tV_atoi
 \tV_expd
 \tV_fclose
-\tV_strlower_fast
 \tV_tanf
 \tV_vsnprintf
 \tWarning
@@ -6224,7 +6243,6 @@ Z~wl
 \t_V_strnicmp_fast
 \tcQr
 \tg_Mathlib_GammaToLinearByteTable
-\tg_bUpdateStringTokenDatabase
 \tg_pMemAlloc
 \tg_pThreadPool
 \tkE>fvw
@@ -6237,7 +6255,6 @@ Z~wl
 \vHCK/
 \vNCE\v
 \vUY6[E
-\v\tV_atof
 \v\vTSG
 \vj0k
 \vjC7
@@ -6264,6 +6281,7 @@ _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _YWL
+_\tV_powd
 __based(
 __cdecl
 __clrcall
@@ -6306,7 +6324,7 @@ _}eOk
 `ITS
 `RTTI
 `VX:H
-`\tV_powd
+`\tV_powf
 `anonymous namespace'
 `copy constructor closure'
 `default constructor closure'
@@ -6378,7 +6396,7 @@ aRWZ5
 aRecord
 aSRP
 aXvC
-a\tV_powf
+a\tV_qsort
 a]?xG
 aaControls
 abcdefghijklmnopqrstuvwxyz
@@ -6594,6 +6612,7 @@ auto_time
 aux error
 awO8
 axfb5
+axis
 axisSystem
 aybSr
 a|gj(
@@ -6612,7 +6631,7 @@ bPb:L7X)
 bSh&+
 bV}TS
 b\fzUkm
-b\tV_qsort
+b\tV_qsort_s
 b\vp\nP
 b]jY
 background
@@ -6794,6 +6813,7 @@ brainpoolP384r1
 brainpoolP384t1
 brainpoolP512r1
 brainpoolP512t1
+brightness
 brightness_units
 brightnessscale
 broken pipe
@@ -6836,7 +6856,6 @@ cNAMERecord
 cNUGK
 cRLSign
 c\r1m
-c\tV_qsort_s
 c`FE%
 ca dn length mismatch
 ca dn too long
@@ -6922,6 +6941,7 @@ cessationOfOperation
 challenge
 challenge is different
 challengePassword
+channel
 character value in \x{...} sequence is too large
 characteristic-two-field
 child_alpha
@@ -6986,6 +7006,7 @@ collisionmesh
 color log
 color$0
 color$0Indices
+color1
 color255
 color_array
 color_blue
@@ -7274,6 +7295,7 @@ des-ede3-cfb8
 des-ede3-ofb
 des-ofb
 des3
+description
 destination address required
 destinationIndicator
 desx
@@ -7424,12 +7446,18 @@ eC z
 eContent
 eContentType
 eF>t
+eFast
 eLK(w
+eMoveWithGait
 eN.d\tA
 eNULL
 eO@R
 eODj
+eSlow
 eTU\n
+eTeleport
+eWait
+eWaitFacing
 eXQd
 e\tcCPtH
 ec group new by name failure
@@ -7648,6 +7676,7 @@ fadeOut
 failed loading private key
 failed loading public key
 fake_assetsystemtest_executable.exe
+falloff
 falloff_left
 falloff_right
 fast_strobe
@@ -7747,7 +7776,7 @@ g]i/H
 g_Cov_DetermineCompileState
 g_pAsyncFileSystem2
 g_pToolsSplashScreen->showMessage
-game:tools/images/assettypes/generic_sm.png
+game:tools/images/assettypes/generic_lg.png
 game_only.vtest
 gameitemclass
 gameunitclass
@@ -8201,6 +8230,7 @@ index too small
 indirectCRL
 indirectlight
 infinite
+info
 info_particle_system
 inhibitAnyPolicy
 inhibitPolicyMapping
@@ -8226,6 +8256,7 @@ int_thread_get (err.c)
 integer
 integer not ascii format
 integer too large for long
+intensity
 internal list error
 international-organizations
 internationaliSDNNumber
@@ -8501,6 +8532,7 @@ l7@J
 lC57
 lDcW
 lM2p
+l\tV_sincosf
 language
 last octet invalid
 lastModifiedBy
@@ -8580,7 +8612,6 @@ mS'7
 mXRecord
 mZKB
 m\nXo
-m\tV_sincosf
 m\ta=\ruWb
 m_AdditionalExtensions
 m_AdditionalInputDependencies
@@ -8599,6 +8630,7 @@ m_Blocks
 m_Buffer.TellMaxPut() == 0
 m_Checks
 m_ChildResourceList
+m_Command
 m_CompileDependsOnResourceTypes
 m_CompilerIdentifier
 m_Encoding
@@ -8629,6 +8661,7 @@ m_Manifests
 m_MatchSystemExecutable
 m_MaterialGroup
 m_Mod
+m_ModelName
 m_Models
 m_OverrideToolShortcutName
 m_ParameterType
@@ -8654,6 +8687,7 @@ m_TagAliases
 m_TagColor
 m_TagDescription
 m_TagIcon
+m_TagName
 m_Test_InjectSearchable
 m_ThumbnailOverlayImage
 m_Title
@@ -8697,11 +8731,14 @@ m_flBlendWeightFullDenstity
 m_flBlendWeightMax
 m_flBlendWeightMin
 m_flBlendWeightMinScale
+m_flDensity
+m_flEndFadeSize
 m_flMaxSurfaceSlope
 m_flMinSurfaceSlope
 m_flOrientToSurface
 m_flRandomVerticalOffsetMax
 m_flRandomVerticalOffsetMin
+m_flStartFadeSize
 m_nAssetTypeVersion
 m_nFileCRC
 m_nFingerprint
@@ -8738,6 +8775,7 @@ matrix
 matrix_array
 maxThrust
 max_thrust
+maximum
 maxsize=
 maya
 md bio init error
@@ -8786,6 +8824,7 @@ mime-mhs-bodies
 mime-mhs-headings
 minThrust
 min_thrust
+minimum
 minsize=
 misc_strings
 missing asn1 eos
@@ -9146,6 +9185,7 @@ odMsh
 odd number of chars
 odd number of digits
 oeap
+offset
 offsetTime
 oi3o
 old session cipher not returned
@@ -9357,6 +9397,7 @@ personalTitle
 photo
 phrase is too short, needs to be at least %d chars\n
 physicalDeliveryOfficeName
+physics
 physicsSimplificationError
 physicsSimplificationOverride
 pilot
@@ -9448,6 +9489,7 @@ prefab_has_runtime_entity_by_default
 prefab_root
 preferredDeliveryMethod
 presentationAddress
+preset
 presetGroups
 presetRemap
 presets
@@ -9466,6 +9508,7 @@ prime239v3
 prime256v1
 prime2:
 prime:
+priority
 priv [ %d ] 
 priv:
 priv_key
@@ -9538,6 +9581,7 @@ qOy*o
 qPq2k
 qTm_fC=
 qUN1
+q\tV_snprintf
 qangle_array
 qcStatements
 qf`ny
@@ -9563,7 +9607,6 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\tV_snprintf
 r\tVr.>T
 r\vDi
 radiusScale
@@ -9764,6 +9807,7 @@ saturation
 sbgp-autonomousSysNum
 sbgp-ipAddrBlock
 sbgp-routerIdentifier
+scale
 scanline
 scene
 schemasystem
@@ -9832,6 +9876,7 @@ selectionGroups
 self signed certificate
 self signed certificate in certificate chain
 semanticName
+sequence
 sequence length mismatch
 sequence not constructed
 sequence or set needs config
@@ -10089,6 +10134,7 @@ snmpv2
 so=H*m
 soft_x
 soft_y
+sound
 soundevents.vtest
 source_column
 source_file_searchpath
@@ -10247,6 +10293,7 @@ stLDp
 stack buffer overrun (/GS failure)
 staggerinterval
 standard
+start
 startTime
 start_on_spawn
 state not recoverable
@@ -10439,6 +10486,7 @@ text:
 textEncodedORAddress
 textNotice
 text_block
+texture
 textureCoordinates
 textureCoordinatesIndices
 textureFrame
@@ -10711,6 +10759,7 @@ unsupported ssl version
 unsupported status type
 unsupported type
 unsupported version
+unused
 unwrap error
 unwrap failure
 upAxis
@@ -10791,6 +10840,7 @@ vector3_array
 vector4_array
 vector<T> too long
 velTolerance
+velocity
 velocity_random
 velocity_tolerance
 verification failure
@@ -10837,6 +10887,7 @@ wQ0"
 wR\fe3c
 wRlb.
 wY[K,
+w\tV_sscanf
 w_5&#R4
 waiting_group
 wap-wsg
@@ -10923,7 +10974,7 @@ xFKF
 xOu\vsF
 xQfF
 xUN'
-x\tV_sscanf
+x\tV_sscanf_s
 x\v6V
 xg-9Ja
 xp$=S
@@ -10947,7 +10998,6 @@ yRnkB\t
 yS/h
 yU\n2`
 yWTb?
-y\tV_sscanf_s
 y\teE
 y_jO
 ya<O
@@ -10980,6 +11030,7 @@ zz2K
 |<C!FReQ
 |InzT
 |XYl
+|\tV_stricmp_fast
 |hdX)
 |sG2
 |}Eq1
@@ -10988,7 +11039,6 @@ zz2K
 }VKRZ
 }W70d
 }Xee+
-}\tV_stricmp_fast
 }gE3
 }n2W
 ~9ob
@@ -10996,6 +11046,7 @@ zz2K
 ~If D
 ~P2T
 ~R65Fu
+~\tV_strlower_fast
 ~jLRG
 ~w]UG
 ~yhZ

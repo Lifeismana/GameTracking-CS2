@@ -94,11 +94,11 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 %6.2f : %6.2f
 %[?setRange@QIntValidator@@UEAAXHH@Z
 %\?setUnderline@QFont@@QEAAX_N@Z
+%\tV_fmodf
 %]?sibling@QStandardItemModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
 %s%s: DynamicWidget: %s\n
 & ?timerEvent@QMenuBar@@MEAAXPEAVQTimerEvent@@@Z
 &X?setAlphaF@QColor@@QEAAXN@Z
-&\tV_fmodf
 '\v?enterEvent@QMenu@@MEAAXPEAVQEvent@@@Z
 ( %1, %2, %3, %4% )
 (#?windowModality@QWidget@@QEBA?AW4WindowModality@Qt@@XZ
@@ -664,7 +664,8 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 2\n?doItemsLayout@QListView@@UEAAXXZ
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
-2\vpll\f
+2\vpHS
+2\vph^
 2aboutToShow()
 2accepted()
 2buttonClicked( QAbstractButton* )
@@ -712,6 +713,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 ;?0123456789:;<=>?
 ;\n?doSetTextCursor@QTextEdit@@MEAAXAEBVQTextCursor@@@Z
 ;\v?event@QDialogButtonBox@@MEAA_NPEAVQEvent@@@Z
+<NONE>
 <\f?deallocate@QArrayData@@SAXPEAU1@_K1@Z
 <\f?focusPolicy@QWidget@@QEBA?AW4FocusPolicy@Qt@@XZ
 <\v?event@QDockWidget@@MEAA_NPEAVQEvent@@@Z
@@ -1034,6 +1036,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?V_strnlen@@YAHPEBDH@Z
 ?\f?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
+?\tV_isinfd
 ?absoluteFilePath@QFileInfo@@QEBA?AVQString@@XZ
 ?accept@QDialog@@UEAAXXZ
 ?actionEvent@QMenu@@MEAAXPEAVQActionEvent@@@Z
@@ -2011,7 +2014,6 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 ?ysB
 @#?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
 @\n?document@QPlainTextEdit@@QEBAPEAVQTextDocument@@XZ
-@\tV_isinfd
 @\v?event@QFrame@@MEAA_NPEAVQEvent@@@Z
 @^8U)zj
 A#?write@QTreeWidgetItem@@UEBAXAEAVQDataStream@@@Z
@@ -2216,6 +2218,7 @@ CVertexListSceneObject
 Cache
 Cache Miss
 Cache Miss Events
+Camera
 CameraLookAtSelection
 Cannot Debug
 Cannot add multiple root layouts to the same widget
@@ -2286,6 +2289,8 @@ DragOffsetRelativeStart
 DragOffsetRelativeUpdate
 DrawSkyboxChanged
 DummyNoOp
+Dump all new particles, optional name substring.
+Dump all simulating particles, optional name substring.
 ERROR: Failed to open file for key bindings:\n%1\n
 ERROR: Failed to read key bindings from:\n%1\n
 ET5>
@@ -2407,6 +2412,7 @@ Home
 HorizontalStrafeCamera
 HoverItemChanged
 I ?toggleViewAction@QDockWidget@@QEBAPEAVQAction@@XZ
+ICON
 IHelpChangeListener
 INONE
 IQEventTypeFilterProvider
@@ -2463,6 +2469,7 @@ L_?toImage@QPixmap@@QEBA?AVQImage@@XZ
 LabelPos_t
 Largest Free Block:
 LeaveCriticalSection
+Left
 Left Mouse (Point)
 LightRigType_t
 LightingControl
@@ -2512,6 +2519,7 @@ MoveCameraLeft3D
 MoveCameraRight3D
 MoveCameraUp3D
 Movement Speed: %0.*fx   [%s] to reset
+MovementGaitId_t
 MultiByteToWideChar
 Mute
 N?green@QColor@@QEBAHXZ
@@ -2541,6 +2549,7 @@ No Widget Under Mouse @(%1,%2)
 No conversion from KV3 to variant type %d (%s)
 No signal '%s'
 No slot '%s'
+Node
 Not a valid GeoView File
 Not safe to 'new' this class due to alignment requirements
 Num0
@@ -2561,6 +2570,7 @@ NumMul
 NumSub
 NumToggle
 OZQ%
+O\tV_log10f
 Oa?width@QImage@@QEBAHXZ
 OnAbout
 OnAlphaChanged
@@ -2627,6 +2637,7 @@ OnValueChanged
 OnWireframe
 OpenFileMappingA
 OpenMutexA
+Orientation
 OverlayProjectionDirection
 Overwrite With Current
 P?isValid@QColor@@QEBA_NXZ
@@ -2634,13 +2645,13 @@ P?itemData@QStandardItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
 P?jumpToNextImage@QImageReader@@QEAA_NXZ
 PREVIEW
 P\f?font@QTableWidgetItem@@QEBA?AVQFont@@XZ
-P\tV_log10f
 PanCamera3D
 ParticlesLib
 Paste
 Paste (Overwrite)
 PasteColor
 Pause History
+Peak
 PerVertexLighting
 PgDn
 PgUp
@@ -2656,6 +2667,7 @@ PlayExecSelected
 PlaySelected
 Policy
 Pool Size:
+Position
 Preferred
 PrevFrame
 Previous
@@ -2714,13 +2726,16 @@ R?metaObject@QStandardItemModel@@UEBAPEBUQMetaObject@@XZ
 R?mimeData@QStandardItemModel@@UEBAPEAVQMimeData@@AEBV?$QList@VQModelIndex@@@@@Z
 R?mimeTypes@QStandardItemModel@@UEBA?AVQStringList@@XZ
 R?modifiers@QKeyEvent@@QEBA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
+RGBA
 RGBA\t%1\t%2\t%3\t%4
 RMouse
 RMouseDoubleClick
 RSDS\v
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
+R\fph^
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
+R\vpHS
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 Really delete this widget?<br><br>***THIS MAY CRASH THE PROGRAM***<br>
 ReleaseMutex
@@ -2742,6 +2757,7 @@ ResetMoveSpeed
 Resettable
 RestartSim
 Resume History
+Right
 Right Mouse (Average)
 RotateAboutTarget3D
 RotateLights
@@ -2844,6 +2860,7 @@ SizePolicy
 SizePolicy array must have two elements
 SleepConditionVariableSRW
 SnapCameraToSelection
+Solo
 Solo Active Track
 Solo Track : 
 Sound Event filter:
@@ -2874,10 +2891,12 @@ THUMBNAIL
 TUUUU
 TW?restoreOverrideCursor@QGuiApplication@@SAXXZ
 T\t?canFetchMore@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
+T\tV_logf
 TabStyle_t
 TakeRenderDocCapture
 TanFrameQuat
 TerminateProcess
+Text Color
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -2904,6 +2923,7 @@ Track Mouse & Focus
 Tracks
 TryAcquireSRWLockExclusive
 TrySendVNotify - SendKV3 failed\n
+Type
 U?qt_metacall@QIntValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 U?qt_metacall@QStandardItemModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 U?qt_metacast@QIntValidator@@UEAAPEAXPEBD@Z
@@ -2911,7 +2931,6 @@ U?qt_metacast@QStandardItemModel@@UEAAPEAXPEBD@Z
 USER32.dll
 UUUUUU
 U\r?home@QTextBrowser@@UEAAXXZ
-U\tV_logf
 Unbalanced pop object namespace
 UnderMouse
 Unhandled/unrecognized child entry (Must have a _class, or be a special entry like: vbox=[] hbox=[] grid=[[],[]] flowing=[] spacing=NUM stretch=NUM
@@ -2991,6 +3010,7 @@ X?setColorAt@QGradient@@QEAAXNAEBVQColor@@@Z
 X?setColumnCount@QStandardItemModel@@QEAAXH@Z
 XN?hasChildren@QStandardItemModel@@UEBA_NAEBVQModelIndex@@@Z
 X\r?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
+X\tV_modfd
 X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
 Y?setData@QStandardItem@@UEAAXAEBVQVariant@@H@Z
 Y?setData@QStandardItemModel@@UEAA_NAEBVQModelIndex@@AEBVQVariant@@H@Z
@@ -3000,7 +3020,6 @@ Y?setGreenF@QColor@@QEAAXN@Z
 Y?setHeaderData@QStandardItemModel@@UEAA_NHW4Orientation@Qt@@AEBVQVariant@@H@Z
 Y?setHorizontalHeaderLabels@QStandardItemModel@@QEAAXAEBVQStringList@@@Z
 YO?insertColumns@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
-Y\tV_modfd
 Y\v?event@QRadioButton@@MEAA_NPEAVQEvent@@@Z
 YawCameraLeft
 YawCameraRight
@@ -3098,9 +3117,8 @@ ZoomForwardBack3D
 \n?edit@QAbstractItemView@@MEAA_NAEBVQModelIndex@@W4EditTrigger@1@PEAVQEvent@@@Z
 \n?editorDestroyed@QAbstractItemView@@MEAAXPEAVQObject@@@Z
 \nCannot write file %1.\n
-\nPpX
 \n\r?heightForWidth@QBoxLayout@@UEBAHH@Z
-\n\tV_atanf
+\n\tV_atof
 \r?darker@QColor@@QEBA?AV1@H@Z
 \r?data@QStandardItem@@UEBA?AVQVariant@@H@Z
 \r?data@QStandardItemModel@@UEBA?AVQVariant@@AEBVQModelIndex@@H@Z
@@ -3125,6 +3143,7 @@ ZoomForwardBack3D
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\f\v\v\n\n\t\t\t\t\t
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
+\r\tV_atoi
 \t?addPixmap@QIcon@@QEAAXAEBVQPixmap@@W4Mode@1@W4State@1@@Z
 \t?alpha@QColor@@QEBAHXZ
 \t?alphaF@QColor@@QEBANXZ
@@ -3145,7 +3164,6 @@ ZoomForwardBack3D
 \t?defaultWidget@QWidgetAction@@QEBAPEAVQWidget@@XZ
 \tV_acosf
 \tV_atan2f
-\tV_atoi
 \tV_cosf
 \tV_strtod
 \tV_tanf
@@ -3153,12 +3171,12 @@ ZoomForwardBack3D
 \tWarning
 \t[?setPosition@QTextCursor@@QEAAXHW4MoveMode@1@@Z
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
+\t\tV_atanf
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%s\n
 \t_MakeGlobalSymbol
 \t_V_strncmp
 \t_V_strncpy
 \t_V_strnicmp_fast
-\tg_bUpdateStringTokenDatabase
 \tg_flConfigMaxCoord
 \tg_pMemAlloc
 \tkE>fvw
@@ -3182,7 +3200,6 @@ ZoomForwardBack3D
 \v?fixup@QSpinBox@@MEBAXAEAVQString@@@Z
 \v?focusChanged@QApplication@@QEAAXPEAVQWidget@@0@Z
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
-\v\tV_atof
 ]\r?horizontalOffset@QListView@@MEBAHXZ
 ^?text@QClipboard@@QEBA?AVQString@@W4Mode@1@@Z
 ^L7B
@@ -3206,6 +3223,7 @@ __unaligned
 __vectorcall
 `?validate@QIntValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `RTTI
+`\tV_powf
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `anonymous namespace'
 `copy constructor closure'
@@ -3244,7 +3262,6 @@ __vectorcall
 `virtual displacement map'
 a?windowText@QPalette@@QEBAAEBVQBrush@@XZ
 a?write@QStandardItem@@UEBAXAEAVQDataStream@@@Z
-a\tV_powf
 abcdefghijklmnopqrstuvwxyz
 actions
 address family not supported
@@ -3264,6 +3281,7 @@ bIncrementalUpdate
 bIsEnabled
 bIsIncrementalUpdate
 bPermanent
+b\tV_qsort_s
 b\v?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
 background
 backgroundEnabled
@@ -3288,10 +3306,20 @@ bold
 bottom
 broken pipe
 byteSize
-c\tV_qsort_s
 centralWidget
 central_widget
 checkstate
+cl_aggregate_particles
+cl_particle_batch_mode
+cl_particle_fallback_base
+cl_particle_fallback_multiplier
+cl_particle_max_count
+cl_particle_retire_cost
+cl_particle_sim_fallback_base_multiplier
+cl_particle_sim_fallback_threshold_ms
+cl_particle_simulate
+cl_particles_dumplist
+cl_particles_dumpsimlist
 clear_group
 clicked
 colorSelected
@@ -3331,11 +3359,13 @@ eF>t
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
 elapsed
+end time
 end_as_info
 end_group
 entity index
 entity: position (dist)
 event
+event type
 executable format error
 f\n?dragEnterEvent@QAbstractScrollArea@@MEAAXPEAVQDragEnterEvent@@@Z
 f\r?horizontalScrollbarAction@QAbstractItemView@@MEAAXH@Z
@@ -3409,6 +3439,7 @@ i\v?event@QTableWidget@@MEAA_NPEAVQEvent@@@Z
 identifier removed
 illegal byte sequence
 inappropriate io control operation
+info
 interrupted
 invalid seek
 invalid string position
@@ -3416,6 +3447,7 @@ invalid_parameter
 io error
 is a directory
 italic
+item
 itemChanged
 jY?setFamily@QFont@@QEAAXAEBVQString@@@Z
 j\v?event@QTextBrowser@@MEAA_NPEAVQEvent@@@Z
@@ -3425,6 +3457,7 @@ k\v?event@QTextEdit@@MEAA_NPEAVQEvent@@@Z
 keyPressEvent
 lR?metaObject@QIntValidator@@UEBAPEBUQMetaObject@@XZ
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+l\tV_sincosf
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 labelPos
 labelText
@@ -3443,13 +3476,14 @@ lowprecisionuv
 lowprecisionuv1
 mG4>
 mX?setBlueF@QColor@@QEAAXN@Z
-m\tV_sincosf
 m_Background
 m_BackgroundMap
 m_Bindings
+m_Command
 m_Context
 m_Exposure
 m_Grid
+m_Input
 m_InputMacros
 m_MapName
 m_PointLights
@@ -3459,6 +3493,7 @@ m_SpotLights
 m_Suns
 m_bBakedTwoSided
 m_bCanBatchWithDynamicShaderConstants
+m_bCastShadows
 m_bDrawLast
 m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingFromVertexStream
@@ -3472,11 +3507,23 @@ m_bRender3DSkybox
 m_bUseCompressedNormalTangent
 m_bUseShadowFastPath
 m_flAxisScale
+m_flBrightness
+m_flDistance
+m_flInnerConeAngle
 m_flLightSourceRadius
 m_flMaxEV
 m_flMinEV
+m_flOuterConeAngle
+m_flRadius
+m_flShadowCascadeDistance0
+m_flShadowCascadeDistance1
+m_flShadowCascadeDistance2
+m_flShadowCascadeDistance3
 m_hPostProcessing
+m_hSkyMaterial
 m_nRigType
+m_sId
+m_vDirection
 m_vLookAt
 matches
 materials/dev/gray_50.vmat
@@ -3511,19 +3558,26 @@ materials/tools/vertex_color_translucent.vmat
 materials/tools/wireframe_vertex_color.vmat
 materials/tools/wireframe_vertex_color_translucent.vmat
 maxValue
+maximum
 medium
 menu
 menuAction
 menus
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 message size
 minValue
+minimum
 mixgroup
+model_default_preview_sequence_name
 monitor_pid
 mute
 n03>Pu
 nAlpha
 nColumn
 nDelayInMS
+nIndex
 nMode
 nModifiers
 nMouseButton
@@ -3532,6 +3586,7 @@ nRow
 nSkipUpdate
 nX?setBold@QFont@@QEAAX_N@Z
 n\n?dragEnterEvent@QTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+n\tV_sinf
 n\v?event@QToolButton@@MEAA_NPEAVQEvent@@@Z
 network down
 network reset
@@ -3557,7 +3612,6 @@ not a stream
 not connected
 not enough memory
 o\n?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
-o\tV_sinf
 o\v?event@QTreeWidget@@MEAA_NPEAVQEvent@@@Z
 offsetDelta
 op all stop
@@ -3580,6 +3634,7 @@ owner dead
 pCurrentFocusWidget
 pEvent
 pFilter
+pItem
 pLightRigButton
 pPrevFocusWidget
 pToolButton
@@ -3596,15 +3651,22 @@ pet_preview_gravity
 pet_preview_underwater
 pickedColor
 posxyz
+priority
 process
 protocol error
 protocol not supported
 purecall
 q\n?dragLeaveEvent@QAbstractScrollArea@@MEAAXPEAVQDragLeaveEvent@@@Z
+q\tV_snprintf
 q\v?event@QWidgetAction@@MEAA_NPEAVQEvent@@@Z
 quiet
-r\tV_snprintf
 r\tVr.>T
+r\vph^
+r_freezeparticles
+r_limit_particle_job_duration
+r_particle_timescale
+r_threaded_particle_creation
+r_threaded_particles
 range check failure
 read only file system
 resource deadlock would occur
@@ -3640,6 +3702,8 @@ spacing
 stack buffer overrun (/GS failure)
 stacked
 stacked_one
+start
+start time
 state not recoverable
 stream timeout
 stretch
@@ -3694,6 +3758,7 @@ very_fast
 vffValueSetIn
 vmix
 vnotify_ui
+volume
 w\n?connectImpl@QObject@@CA?AVConnection@QMetaObject@@PEBV1@PEAPEAX01PEAVQSlotObjectBase@QtPrivate@@W4ConnectionType@Qt@@PEBHPEBU3@@Z
 w\n?dragLeaveEvent@QLineEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
 waiting_group
@@ -3709,7 +3774,7 @@ z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 {\n?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 {\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
 |"?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
+|\tV_stricmp_fast
 }\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
-}\tV_stricmp_fast
 ~CModelInstance destructor: leaking softbody because physics world disappeared\n
 ~\n?dragMoveEvent@QAbstractScrollArea@@MEAAXPEAVQDragMoveEvent@@@Z

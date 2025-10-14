@@ -231,10 +231,12 @@ $J6"t
 $JXsZ
 $XI(6
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
+$\tV_fmodd
 $d`D-laM
 $f;Zv9l\r
 $g#8lu#
 $hRh 
+$keyValueChildren
 $prefix_attribute$
 $prefix_element$
 % ?timerEvent@QMenu@@MEAAXPEAVQTimerEvent@@@Z
@@ -311,7 +313,7 @@ $prefix_element$
 %Gdnv
 %I64i
 %\?setUnderline@QFont@@QEAAX_N@Z
-%\tV_fmodd
+%\tV_fmodf
 %]?sibling@QStandardItemModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
 %aIwV
 %bw+s
@@ -468,7 +470,6 @@ $prefix_element$
 &Windows...
 &Ylb
 &\nNx+\nCh,\n'
-&\tV_fmodf
 '%s' is not a valid variable type
 '()+,-./:=?
 '5'7'M'S'U'_'k'm's'w'
@@ -503,6 +504,7 @@ $prefix_element$
 (ZdOt\n&
 (\f?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
 (\r?hideEvent@QAbstractSpinBox@@MEAAXPEAVQHideEvent@@@Z
+(\tV_fpclassifyd
 (\v?enterEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
 (d4t8
 (fS{ggRcjh
@@ -523,7 +525,7 @@ $prefix_element$
 )\f?focusOutEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
 )\r?hideEvent@QComboBox@@MEAAXPEAVQHideEvent@@@Z
 )\t?buddy@QAbstractItemModel@@UEBA?AVQModelIndex@@AEBV2@@Z
-)\tV_fpclassifyd
+)\tV_fprintf
 )\v?createData@QMapDataBase@@SAPEAU1@XZ
 )\v?enterEvent@QWidget@@MEAAXPEAVQEvent@@@Z
 )fuG
@@ -556,7 +558,8 @@ $prefix_element$
 *Y$ve
 *\f?focusOutEvent@QAbstractSpinBox@@MEAAXPEAVQFocusEvent@@@Z
 *\fhsD
-*\tV_fprintf
+*_left
+*_right
 *extraFilterString=tileset
 *gFBk
 *hbJ1
@@ -920,7 +923,6 @@ $prefix_element$
 .?AV<lambda_1>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@
 .?AV<lambda_1>@?1???R<lambda_2>@?1??SimulateParticles@CParticleMgr@@AEAAXAEAV?$CUtlVectorFixedGrowableCompat@UParticleSimListItem_t@CParticleMgr@@$0EAA@H@@@Z@QEBA@XZ@
 .?AV<lambda_1>@?1??ApplyMapVariableOverrideValuesToTargetMap@CMapPrefab@@AEBAXXZ@
-.?AV<lambda_1>@?1??GetMovableMeshId@CNavMovableMeshesManager@@QEBAIPEBVCNavArea@@@Z@
 .?AV<lambda_1>@?1??Restart@CNewParticleEffect@@QEAAXXZ@
 .?AV<lambda_1>@?1??SetupAccelerationStructure@RayTracingEnvironment@@QEAAXXZ@
 .?AV<lambda_1>@?1??StopEmission@CNewParticleEffect@@QEAAX_N000@Z@
@@ -2326,7 +2328,6 @@ $prefix_element$
 .?AV?$_Func_base@PEBDPEBD@std@@
 .?AV?$_Func_base@VCPulseValueFullType@@$$V@std@@
 .?AV?$_Func_base@X$$V@std@@
-.?AV?$_Func_base@XAEBI@std@@
 .?AV?$_Func_base@XPEAVCGlobalHotkeyCommands@@@std@@
 .?AV?$_Func_base@XPEAVCQBindableCommandPushButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@std@@
 .?AV?$_Func_base@XPEAVCQBindableCommandToolButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@std@@
@@ -2382,7 +2383,6 @@ $prefix_element$
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?$PulseBindingSchemaEnumTraits_t@W4PulseCursorCancelPriority_t@@@@VCPulseValueFullType@@$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???R<lambda_2>@?1??SimulateParticles@CParticleMgr@@AEAAXAEAV?$CUtlVectorFixedGrowableCompat@UParticleSimListItem_t@CParticleMgr@@$0EAA@H@@@Z@QEBA@XZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??ApplyMapVariableOverrideValuesToTargetMap@CMapPrefab@@AEBAXXZ@PEBDPEBD@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??GetMovableMeshId@CNavMovableMeshesManager@@QEBAIPEBVCNavArea@@@Z@XAEBI@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??Restart@CNewParticleEffect@@QEAAXXZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SetupAccelerationStructure@RayTracingEnvironment@@QEAAXXZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??StopEmission@CNewParticleEffect@@QEAAX_N000@Z@X$$V@std@@
@@ -2979,6 +2979,7 @@ $prefix_element$
 .?AVCSmartPropAttributeScaleMode@@
 .?AVCSmartPropAttributeStateName@@
 .?AVCSmartPropAttributeString@@
+.?AVCSmartPropAttributeSurfaceProperty@@
 .?AVCSmartPropAttributeTraceNoHit@@
 .?AVCSmartPropAttributeVariableValue@@
 .?AVCSmartPropAttributeVector2D@@
@@ -3098,6 +3099,7 @@ $prefix_element$
 .?AVCSmartPropVariable_RadiusPlacementMode@@
 .?AVCSmartPropVariable_ScaleMode@@
 .?AVCSmartPropVariable_String@@
+.?AVCSmartPropVariable_SurfaceProperty@@
 .?AVCSmartPropVariable_TraceNoHit@@
 .?AVCSmartPropVariable_Vector2D@@
 .?AVCSmartPropVariable_Vector3D@@
@@ -3366,7 +3368,7 @@ $prefix_element$
 .?AVsystem_error@std@@
 .?AVtask_canceled@Concurrency@@
 .?AVtype_info@@
-.Acl_aggregate_particles
+.ADump all new particles, optional name substring.
 .CRT$XCA
 .CRT$XCC
 .CRT$XCL
@@ -3729,6 +3731,7 @@ $prefix_element$
 0 to 1 value controlling how much random offset is applied to each point. A value of 0 will generate a regular grid of points.
 0 to 1 value indicating the amout of random offset that should be applied to the reguluarly spaced positions
 0 to 1 value specifying the location on the local x-axis of the deformer around which the bend will occur. A value of 0 means the bend will occur around the minimum end of the deformer, a value of 1 means the bend will occur around the maximum end of the deformer, a value of 0.5 means the bend will occur at the center of the deformer volume.
+0.0 1.0
 0.0 180.0
 0.0 to 1.0 value indicating the probability of this element being evaluated. Where a value of 0 means the element will never be evaluated and 1.0 means it will always be evaluated
 0.001 1.0
@@ -3740,9 +3743,7 @@ $prefix_element$
 0;Q5[
 0<cz
 0E>X
-0Lpx
 0M2~@p
-0PPx
 0W/5
 0X8b?~
 0Z@q
@@ -3832,9 +3833,9 @@ $prefix_element$
 2:3maJ
 2:pS
 2D Views
-2D'x
 2I y)
 2OnDownPressed()
+2T`x
 2Tm=#
 2Uiwp"9
 2Zq)
@@ -3846,6 +3847,7 @@ $prefix_element$
 2\rU2t
 2\rlhp
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
+2\vp\fe
 2^pV
 2a"l
 2aboutToShow()
@@ -4373,6 +4375,7 @@ $prefix_element$
 ?AddNullTermination@CUtlBuffer@@IEAAXXZ
 ?AddString@CUtlSymbolTable@@QEAA?AVCUtlSymbol@@PEBDPEA_N@Z
 ?AddSubKey@KeyValues@@QEAAXPEAV1@@Z
+?AlignBufferGet@CUtlBuffer@@QEAA_NH@Z
 ?Alloc@CUtlMemoryPoolBase@@QEAAPEAXXZ
 ?AllocAligned@CUtlScratchMemoryPool@@QEAAPEAXHH@Z
 ?AllocZero@CUtlMemoryPoolBase@@QEAAPEAXXZ
@@ -4469,7 +4472,6 @@ $prefix_element$
 ?LoadKV3Text_NoHeader@@YA_NPEAVKeyValues3@@PEAVCUtlString@@PEBDAEBUKV3ID_t@@2I@Z
 ?Lock@CThreadMutex@@QEAAXPEBDH@Z
 ?Lock@CThreadSpinMutex@@AECAXPEBDHII@Z
-?LockForWrite@CThreadRWLock@@QEAAXPEBDH@Z
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@AEBULoggingRareOptions_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@PEBULoggingMetaData_t@@PEBDZZ
 ?LoggingSystem_Log@@YA?AW4LoggingResponse_t@@HW4LoggingSeverity_t@@PEBULoggingMetaData_t@@VColor@@PEBDZZ
@@ -4477,6 +4479,7 @@ $prefix_element$
 ?MakeAbsolutePath@CBufferString@@QEAAPEBDPEBD0@Z
 ?MakeCopy@KeyValues@@QEBAPEAV1@XZ
 ?MakeRelativePath@CBufferString@@QEAAPEBDPEBD0_N@Z
+?MatchesPattern@CUtlString@@QEBA_NAEBV1@H@Z
 ?MergeFrom@KeyValues@@QEAAXPEBV1@W4MergeKeyValuesOp_t@1@@Z
 ?MoveFrom@CBufferString@@QEAAXAEAV1@@Z
 ?ParallelCallQueued@CCallQueue@@QEAAXPEBDPEAVIThreadPool@@@Z
@@ -4517,7 +4520,6 @@ $prefix_element$
 ?Scanf@CUtlBuffer@@QEAAHPEBDZZ
 ?SeekGet@CUtlBuffer@@QEAAXW4SeekType_t@1@H@Z
 ?SeekPut@CUtlBuffer@@QEAAXW4SeekType_t@1@H@Z
-?Set@CThreadEvent@@QEAA_NXZ
 ?Set@CThreadMultiWaitEvent@@QEAAXXZ
 ?Set@CUtlBinaryBlock@@QEAAXPEBXH@Z
 ?Set@CUtlString@@QEAAXPEBD@Z
@@ -4537,7 +4539,6 @@ $prefix_element$
 ?SetString@KeyValues@@QEAAXPEBD0@Z
 ?ShortenPath@CBufferString@@QEAAPEBD_N@Z
 ?Slice@CUtlString@@QEBA?AV1@HH@Z
-?SpinLockForWrite@CThreadSpinRWLock@@AEAAXPEBDHI@Z
 ?Split@CSplitString@@AEAAXPEBDHPEAPEBDH_N@Z
 ?SplitString@CUtlStringList@@AEAAXPEBDPEBQEBDH@Z
 ?StartsWith@CBufferString@@QEBA_NPEBD@Z
@@ -4557,19 +4558,15 @@ $prefix_element$
 ?TruncateAt@CBufferString@@QEAAPEBDPEBD_N@Z
 ?UUUUUU
 ?Unknown
-?Unlock@CThreadMutex@@QEAAXPEBDH@Z
 ?UnlockReadAccounting@CThreadRWLock_FastRead@@IEAAXPEBDHI@Z
 ?UnlockRead_LockForWrite@CThreadRWLock_FastRead@@QEAA?AW4RWLockTranstionResult_t@@PEBDHW4WriteLockTransition_t@1@@Z
-?UnlockWrite@CThreadRWLock@@QEAAXPEBDH@Z
 ?UnlockWrite@CThreadRWLock_FastRead@@QEAAXPEBDH@Z
-?UnlockWrite@CThreadSpinRWLock@@QEAAXPEBDH@Z
 ?UnqualifiedFilenameAlloc@CUtlString@@QEBA?AV1@XZ
 ?VBH;
 ?V_SplitString@@YAXPEBD0AEAV?$CUtlVector@VCUtlString@@HV?$CUtlVectorMemory_Growable@VCUtlString@@H$0A@@@@@_N@Z
 ?V_stristr_fast@@YAPEBDPEBD0@Z
 ?V_strnlen@@YAHPEBDH@Z
 ?Wait@CThreadSyncObject@@QEAA_NI@Z
-?WaitForRead@CThreadRWLock@@AEAAXXZ
 ?absoluteFilePath@QFileInfo@@QEBA?AVQString@@XZ
 ?accept@QDialog@@UEAAXXZ
 ?actionEvent@QMenu@@MEAAXPEAVQActionEvent@@@Z
@@ -4714,6 +4711,7 @@ $prefix_element$
 ?fromUtf8@QString@@SA?AV1@PEBDH@Z
 ?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?gwL
+?hammer_parallel_terrain_update
 ?hammer_show_light_truncation_error
 ?hasChildren@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
 ?headerData@QSortFilterProxyModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
@@ -5478,6 +5476,7 @@ $prefix_element$
 @X!pf
 @Zs3
 @\f1OJ
+@\tV_isnand
 @\v?event@QFrame@@MEAA_NPEAVQEvent@@@Z
 @^8U)zj
 @dKb]
@@ -5517,6 +5516,16 @@ ACT_IDLE
 ACT_NEUTRAL_REF_POSE
 AD Time Stamping
 ADD_CERT_DIR
+ADD_FLOAT
+ADD_FLOAT_GAMETIME
+ADD_GAMETIME_FLOAT
+ADD_INT
+ADD_STRING
+ADD_VEC2
+ADD_VEC3
+ADD_VEC3WS_VEC3
+ADD_VEC3_VEC3WS
+ADD_VEC4
 ADH-AES128-GCM-SHA256
 ADH-AES128-SHA
 ADH-AES128-SHA256
@@ -5587,6 +5596,12 @@ AES_INIT_KEY
 AES_T4_INIT_KEY
 AES_XTS
 AES_XTS_CIPHER
+AF_ENTITIES
+AF_FAKE_ENTITIES
+AF_NONE
+AF_PANORAMA
+AF_PARTICLES
+AF_SELECTORS_WITHOUT_REQUIREMENTS
 AGgV
 AI\tHpH8x
 AJsN
@@ -5724,7 +5739,6 @@ AUTHORITY_KEYID
 AW:S
 AWt.
 A\rjW
-A\tV_isnand
 AbW_
 About...
 Abs Float
@@ -5737,6 +5751,7 @@ Acceptable OCSP Responses
 Access violation - no RTTI data!
 Acoustic Material
 AcquireSRWLockExclusive
+AcquireSRWLockShared
 Activate
 Activate %s
 ActivateAndClose
@@ -5813,6 +5828,8 @@ AntiAliasStrength
 Any Extended Key Usage
 Any Other Cursors Have Tag
 Any Purpose
+Any cursors above this count will wait, up to the limit.
+Any extra waiting cursors will be terminated. -1 for infinite cursors.
 Any language
 AppPolicyGetProcessTerminationMethod
 AppPolicyGetShowDeveloperDiagnostic
@@ -5832,6 +5849,7 @@ Apply a rotation to the current transform.
 Apply a scale to the current transform.
 Apply scale to the last element in order to fit the line. Only proceed to scale additional elements if the scale range of the last element is not sufficient.
 Apply the active deformer to the current transform as a rigid deformation and disable the deformer.
+Apply the same tag we're waiting on to the resulting cursor upon wait completion. Can be used to wait on our result cursor with the same tag.
 ApplyColorMode_t
 ApplyDeformer
 ApplyTransform
@@ -5870,6 +5888,7 @@ Array Shuffle
 Array of Array of String
 Array of Enum
 Array of Int
+Array support.
 Artist
 AsShotICCProfile
 AsShotNeutral
@@ -5885,8 +5904,10 @@ AssignMaterialToOverlay
 AssignSmoothingModeToEdges
 Async Fire C%d:I%d
 Async Simulate Particles
+Asynchronous - returns and continues despite the called method yielding
 AtlasToVolumeTextureConversion(3086): Error! Unable to parse grid/slice count from volume atlas filename: %s\n
 Attachment Mode
+Attachments
 Attempt to apply the same amount of scale to all of the elements placed on the line while still respecting their size constraints.
 Attempted to add two format updaters with the same file format (%s)!\n
 Attempted to add two legacy updaters with the same file format (%s)!\n
@@ -6114,6 +6135,7 @@ BaselineExposure
 BaselineNoise
 BaselineSharpness
 Basic OCSP Response
+Basic math support.
 Basis Type: %s\n
 BayerGreenSplit
 BcT`
@@ -6128,6 +6150,7 @@ Bend Radius
 Bend amount to apply, specified in degrees. Bend occurs along the local x-axis and bends around the local z-axis
 BestQualityScale
 Between the attribute label and editor
+Bezier
 Bh;+j
 Big Number part of OpenSSL 1.0.2j  26 Sep 2016
 Binary
@@ -6143,6 +6166,7 @@ BlackLevel
 BlackLevelDeltaH
 BlackLevelDeltaV
 BlackLevelRepeatDim
+Blend
 Blend Layer 1 (R)
 Blend Layer 2 (G)
 Blend Layer 3 (B)
@@ -6150,6 +6174,9 @@ Blend Weight Scale
 Blend weight at which the model will be at full density. Must be between the minimum and maximum blend weight values. The density of this model placement will increase with the blend weight value up to this value at which point it will be at full density.
 BlendLayersUsingTimeSelection
 BoX5
+Body
+Bool
+Boolean Switch State
 Bottom Edge
 Bottom Left Corner
 Bottom Right Corner
@@ -6183,7 +6210,7 @@ BuildOnlyBaseTileGometry
 BuildParticleSimList
 BuildRenderDataForPolygonGroup
 BuildRenderDataForPolygonGroup(478): 
-BuildSolidRenderData(553): 
+BuildSolidRenderData(554): 
 BuildSteamAudioCustomData
 BuildSteamAudioPaths
 BuildSteamAudioReverb
@@ -6224,7 +6251,6 @@ C:\buildworker\csgo_rel_win64\build\src\mapdoclib\maptilegrid.cpp
 C:\buildworker\csgo_rel_win64\build\src\mapdoclib\maptilemeshgroup.cpp
 C:\buildworker\csgo_rel_win64\build\src\mapdoclib\polygonmeshinstancerenderdata.cpp
 C:\buildworker\csgo_rel_win64\build\src\mapdoclib\polygonmeshrenderdata.cpp
-C:\buildworker\csgo_rel_win64\build\src\mapdoclib\tagvisualization.cpp
 C:\buildworker\csgo_rel_win64\build\src\mapdoclib\tileinstanceset.cpp
 C:\buildworker\csgo_rel_win64\build\src\mapdoclib\tilesetmapmgr.cpp
 C:\buildworker\csgo_rel_win64\build\src\mapdoclib\windcontrollerhelper.cpp
@@ -6246,7 +6272,6 @@ C:\buildworker\csgo_rel_win64\build\src\public\tier0\utlblockvector.h
 C:\buildworker\csgo_rel_win64\build\src\public\tier0\utldict.h
 C:\buildworker\csgo_rel_win64\build\src\public\tier0\utlmap.h
 C:\buildworker\csgo_rel_win64\build\src\public\tier0\utlrbtree.h
-C:\buildworker\csgo_rel_win64\build\src\public\tier0\utlsymboltable.h
 C:\buildworker\csgo_rel_win64\build\src\public\tier0\utlsymboltablelarge.h
 C:\buildworker\csgo_rel_win64\build\src\public\vpklib\packedstore.h
 C:\buildworker\csgo_rel_win64\build\src\qcontrols\qimagecache.cpp
@@ -6374,6 +6399,7 @@ CDmeTileSetMapInfo
 CDmeTypedLog< T >::BlendLayersUsingTimeSelection
 CDmeTypedLogLayer::Compress
 CDmeTypedLogLayer::Decompress
+CELL_INVOKE
 CENTER
 CERTIFICATE
 CERTIFICATE PAIR
@@ -6399,7 +6425,10 @@ CHECK_NAME_CONSTRAINTS
 CHECK_PADDING_MD
 CHECK_POLICY
 CHECK_SUITEB_CIPHER_LIST
+CHUNK_LEAP
+CHUNK_LEAP_COND
 CHammerMesh
+CIRCLE
 CIconHelper::SetMaterialByName
 CImagePlaneNode
 CImagePlaneNode::RebuildRenderBuffers(341): 
@@ -6625,9 +6654,12 @@ CModuleManifests
 CNavArea::PostLoad: Corrupt navigation data. Cannot connect Navigation Areas.\n
 CNavArea::PostLoad: Corrupt navigation ladder data. Cannot connect Navigation Areas.\n
 CNavGenParams - Nav mesh requests project default generation parameters but actual parameters\n  used during construction differ from defaults. Please re-export the map.\n
+CNavHullPresetVData
+CNavHullVData
 CNavMesh::AddNavArea - Adding nav area to mesh with no grid extents defined.
 CNavMesh::CreateArea
 CNavMesh::Update
+CNewParticleEffect
 CNewParticleEffect::DetectChanges
 COLLECT_DATA
 COMMAND_TEXT_MODE_BUTTON
@@ -6651,15 +6683,19 @@ CONNECT
 CONN_CTRL
 CONN_STATE
 CONTROL_POINTS
+CONVERT_VALUE
+COPY
 COPY_EMAIL
 COPY_ISSUER
 CORNER
+COUNT
 CObjectSelectionSetDataElement
 CPBQ
 CPackedStore::CPackedStore
 CPackedStore::VerifySingleChunk
 CParticleHelper::SetDefinitionByName
-CParticleMgr::SimulateParticles(), C:\buildworker\csgo_rel_win64\build\src\particleslib\particlemgr.cpp:1077
+CParticleMgr::SimulateParticles(), C:\buildworker\csgo_rel_win64\build\src\particleslib\particlemgr.cpp:1140
+CParticleProperty
 CParticleProperty::AddControlPoint
 CParticleProperty::SetControlPoint
 CPathTraceMaterialLookup::AddTexture - failed to convert to RGBA8888 %s\n
@@ -6672,6 +6708,7 @@ CPolygonMeshRenderData
 CPolygonMeshRenderData::BuildVertexAndIndexBuffers(1138): 
 CPolygonMeshRenderData::BuildVertexAndIndexBuffersForFaces(376): 
 CPolygonMeshRenderData_Model
+CPulseArraylib
 CPulseArraylib::ArrayAppend
 CPulseArraylib::ArrayConcatenate
 CPulseArraylib::ArrayCount
@@ -6682,12 +6719,47 @@ CPulseArraylib::ArrayRemoveIndex
 CPulseArraylib::ArrayRemoveInvalidElements
 CPulseArraylib::ArraySetCount
 CPulseArraylib::ArrayShuffle
+CPulseCell_BaseLerp
+CPulseCell_BaseLerp::CursorState_t
+CPulseCell_BaseState
+CPulseCell_BaseValue
+CPulseCell_BooleanSwitchState
+CPulseCell_BooleanSwitchState::Activate
+CPulseCell_CursorQueue
+CPulseCell_CursorQueue::Wait
+CPulseCell_FireCursors
+CPulseCell_FireCursors::Cancel
+CPulseCell_FireCursors::Start
 CPulseCell_Inflow_EntOutputHandler '%s'.'%s' --> Chunk%d: %s
 CPulseCell_Inflow_EventHandler '%s' --> Chunk%d: %s
 CPulseCell_Inflow_GraphHook '%s' --> Chunk%d: %s
 CPulseCell_Inflow_ObservableVariableListener '%s'.'%s (%u)' --> Chunk%d: %s
+CPulseCell_IntervalTimer
+CPulseCell_IntervalTimer::CursorState_t
 CPulseCell_IntervalTimer::OnInterval
+CPulseCell_IntervalTimer::Start
+CPulseCell_IntervalTimer::StopTimer
+CPulseCell_LimitCount::InstanceState_t
+CPulseCell_Outflow_CycleOrdered::InstanceState_t
+CPulseCell_Outflow_CycleShuffled::InstanceState_t
 CPulseCell_Step_CallExternalMethod '%s'
+CPulseCell_Timeline
+CPulseCell_Timeline::Start
+CPulseCell_Timeline::Stop
+CPulseCell_Timeline::TimelineEvent_t
+CPulseCell_Unknown
+CPulseCell_Value_Curve
+CPulseCell_Value_Curve::Eval
+CPulseCell_Value_Gradient
+CPulseCell_Value_Gradient::Eval
+CPulseCell_WaitForCursorsWithTag
+CPulseCell_WaitForCursorsWithTag::Wait
+CPulseCell_WaitForCursorsWithTagBase
+CPulseCell_WaitForCursorsWithTagBase::CursorState_t
+CPulseCell_WaitForObservable
+CPulseCell_WaitForObservable::Cancel
+CPulseCell_WaitForObservable::Start
+CPulseCursorFuncs
 CPulseCursorFuncs::AnyOtherCursorsHaveTag
 CPulseCursorFuncs::CursorHasTag
 CPulseCursorFuncs::KillAllOtherCursors
@@ -6696,8 +6768,11 @@ CPulseCursorFuncs::KillThisCursorAndCancel
 CPulseCursorFuncs::KillThisCursorAndFail
 CPulseCursorFuncs::RemoveTagFromCursor
 CPulseCursorFuncs::TagCursor
+CPulseGraphDef
+CPulseGraphExecutionHistory
 CPulseGraphInstance_SmartPropEval
 CPulseGraphInstance_SmartPropEval::Evaluate
+CPulseMathlib
 CPulseMathlib::AbsFloat
 CPulseMathlib::AbsInt
 CPulseMathlib::ArcCos
@@ -6728,6 +6803,7 @@ CPulseMathlib::Log
 CPulseMathlib::Log10
 CPulseMathlib::Log2
 CPulseMathlib::MakeAngle
+CPulseMathlib::MakeAngleFromForwardVector
 CPulseMathlib::MakeColor
 CPulseMathlib::MakeTransform
 CPulseMathlib::MakeVector
@@ -6764,11 +6840,24 @@ CPulseMathlib::Sqrt
 CPulseMathlib::Tan
 CPulseMathlib::VectorToWorldVector
 CPulseMathlib::WorldVectorToVector
+CPulseTestScriptLib
 CPulseTestScriptLib::AssertTrue
 CPulseTestScriptLib::IndicateTestFailure
 CPulseTestScriptLib::IsInTestMode
 CPulseTestScriptLib::RegisterTestCheckpoint
 CPulseTestScriptLib::TestModeAssertTrue
+CPulse_BlackboardReference
+CPulse_CallInfo
+CPulse_Chunk
+CPulse_Constant
+CPulse_DomainValue
+CPulse_InvokeBinding
+CPulse_OutflowConnection
+CPulse_OutputConnection
+CPulse_PublicOutput
+CPulse_RegisterInfo
+CPulse_ResumePoint
+CPulse_Variable
 CQBaseEditorMdiFrame
 CQBaseEditorSessionCheckin
 CQBaseEditorSessionStatus
@@ -6890,6 +6979,7 @@ CSmartPropAttributeRadiusPlacementMode
 CSmartPropAttributeScaleMode
 CSmartPropAttributeStateName
 CSmartPropAttributeString
+CSmartPropAttributeSurfaceProperty
 CSmartPropAttributeTraceNoHit
 CSmartPropAttributeVariableValue
 CSmartPropAttributeVector
@@ -6979,22 +7069,35 @@ CSmartPropOperation_TraceToPoint
 CSmartPropParameter
 CSmartPropPulse_BaseQueryableFlow
 CSmartPropPulse_CreateLocator
+CSmartPropPulse_CreateLocator::Run
 CSmartPropPulse_CreateRotator
+CSmartPropPulse_CreateRotator::Run
 CSmartPropPulse_CreateSizer
+CSmartPropPulse_CreateSizer::Run
 CSmartPropPulse_CriteriaPathPosition
+CSmartPropPulse_CriteriaPathPosition::CheckRequirement
 CSmartPropPulse_CriteriaPathPosition::Criteria_t
 CSmartPropPulse_FitOnLine
+CSmartPropPulse_FitOnLine::Pick
 CSmartPropPulse_Group
+CSmartPropPulse_Group::Run
 CSmartPropPulse_PickOneSelector
+CSmartPropPulse_PickOneSelector::Pick
 CSmartPropPulse_PlaceInSphere
+CSmartPropPulse_PlaceInSphere::Run
 CSmartPropPulse_PlaceOnPath
+CSmartPropPulse_PlaceOnPath::Place
 CSmartPropPulse_SelectionChoiceWeight
+CSmartPropPulse_SelectionChoiceWeight::CheckRequirement
 CSmartPropPulse_SelectionChoiceWeight::Criteria_t
 CSmartPropPulse_SelectionEndCap
+CSmartPropPulse_SelectionEndCap::CheckRequirement
 CSmartPropPulse_SelectionEndCap::Criteria_t
 CSmartPropPulse_SelectionLinearLength
+CSmartPropPulse_SelectionLinearLength::CheckRequirement
 CSmartPropPulse_SelectionLinearLength::Criteria_t
 CSmartPropPulse_SmartProp
+CSmartPropPulse_SmartProp::Run
 CSmartPropRoot
 CSmartPropSelectionCriteria
 CSmartPropSelectionCriteria_EndCap
@@ -7025,6 +7128,7 @@ CSmartPropVariable_PickMode
 CSmartPropVariable_RadiusPlacementMode
 CSmartPropVariable_ScaleMode
 CSmartPropVariable_String
+CSmartPropVariable_SurfaceProperty
 CSmartPropVariable_TraceNoHit
 CSmartPropVariable_Vector2D
 CSmartPropVariable_Vector3D
@@ -7067,6 +7171,9 @@ CToolSceneVmap
 CToolsConfig
 CTrajectoryPath
 CTrajectoryPathNode
+CURSOR_ADD_TAG
+CURSOR_REMOVE_TAG
+CURSOR_RETIRED
 CURVE_TANGENT_FREE
 CURVE_TANGENT_MIRROR
 CURVE_TANGENT_SINE
@@ -7112,7 +7219,6 @@ CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct ActiveLayer_t<float> *,unsigned
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct ActiveLayer_t<int> *,unsigned short>,unsigned short,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct ActiveLayer_t<unsigned __int64> *,unsigned short>,unsigned short,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct ActiveLayer_t<unsigned char> *,unsigned short>,unsigned short,class CMemAllocAllocator>::EnsureCapacity
-CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CNavPairMap<unsigned int,class CNavArea *>::TU_t,unsigned int>,unsigned int,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CToolSceneNode *,struct CToolScene::Empty_t,class CDefLess<class CToolSceneNode *>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,class CUtlString,class CDefStringLess,unsigned short>::Node_t,unsigned short>,unsigned short,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlSymbolLarge,class CEntityNameList *,class CDefLess<class CUtlSymbolLarge>,unsigned short>::Node_t,unsigned short>,unsigned short,class CMemAllocAllocator>::EnsureCapacity
@@ -7183,8 +7289,6 @@ CUtlRBTree<struct ActiveLayer_t<unsigned __int64> *,class CLessFunc<&public: sta
 CUtlRBTree<struct ActiveLayer_t<unsigned char> *,class CLessFunc<&public: static bool __cdecl ActiveLayer_t<unsigned char>::PriorityLessFunc(struct ActiveLayer_t<unsigned char> * const &,struct ActiveLayer_t<unsigned char> * const &)>,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct ActiveLayer_t<unsigned char> *,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CDmElementSerializationDictionary::ElementInfo_t,class CLessFunc<&private: static bool __cdecl CDmElementSerializationDictionary::LessFunc(struct CDmElementSerializationDictionary::ElementInfo_t const &,struct CDmElementSerializationDictionary::ElementInfo_t const &)>,int,class CUtlBlockVector<struct UtlRBTreeNode_t<struct CDmElementSerializationDictionary::ElementInfo_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CHalfEdgeComponentList<struct CHalfEdgeMesh<int,struct EdgeDataPair_t,int>::Face_t,22>::ComponentHandleWithListPointer_t,class CLessFunc<&public: static bool __cdecl CHalfEdgeComponentList<struct CHalfEdgeMesh<int,struct EdgeDataPair_t,int>::Face_t,22>::ComponentHandleWithListPointer_t::LessFunc(struct CHalfEdgeComponentList<struct CHalfEdgeMesh<int,struct EdgeDataPair_t,int>::Face_t,22>::ComponentHandleWithListPointer_t const &,struct CHalfEdgeComponentList<struct CHalfEdgeMesh<int,struct EdgeDataPair_t,int>::Face_t,22>::ComponentHandleWithListPointer_t const &)>,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CHalfEdgeComponentList<struct CHalfEdgeMesh<int,struct EdgeDataPair_t,int>::Face_t,22>::ComponentHandleWithListPointer_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CNavPairMap<unsigned int,class CNavArea *>::TU_t,class CLessFunc<&private: static bool __cdecl CNavPairMap<unsigned int,class CNavArea *>::LessThanFunc_TU(struct CNavPairMap<unsigned int,class CNavArea *>::TU_t const &,struct CNavPairMap<unsigned int,class CNavArea *>::TU_t const &)>,unsigned int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CNavPairMap<unsigned int,class CNavArea *>::TU_t,unsigned int>,unsigned int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CNavPairMap<unsigned int,class CNavArea *>::TU_t,class CLessFunc<&private: static bool __cdecl CNavPairMap<unsigned int,class CNavArea *>::LessThanFunc_UT(struct CNavPairMap<unsigned int,class CNavArea *>::TU_t const &,struct CNavPairMap<unsigned int,class CNavArea *>::TU_t const &)>,unsigned int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CNavPairMap<unsigned int,class CNavArea *>::TU_t,unsigned int>,unsigned int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CDotaTileSelectionItem,int,class CDefLess<class CDotaTileSelectionItem>,int>::Node_t,class CUtlOrderedMapBase<class CDotaTileSelectionItem,int,class CDefLess<class CDotaTileSelectionItem>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CDotaTileSelectionItem,int,class CDefLess<class CDotaTileSelectionItem>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CMapNode *,int,class CDefLess<class CMapNode *>,int>::Node_t,class CUtlOrderedMapBase<class CMapNode *,int,class CDefLess<class CMapNode *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CMapNode *,int,class CDefLess<class CMapNode *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlRBTree<struct CUtlOrderedMapBase<class CMapNode const *,int,class CDefLess<class CMapNode const *>,int>::Node_t,class CUtlOrderedMapBase<class CMapNode const *,int,class CDefLess<class CMapNode const *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CMapNode const *,int,class CDefLess<class CMapNode const *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
@@ -7246,6 +7350,7 @@ CalibrationIlluminant1
 CalibrationIlluminant2
 Call C%d:I%d (%s)
 Called to invoke the graph
+Called when timer reaches the duration OR is stopped. NOTE: This will run a little while AFTER the last interval fires unless they line up perfectly.
 Cam\v;
 Camellia(128)
 Camellia(256)
@@ -7259,6 +7364,7 @@ Can't find helper '%s' - fgd error?\n
 Cancel
 Cancel observing.
 CancelClicked
+Canceled
 Cannot CDmAttribute::GetValueAsString(%p, %u)\n
 Cannot Debug
 Cannot add multiple root layouts to the same widget
@@ -7291,7 +7397,10 @@ Catmull-Rom
 Catmull-Rom (Norm X)
 Catmull-Rom (Norm)
 Catmull-Rom (Tangent)
+Causes each execution cursor to pause at this node for a fixed period of time. Each cursor will wake up and resume execution when the time expires, unless aborted or early-woken.
+Causes each execution cursor to wait for the completion of all prior cursors that have visited this node. Use this to safely support multiple triggers to areas of the graph that take time to complete.
 Causes the parent element to only be evaluated with a specified random probability.
+Causes this execution cursor to wait for the completion of other cursors with the given tag. Can optionally kill the tag while waiting.
 Ceiling - round float up to nearest integer)
 Ceiling Float
 CellLength
@@ -7342,11 +7451,16 @@ Choice Name
 Choice Output Variable
 Choice Weight
 Choices
+Choose Best
+Choose First
+Choose the best outflow with all rules passing, as determined by number of passing rules (specificity).
+Choose the first outflow with all rules passing, from left to right
 ChromaBlurRadius
 Chunk hash not found.
 ChunkHashFraction_t::GetBLAKE3HashContents
 ChunkHashFraction_t::GetMD5HashContents
 ChunkHashFraction_t::GetPackFileNumber
+Circle
 Citadel
 ClQ(|
 Clamp Float
@@ -7379,6 +7493,7 @@ CloseToolhelp32Snapshot
 Closed Loop
 Cluster Index
 ClutterSceneObjectDesc
+Code
 Code Signing
 Code=
 Coefficient to modulate the rotation
@@ -7451,7 +7566,10 @@ ComputeShaderSkinning
 ComputeTilesForModelInstances
 Computes 2 ( 2.71...) raised to a power
 Computes e ( 2.71...) raised to a power
+Condition
+Condition to evaluate when any of its dependent values change.
 Conditional
+Configuration
 ConfigurationHandleShape_t
 Configured
 ConnectionData
@@ -7538,6 +7656,7 @@ Creates a bend deformer that is applied to child elements. The deformation bends
 Criteria with nonliteral enabled state unsupported (%s)
 Critical
 CrlID
+Cross Product
 Cross Product Vector
 Cross Product of Vector a x Vector b
 Crosshairs
@@ -7551,9 +7670,11 @@ Cull Random
 CurrentICCProfile
 CurrentPreProfileMatrix
 Cursor Has Tag
+Cursor Queue
 Cursor[ ptr:%p | id:%d | graph:%p ]: CPulseExecCursor()\n
 Cursors Allowed To Run Parallel
 Cursors Allowed To Wait
+Curve
 CurveEditor
 CurveEditor()
 Custom Groups
@@ -7590,6 +7711,7 @@ DAL\fL@
 DBDc
 DBF-
 DBM&(
+DEFAULT
 DEF_ADD_INDEX
 DEF_GET_CLASS
 DEF_LOAD
@@ -7622,6 +7744,7 @@ DES-OFB
 DES3
 DESX
 DESX-CBC
+DETACH_REGISTER
 DGRAM_SCTP_READ
 DGRAM_SCTP_WRITE
 DH PARAMETERS
@@ -7698,6 +7821,7 @@ DISK
 DISPLAYTEXT
 DIST_POINT
 DIST_POINT_NAME
+DIV_FLOAT
 DInvalid
 DLFCN_BIND_FUNC
 DLFCN_BIND_VAR
@@ -7851,6 +7975,8 @@ Default Material
 Default Material Group
 Default Model
 Default Path In World Space
+Default Surface Property
+Default Value
 Default material group (skin) to assign to the variable value.
 DefaultCropOrigin
 DefaultCropSize
@@ -7922,6 +8048,7 @@ Disable Merging
 Disable Mesh Merging
 Disable in low quality mode
 Disable updates from the specified smart prop file.
+Disabled
 Disabled criteria - skipping (%s)
 Disk-shaped light
 Displacement
@@ -7930,6 +8057,7 @@ DisplacementMappingSelectionDepthBias
 Display Base Face
 Display Model
 Display as voxels
+Distance
 Distance Between Control Points Scale
 Distance at which each part of the prop starts to fade. Only applies if Cull Distance > 0. Positive values are absolute values, while negative values are relative to the cull distance. For example Cull Distance = 100, Start Fade Distance = -30 means the object will start fading at 70 units away and will disappear when 100 units away.
 Distance to Control Points Scale
@@ -7949,6 +8077,8 @@ DmeAnimationList
 DmeAnimationSet
 DmeAnimationSetGroup
 DmeAttributeReference
+DmeAttributesToKeyValues: Unexpected array element %s\n
+DmeAttributesToKeyValues: Unexpected type %d of attribute %s\n
 DmeAxisSystem
 DmeBalanceToStereoCalculatorOperator
 DmeBookmark
@@ -8092,6 +8222,7 @@ DoesParentHaveMetadata
 Domain
 Domain: %s\n
 Done.
+Dot Product
 Dot Product Vector
 Dot Product of Vector a 
 DotRange
@@ -8121,6 +8252,7 @@ DrawSelectionOverlay
 DsBV
 DualHull
 DummyNoOp
+Dump all simulating particles, optional name substring.
 DumpModeDecode: Not enough data for scanline %d
 E"Y6
 E)2G\
@@ -8283,6 +8415,12 @@ EDIPARTYNAME
 EECDH
 EG{M
 ELEMENT
+ELEMENT_ACCESS
+ELEMENT_ACCESS_COLOR_RGB
+ELEMENT_ACCESS_VEC2
+ELEMENT_ACCESS_VEC3
+ELEMENT_ACCESS_VEC3WS
+ELEMENT_ACCESS_VEC4
 ELEM_NAME__ENT_ATTR_TYPES
 ELF0
 EN2 s/
@@ -8323,7 +8461,25 @@ ENGINE_up_ref
 ENUM
 ENUMERATED
 EOF on memory BIO
+EPulseGraphExecutionHistoryFlag
 EQUAL
+EQ_ARRAY
+EQ_BOOL
+EQ_COLOR_RGB
+EQ_EHANDLE
+EQ_ENTITY_NAME
+EQ_FLOAT
+EQ_GAMETIME
+EQ_INT
+EQ_OPAQUE_HANDLE
+EQ_PANEL_HANDLE
+EQ_SCHEMA_ENUM
+EQ_STRING
+EQ_TEST_HANDLE
+EQ_VEC2
+EQ_VEC3
+EQ_VEC3WS
+EQ_VEC4
 EQuM}
 ERROR! LoadFromJPG( %s ) failed!\n
 ERROR! LoadFromPNG( %s ) failed!\n
@@ -8413,9 +8569,9 @@ EXPORT56
 EXRHeader variable is not initialized.
 EXTENDED_KEY_USAGE
 EXTERNAL
-EXhk
 E[3M
 E[\rn?gc
+E[hr
 E\nQc
 Each element will be scaled to is maximum allowable size that will still fit on the line.
 EarlyRetireParticleSystems
@@ -8457,6 +8613,7 @@ Emissive Lighting Boost
 EmitEditingFinishedOnDrop
 EmptyClipboard
 EnableSSAO
+Enabled
 Enables an alternate interpolation method that doesnt deform endpoint tangents.
 Encipher Only
 EncodeBC6Blocks
@@ -8525,6 +8682,7 @@ EvLa
 Evaluate
 Evaluate the curve at the specified input position
 Evaluate the gradient at a position between 0 and 1
+Evaluate the requirements of each connected node
 Evaluated %s in %.2fms\n
 Evaluates a specified smart prop as a child of the current element.
 Evaluates the specified expression, if the result of the expression is false evaluation of the element is stopped.
@@ -8545,6 +8703,7 @@ EventForceRenderNextFrame_t
 EventGridNavMarkupDataChanged_t
 EventGridNavMarkupDimensionsChanged_t
 EventHelperRemovedFromDocument_t
+EventInstanceActivationChange_t
 EventInstanceTargetChanged_t
 EventMapAllVariablesChanged_t
 EventMapDocumentModified_t
@@ -8815,6 +8974,7 @@ FindNextFileW
 Fingers
 Fingers_L
 Fingers_R
+Fire And Forget
 First
 Fit on Line
 Fit on Line Pick Mode
@@ -8880,6 +9040,7 @@ FoldLipUp
 FoliageAnimation
 Follow user preference
 Fop]
+For testing using legacy nav data
 Force Hidden
 Force Static
 Force this model to be placed as a static model rather then generating an entity.
@@ -8920,14 +9081,21 @@ GENERATE_PARAMETERS
 GENSTR
 GENTIME
 GET 
+GET_ARRAY_ELEMENT
+GET_BLACKBOARD_REFERENCE
 GET_CERT_BY_SUBJECT
 GET_CLIENT_FINISHED
 GET_CLIENT_HELLO
 GET_CLIENT_MASTER_KEY
+GET_CONST
+GET_CONST_INLINE_STORAGE
+GET_DOMAIN_VALUE
 GET_SERVER_FINISHED
 GET_SERVER_HELLO
 GET_SERVER_STATIC_DH_KEY
 GET_SERVER_VERIFY
+GET_VAR
+GET_VAR_DETACH
 GL.n
 GLOBAL_LOOKUP_FUNC
 GNAMES_FROM_SECTNAME
@@ -8976,6 +9144,8 @@ GameDefaultFarZ
 GameFeatureSet
 GeneralNames
 GeneralString
+Generate a random float between min and max (inclusive)
+Generate a random integer between min and max (inclusive)
 Generate the grid by placing N x N children.
 Generates set of child instances arranged in a regular grid layout.
 Generator (compressed):
@@ -9081,6 +9251,7 @@ GlobalUnlock
 GoJJw
 GoXis
 Go^ldg
+Gradient
 Gradient Random
 Gradient Random Stop
 Gradient Specific Value
@@ -9138,6 +9309,7 @@ HAC K  Provide Result Min X
 HAC K  Provide Result Min Y
 HAC K  Provide Result Min Z
 HBJ\nTRF
+HDRColorScale
 HEAD 
 HH&a
 HH:mm:ss
@@ -9181,6 +9353,7 @@ Heap32First
 Heap32ListFirst
 Heap32ListNext
 Heap32Next
+Height
 HelperLoadFbmByFileExtension(3058): Error! Unknown file type for %s\n
 Hg>?S
 Hhr+g
@@ -9234,6 +9407,7 @@ IANA
 IC'W
 ICC Profile
 ICC or token signature
+ICON
 ICSOAContainer::SetAttributeType - ERROR, trying to change type of previously-defined attribute %d!\n
 IC\n4]
 IChq
@@ -9244,6 +9418,7 @@ IDEA-CFB
 IDEA-ECB
 IDEA-OFB
 IHelpChangeListener
+IMMEDIATE_HALT
 IMPLICIT
 IND)ind)
 INITY
@@ -9257,6 +9432,7 @@ INT_FREE_EX_DATA
 INT_NEW_EX_DATA
 INT_RSA_VERIFY
 INT_TS_RESP_VERIFY_TOKEN
+INVALID
 INdK
 IP Address
 IP Address:%d.%d.%d.%d
@@ -9265,6 +9441,8 @@ IP address mismatch
 IPSec End System
 IPSec Tunnel
 IPSec User
+IParticleCollection
+IParticleEffect
 ISO JBIG
 ISO Member Body
 ISO US Member Body
@@ -9306,6 +9484,7 @@ If no surface is hit move the current transform to the end of the trace.
 If no surface is hit move the current transform to the start of the trace.
 If no surface is hit stop evaluation of the current element, no following modifiers will be evaluated and the current transform will not be modified.
 If no surface it hit, don't update the transform at all, act as if the trace was not performed.
+If non-empty, specifies the name of a surface property to use for all physics shapes of the specified model, overriding any surface properties specified within the model.
 If non-zero, specifies the angle increment to which the randomly selected value will be snapped. Note that the snap value is absolute, not relative to the min or max, but if the if the min or max are not multiples of the snap value they can still be selected.
 If non-zero, specifies the increment to which the randomly selected offset value will be snapped. Note that the snap value is absolute, not relative to the min or max, but if the if the min or max are not multiples of the snap value they can still be selected.
 If non-zero, specifies the increment to which the randomly selected scale value will be snapped. Note that the snap value is absolute, not relative to the min or max, but if the min or max are not multiples of the snap value they can still be selected.
@@ -9369,6 +9548,11 @@ Indicates a test failure if Value is false.
 Indicates a test failure if value is false; only tested when running unit tests
 Influence radius of the probe.
 InfoDataFilter_t
+InfoForResourceTypeCModel
+InfoForResourceTypeCSmartProp
+InfoForResourceTypeCVDataResource
+InfoForResourceTypeIMaterial2
+InfoForResourceTypeIPulseGraphDef
 Inherit Velocity
 Inherit all
 Inhibit Policy Mapping
@@ -9416,6 +9600,7 @@ Internal error, unknown tag 0x%x
 International Organizations
 InteroperabilityIFDOffset
 Interpret Vector B as plane normal.
+Interval Timer
 Invalid 'dockWidgetArea (%s)
 Invalid 'toolbarArea' (%s)
 Invalid Path
@@ -9444,7 +9629,7 @@ Invalid tile size x :
 Invalid tile size y : 
 InvalidStream
 Invalidity Date
-Invoke Cell%d [eid=%d] %s::%s
+Invoke Cell%d [eid=%d] %s%s
 Invoke Lib %s
 InvokeCommand
 IquO
@@ -9485,6 +9670,7 @@ JOINT-ISO-ITU-T
 JPEG
 JPQv
 JS_!0
+JUMP_COND
 JZIX
 J\nHBF
 J\r?hitButton@QPushButton@@MEBA_NAEBVQPoint@@@Z
@@ -9575,6 +9761,7 @@ L@4T
 L@CURVE_TANGENT_LINEAR
 LAM\rhaI)|pL<
 LARGEST_FIRST
+LAST_SERIALIZED_CODE
 LBN6
 LCIDToLocaleName
 LCMapStringEx
@@ -9585,6 +9772,7 @@ LESS
 LESS_AGGRESSIVE
 LESS_OR_EQUAL
 LG.HK
+LIBRARY_INVOKE
 LINEAR
 LINEBUFFER_CTRL
 LIST_ADD
@@ -9596,7 +9784,13 @@ LOG_MESSAGE
 LONG
 LONG_C2I
 LT?pixel@QImage@@QEBAIHH@Z
+LTE_FLOAT
+LTE_GAMETIME
+LTE_INT
 LT[N
+LT_FLOAT
+LT_GAMETIME
+LT_INT
 LWG>
 LWW>
 LXKQ
@@ -9643,6 +9837,7 @@ Leap to Chunk C%d
 Least Aggressive
 Least aggressive fade out. The object will be quite small before fading out. Fade out will only complete at the size cull limit.
 LeaveCriticalSection
+Left
 Left Edge
 Left direction (+y)
 Left4Dead
@@ -9660,6 +9855,7 @@ Less Aggressive
 Less R%d <- R%d < R%d
 Less aggressive fade out. The object will not fade out until it is smaller on screen than normal.
 LessEq R%d <- R%d <= R%d
+Library for interacting with pulse cursors.
 Lifespan Decay
 Lifespan from distance to world
 Lifetime Pre-Age Noise
@@ -9689,10 +9885,12 @@ LightmapUV
 LightmapUVW
 Lightmapped
 Lightprobed
+Limit Count
 Line Length
 Line length mismatch
 LineColor
 LineLength
+Linear
 Linear Interp.
 Linear Length
 Linear Scale
@@ -9723,6 +9921,8 @@ LoadKV3Object error: %s\n
 LoadKV3ObjectInPlace error: %s\n
 LoadLibraryExW
 LoadLibraryW
+LoadNavMesh: %s\n
+LoadNavMesh: bad buffer alignment.\n
 Loading map: %s
 Loading prefab: %s
 Local space position translation to apply to the current transform
@@ -9777,6 +9977,8 @@ MMouseDoubleClick
 MODULE_INIT
 MODULE_LOAD_DSO
 MODULE_RUN
+MOD_FLOAT
+MOD_INT
 MORE_AGGRESSIVE
 MOST_AGGRESSIVE
 MOVE_TO_END
@@ -9813,6 +10015,8 @@ MS[;6
 MSmartPropClassVersion
 MULTIPLY_CURRENT
 MULTIPLY_OBJECT
+MUL_FLOAT
+MUL_INT
 MVDataAnonymousNode
 MVDataAssociatedFile
 MVDataBase
@@ -9852,6 +10056,7 @@ Mail
 Maintain Closest Triangle Offset
 Make
 Make Angle
+Make Angle From Forward Vector
 Make Color
 Make Transform
 Make Vector
@@ -9864,6 +10069,7 @@ Make a Transform from component parts.
 Make a Vector from component parts.
 Make a Vector2D from component parts.
 Make a World Vector from component parts.
+Make an Angle from a Forward Vector
 Make an Angle from component parts
 Make sheet file
 MakerNoteSafety
@@ -9886,6 +10092,7 @@ MapViewOfFile
 Mask Algorithm: 
 MaskedAreas
 Match Particle Velocities
+Material
 Material 0
 Material 0 Weight
 Material 1
@@ -9915,6 +10122,7 @@ MaterialSamplerView
 MaterialSampler_Indices
 MaterialSampler_SamplePoints
 MaterialSampler_Vertices
+Materials
 Materials Probe
 MatrixWorldToCamera
 MatrixWorldToScreen
@@ -9963,12 +10171,14 @@ Merging SGILog codec-specific tags failed
 Merging common CCITT Fax codec-specific tags failed
 Mesh
 Mesh %s
+Mesh %s has poylgonal faces defined which have bad vertex counts, these will be ignored\n
 Mesh (%d faces)
 Mesh Edges
 Mesh Faces
 Mesh Vertices
 Mesh contains %d blend weights per vertex;  truncating to %d\n
 MeshHardEdges
+MeshID
 MeshSoftEdges
 Meshes Only
 MessageBoxA
@@ -10028,8 +10238,10 @@ MissingRequired
 MlT8
 Mlt(J
 Mod R%d <- R%d %% R%d
+Model
 Model (%s) %s
 Model Asset Variable
+Model Scale
 Model containing the set of material groups to select.
 Model conversion: %d conversions in %.3fsec (%.3fms each)\n
 Model to be displayed.
@@ -10064,6 +10276,7 @@ Movement Lock to Control Point
 Movement Maintain Position Along Path
 Movement Match Particle Velocities
 Movement Max Velocity
+MovementGaitId_t
 MovieSettings
 Mq~h
 MrFW
@@ -10106,6 +10319,12 @@ NCONF_load
 NCONF_load_bio
 NCONF_load_fp
 NCONF_new
+NEGATE
+NEGATE_FLOAT
+NEGATE_INT
+NEGATE_VEC2
+NEGATE_VEC3
+NEGATE_VEC4
 NETSCAPE_CERT_SEQUENCE
 NETSCAPE_SPKAC
 NETSCAPE_SPKI
@@ -10113,6 +10332,23 @@ NETSCAPE_SPKI_b64_decode
 NETSCAPE_SPKI_b64_encode
 NEVER
 NEW CERTIFICATE REQUEST
+NE_ARRAY
+NE_BOOL
+NE_COLOR_RGB
+NE_EHANDLE
+NE_ENTITY_NAME
+NE_FLOAT
+NE_GAMETIME
+NE_INT
+NE_OPAQUE_HANDLE
+NE_PANEL_HANDLE
+NE_SCHEMA_ENUM
+NE_STRING
+NE_TEST_HANDLE
+NE_VEC2
+NE_VEC3
+NE_VEC3WS
+NE_VEC4
 NIST CURVE: %s\n
 NIST/SECG curve over a 163 bit binary field
 NIST/SECG curve over a 224 bit prime field
@@ -10129,16 +10365,18 @@ NISTP256_PRE_COMP_NEW
 NISTP521_PRE_COMP_NEW
 NO COMMAND TARGET
 NO X509_NAME
+NONE
 NORMAL
 NOT an attr
 NOTICEREF
 NOTICE_SECTION
 NOT_ARRAY_MEMBERS
 NOT_EQUAL
+NO_FLAGS
 NQ?s
 NREF_NOS
 NT?pixelColor@QImage@@QEBA?AVQColor@@HH@Z
-NULL CELL
+NULL CELL 
 NULL VP8Io parameter in VP8Decode().
 NULL shared library method
 NULL-MD5
@@ -10169,6 +10407,7 @@ Nav mesh (v%d/%d) loaded with %u nav areas for %u hulls.\n
 Nav mesh Recast
 NavGeometryManager -> Computing Vertex Attributes - done\n
 NavGeometryManager -> Computing Vertex Attributes...\n
+NavGravity_t
 NavLink
 NavLink Locator
 NavLink Movement
@@ -10209,6 +10448,7 @@ Netscape SSL server
 Netscape Server Gated Crypto
 Never close the group automatically (used to indicate an error like the process exiting unexpectedly)
 New Material
+New child cursor starts here every time the wait interval elapses
 New material to replace the original material with.
 New outflow: %s\n
 NextPath
@@ -10245,6 +10485,7 @@ No space to write per-sample values
 No support for converting user data format to LogL
 No support for converting user data format to LogLuv
 No: Do not checkout.
+NoCollapse
 NodeID %d port '%s' called from C%d:I%d
 Noise Scalar
 Noise Vector
@@ -10253,6 +10494,7 @@ Non Repudiation
 Nonce
 Nonstandard tile length %d, convert file
 Nonstandard tile width %d, convert file
+Normal
 Normal fade out. The object will fade at when at the standard size on screen.
 NormalBlendOverride
 NormalIntensity
@@ -10383,6 +10625,7 @@ OPENSSL_malloc Error
 OTHERNAME
 OZQ%
 O\r5x
+O\tV_log10f
 O_yG|
 Oa?width@QImage@@QEBAHXZ
 Oakley-EC2N-3
@@ -10451,6 +10694,7 @@ OnTreeSelectionChanged
 OnWhitespaceWarningClicked
 OnWhitespaceWarningClickedDelayed
 One of the client procedures is NULL pointer.
+OngoingNotify
 Only Baked Shadows
 Only Realtime Shadows
 Only Some Reasons
@@ -10495,6 +10739,8 @@ Order:
 Orient Rotation to 2D Direction
 Orient To Surface
 OrientPrimitives
+Orientation
+Origin
 Original Material
 Original material to replace. This is the material specified in the model, including any material group asignment within the model. Does not consider any existing material overrides specified within the smart prop.
 OriginalRawFileData
@@ -10505,6 +10751,7 @@ Oscillate Vector
 Out of memory allocating %d byte temp buffer.
 Outer radius from the placement position where the model can appear.
 Outflow List
+OutflowWithRequirements_t
 Outgoing Tangent Type
 Output Format
 Output Variable
@@ -10519,6 +10766,7 @@ OverlayProjectionDirection
 OverlaySurface
 OverlaySurfaceIndices
 OverlaySurfaceVertices
+Override Surface Property
 Ow!y
 P!bxo
 P(UH 
@@ -10533,11 +10781,13 @@ P?isValid@QColor@@QEBA_NXZ
 P?itemData@QStandardItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
 P?jumpToNextImage@QImageReader@@QEAA_NXZ
 PAGN_4
+PANEL_ID
 PARAMETERS
 PARSE_BAG
 PARSE_BAGS
 PARSE_HTTP_LINE1
 PARSE_TAGGING
+PARTICLE_EHANDLE__
 PATHBYADDR
 PBE-MD2-DES
 PBE-MD2-RC2-64
@@ -10557,7 +10807,6 @@ PBES2
 PBKDF2
 PBKDF2PARAM
 PBMAC1
-PDSx
 PEIF
 PEM lib
 PEM part of OpenSSL 1.0.2j  26 Sep 2016
@@ -10587,6 +10836,7 @@ PEM_read_bio
 PEM_read_bio_Parameters
 PEM_write
 PEM_write_bio
+PGDInstruction_t
 PGr]
 PHAG2
 PHhn}Y
@@ -10705,7 +10955,6 @@ PKEY_RSA_VERIFYRECOVER
 PKEY_SET_TYPE
 PKEY_USAGE_PERIOD
 PKIX
-PLpx
 POISONED 
 POLICYINFO
 POLICYQUALINFO
@@ -10715,7 +10964,6 @@ POLICY_MAPPINGS
 POLICY_SECTION
 POST
 POST 
-PPPx
 PPz\v=
 PRB+
 PRINTABLE
@@ -10733,14 +10981,16 @@ PSK-AES256-CBC-SHA
 PSK-RC4-SHA
 PSPECIFIED
 PUBLIC KEY
+PULSE_CALL_ASYNC_FIRE
+PULSE_CALL_SYNC
 PUNCTUAL
 PUT 
 P\f?font@QTableWidgetItem@@QEBA?AVQFont@@XZ
-P\tV_log10f
 P\v5Pd
 PackBits
 PackBitsDecode: Not enough data for scanline %ld
 PackBitsDecode: discarding %ld bytes to avoid buffer overrun
+PackToSharedVB
 Packed store %s with refcount > 0.\n
 PageName
 PageNumber
@@ -10757,7 +11007,12 @@ PanoramaVideo()
 Parameter '%s' corresponds to an entity target name, but is sent to input '%s' on '%s' which is not marked as being a target name. (FGD Error?)\n
 Parameter Display Name
 Parameters
+Parent Map
+Parent Map Entity
 Parent Map: %s\n
+Parent VMDL
+Parent XML
+Parent XML Panel
 ParseEXRHeaderFromMemory failed! Error message: %s\n
 Parsing key="%s" with value="%s" on MapNode with uniqueID=%s
 Particle
@@ -10767,6 +11022,7 @@ Particle snapshot data for file %s is empty. File will not be generated.\n
 ParticleCompileBinaryIdenticalHack_underlying_struct
 ParticlesLib
 Pass Outflow
+Path
 Path Cable
 Path Evaluation Space
 Path Name
@@ -10824,6 +11080,7 @@ Pick the largest child element that will fit in the remaining length of the line
 PickMode_t
 Picks a material group from a set of choices and assigns that material group to a specified variable.
 Piecewise Bezier
+Pitch
 PivotPaint
 PivotToolSnapToBBox
 PixarLog
@@ -10867,6 +11124,7 @@ Polymesh wireframe
 Polynomial:
 PosXyz
 PosableSkeleton
+Position
 Position A
 Position Along Path Random
 Position Along Path Sequential
@@ -10905,6 +11163,8 @@ PreviewModelFade
 PreviousSession
 PrimaryChromaticities
 Prime:
+Print model load-time conversion info
+Private
 Private Key
 Private-Key
 Private-Key: (%d bit)\n
@@ -10941,6 +11201,7 @@ Property '%s.%s' not writable
 Property for Ambisonic Order 0.
 Property for Ambisonic Order 1.
 Property for low frequency band.
+Props
 Proxy
 Proxy Certificate Information
 Proxy Instance
@@ -10948,6 +11209,34 @@ Proxy Name
 Public Key
 Public-Key
 Public-Key: (%d bit)\n
+PulseApiFeature_t
+PulseBestOutflowRules_t
+PulseCursorExecResult_t
+PulseCursorID_t
+PulseCursorYieldToken_t
+PulseDomainValueType_t
+PulseGraphExecutionHistoryCursorDesc_t
+PulseGraphExecutionHistoryEntry_t
+PulseGraphExecutionHistoryNodeDesc_t
+PulseGraphInstanceID_t
+PulseInstructionCode_t
+PulseMethodCallMode_t
+PulseNodeDynamicOutflows_t
+PulseNodeDynamicOutflows_t::DynamicOutflow_t
+PulseObservableBoolExpression_t
+PulseRuntimeBlackboardReferenceIndex_t
+PulseRuntimeCallInfoIndex_t
+PulseRuntimeCellIndex_t
+PulseRuntimeConstantIndex_t
+PulseRuntimeDomainValueIndex_t
+PulseRuntimeEntrypointIndex_t
+PulseRuntimeInvokeIndex_t
+PulseRuntimeOutputIndex_t
+PulseRuntimeRegisterIndex_t
+PulseRuntimeStateOffset_t
+PulseRuntimeVarIndex_t
+PulseSelectorOutflowList_t
+PulseVariableKeysSource_t
 P|iC\r
 Q*hd
 Q/xtJ2
@@ -11117,10 +11406,13 @@ RE4\t
 READ_N
 REAL
 REGULAR
+REINTERPRET_INSTANCE
 RELATIVE
 REPLACE
 REQUEST_CERTIFICATE
 REQUEST_VERIFY
+REQUIREMENT_FAIL
+REQUIREMENT_PASS
 RESOURCE_ENCODING_COMPILEIMAGEUTILS_TEXT
 RESOURCE_ENCODING_COUNT
 RESOURCE_ENCODING_INTROSPECTED
@@ -11136,6 +11428,8 @@ RESOURCE_ENCODING_TEXT
 RESOURCE_ENCODING_VRMAN
 RESOURCE_ENCODING_VSNAP
 RESOURCE_ENCODING_VTEX
+RETURN_VALUE
+RETURN_VOID
 RFC 3779 resource not subset of parent's resources
 RFC 5639 curve over a 160 bit prime field
 RFC 5639 curve over a 192 bit prime field
@@ -11238,18 +11532,24 @@ RT60 for low, mid, and high frequency bands for the probe.
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
 R\r1>Vp
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
+R\tV_log2f
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
 R\vp!6
-R\vpLpx
+R\vp\fe
 R]Di
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 Rad2 Deg
+Radius
 Radius Random
+Radius Scale
 Radius at which the rotator handle should be displayed.
 Radius of the bend. If 0 the radius will be computed automatically to preserve the length of the inner edge of the x-axis. If a non-zero value is specified then the inner edge will maintain this radius, but its length will change.
 Ramp Rule Set
+Random
 Random Cull
+Random Float
 Random Int
+Random Integer
 Random Material
 Random Offset
 Random Rotation
@@ -11261,6 +11561,7 @@ Randomly Flip Yaw
 Randomly pick a choice. If the choices have weights, the weights will be used to determine the probability of picking a given choice
 Randomly select one of the color stops specified on the gradient. Never picks a value between stops.
 Randomness
+Range
 RangeEditor()
 Ratio between shortest distance and pathing distance between the probes.
 RawDataUniqueID
@@ -11291,6 +11592,7 @@ Relative to Surface
 Relative weight of this choice, higher weighted choices are more likely to be selected.
 ReleaseMutex
 ReleaseSRWLockExclusive
+ReleaseSRWLockShared
 Reloading
 Reloading...
 Remap Clamped Float
@@ -11342,6 +11644,7 @@ Reset the current rotation such the element only inherits the object level rotat
 Reset the current scale such the element only inherits the object level scale, but does not inherit the scale applied to its parent.
 Resettable
 Resetting value of tile property '%s' from invalid value '%s' to default value '%s'\n
+Resolution
 ResolutionGate
 ResolutionUnit
 ResourceBlockTypeInfo_t
@@ -11387,11 +11690,13 @@ RigConstraints
 RigHelpers
 RigLegs
 RigRoot
+Right
 Right Edge
 RightFingers
 Rigid
 Rigid Constraint
 Rigid Deformation Only
+Roll
 Root of a smart prop, contains a list of elements to evaluate.
 RootSelectionSet
 Rotate
@@ -11447,9 +11752,17 @@ S<Fb
 S<hN-AO
 S>$hkDh$h>[2
 S?openUrl@QDesktopServices@@SA_NAEBVQUrl@@@Z
+SCALE
 SCALE_END_TO_FIT
 SCALE_EQUALLY
+SCALE_INV
+SCALE_INV_VEC2
+SCALE_INV_VEC3
+SCALE_INV_VEC4
 SCALE_MAXIMIZE
+SCALE_VEC2
+SCALE_VEC3
+SCALE_VEC4
 SECG curve over a 112 bit prime field
 SECG curve over a 113 bit binary field
 SECG curve over a 128 bit prime field
@@ -11480,7 +11793,11 @@ SERVER_FINISH
 SERVER_HELLO
 SERVER_VERIFY
 SETWRAP
+SET_BLACKBOARD_REFERENCE
 SET_DIST_POINT_NAME
+SET_VAR
+SET_VAR_ARRAY_ELEMENT_1D
+SET_VAR_OBSERVABLE
 SEqS
 SFM Session
 SFM Settings
@@ -11512,11 +11829,14 @@ SNAN)
 SNAP
 SNMPv2
 SNtu
+SORT_BY_NUMBER_OF_VALID_CRITERIA
+SORT_BY_OUTFLOW_INDEX
 SO~c
 SPECIFIC
 SPECIFIC_COLOR
 SPHERE
 SQ8_d`\
+SQUARE
 SRTP_AES128_CM_SHA1_32
 SRTP_AES128_CM_SHA1_80
 SRVR
@@ -11625,6 +11945,15 @@ START_AND_END
 STIFFEN
 STRENGTH
 STR_COPY
+SUB_FLOAT
+SUB_GAMETIME
+SUB_GAMETIME_FLOAT
+SUB_INT
+SUB_VEC2
+SUB_VEC3
+SUB_VEC3WS_VEC3
+SUB_VEC3WS_VEC3WS
+SUB_VEC4
 SUITEB128
 SUITEB128C2
 SUITEB128ONLY
@@ -11638,7 +11967,8 @@ SXNET_add_id_ulong
 SXNET_get_id_asc
 SXNET_get_id_ulong
 SXNetID
-S\tV_log2f
+SYNC_WAIT_FOR_COMPLETION
+S\tV_logd
 S\vQN
 Salt Length: 0x
 Same Material
@@ -11704,6 +12034,7 @@ Security
 Seed:
 Seek error at scanline %lu
 Select Backfacing
+Select Best Exit
 Select Single Child
 Select a an entity to specify a location to sample lighting from, instead of using this entity's bounding box center.
 Select a an entity to specify a location to sample lighting from, instead of using this object's bounding box center.
@@ -11725,7 +12056,6 @@ SelectionOverlayAlpha_2
 SelectionRemove
 SelectionSet
 SelectionWireframe
-Sep 15 2025
 Sequence Random
 Sequence Two Random
 Serialize: File encoding %s is undefined!\n
@@ -11805,6 +12135,9 @@ Should the yaw (roation around the up vector) value be reset.
 Should this element be placed at the first positions on the path
 Should this element be placed at the last positions on the path
 Should this physics prop start in a sleeping (non-simulating) state such that it won't update until it is woken up by an external event.
+Should we straighten face island if the displacement is this much? (inches)
+Should we try to straighten an island of faces deviating from their average normal (tangent)?
+Should we try to straighten two faces connected to this edge? (tangent)
 ShouldPunchThroughPolymorphism
 Show Clustered Probes Only
 Show Collision Models
@@ -11841,9 +12174,12 @@ Sign Int
 Signal '%s' not compatible with slot '%s'
 Signature hook to fill out arguments for OnInterval
 Signature verification failed.
+SignatureOutflow_Continue
+SignatureOutflow_Resume
 Simple Cubic
 Simple Deformer
 SimulateParticles
+Sine
 Sine of angle. Input in radians, output in radians
 Single Convex Hull
 Single Hull
@@ -11853,6 +12189,7 @@ Size of the configuration handle.
 SizePolicy
 SizePolicy array must have two elements
 Sizer: %s
+Skip this node after the limit. Check Type does not apply, the limit will always be checked.
 Sky Box
 Sky texture %s must be a 2:1 lat-long, 4:3 H-cross, 3:4 V-cross, or 1:6 V-strip format!\n
 Skybox Map 0
@@ -11881,6 +12218,7 @@ SmartPropAttributeEditor( LODLevel )
 SmartPropAttributeEditor( MaterialGroupFromVariable )
 SmartPropAttributeEditor(MaterialGroup)
 SmartPropAttributeEditor(MaterialInSmartProp)
+SmartPropAttributeEditor(SurfaceProperty)
 SmartPropAttributeEditor(VariableValue)
 SmartPropAttributeEditor(angles)
 SmartPropAttributeEditor(bool)
@@ -12055,6 +12393,7 @@ Split an Angle into component parts.
 Sqr Float
 Sqr Int
 Sqrt
+Square
 Square root
 Sr89[
 Stack part of OpenSSL 1.0.2j  26 Sep 2016
@@ -12088,7 +12427,6 @@ Stop When
 Stop any active timers - the completed outflow will still fire
 Stop evaluation
 Stop placing copies of the children when this expression evaluates to true.
-StopTimer
 StretchArches
 StringArrayArray
 StripByteCounts
@@ -12106,6 +12444,7 @@ SubfileType
 Subject Information Access
 SubmitClicked
 SubmitThreadpoolWork
+Succeeded
 Suite B: cannot sign P-384 with P-256
 Suite B: certificate version invalid
 Suite B: curve not allowed for this LOS
@@ -12114,6 +12453,9 @@ Suite B: invalid public key algorithm
 Suite B: invalid signature algorithm
 Superseded
 SupportsDisplacementMapping
+Surface Property
+Surface Property Variable
+SurfacePropPicker()
 SwitchToEngineWindow
 Symbol table:  %d entries %llu bytes\n
 SyncClicked
@@ -12121,6 +12463,7 @@ SyncFileToHeadRevision
 SyncToHeadRevision - SyncFile failed: %s\n
 Synced %d file(s).
 Synced %d file(s).  %d file(s) were not synced!
+Synchronous - wait for the method to fully complete before returning
 Syncing %d file(s).  Please wait...
 SystemTimeToFileTime
 SystemTimeToTzSpecificLocalTime
@@ -12226,7 +12569,7 @@ TW?restoreOverrideCursor@QGuiApplication@@SAXXZ
 TXJw^{
 TYPE=
 T\t?canFetchMore@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
-T\tV_logd
+T\tV_logf
 Tabbed Mode
 Table specifying pairs of existing materials and the material to replace them with.
 Tag 
@@ -12258,6 +12601,9 @@ TerrainTools
 Test Enum
 Test Mode Assert True
 TestCheckpoint: %s
+Testing script helpers.
+Text Color
+TextBlock()
 TextProgramaticallyChanged
 Texture %s doesn't have mipmaps down to %i, loaded %ix%i \n
 Texture Alignment
@@ -12352,6 +12698,7 @@ Tint Color Choice
 Tint Color Gradient
 Tint Layer
 Tint Mode
+TintColor
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -12374,6 +12721,7 @@ Tool Brushes
 ToolBarArea
 ToolDrag
 ToolEditContext_ID_SmartProp_Variable
+ToolEditContext_ID_VMDL
 ToolEvents
 ToolFramework
 ToolImage( 16 )
@@ -12437,6 +12785,7 @@ Trying to find a flex controller (%s) that doesn't actually exist in the model.\
 Tu\t(OR
 Tube light with end caps
 Tube light without end caps
+Type
 Type of data stored inside the probe.
 Type of probes to filter for visualization.
 Type=
@@ -12483,7 +12832,6 @@ UUUUUUUUUUUUUU<o(
 UUUUUUUUUUUa\f\v
 U\8h(
 U\r?home@QTextBrowser@@UEAAXXZ
-U\tV_logf
 U^Pg
 Ugi<
 Unable find required entry points in %s\n
@@ -12525,6 +12873,7 @@ Unknown sub-version number\n
 Unknown unary operator
 Unknown variable "%s"
 Unknown version %d for vpk %s
+Unknown vertex attribute type\n
 UnknownType
 UnmapViewOfFile
 Unnamed Group %i
@@ -12578,11 +12927,11 @@ Use Normals From Base Polygons
 Use Radius Culling
 Use VPhysics
 Use a color value from a specified location on the gradient
-Use axis-aligned box
-Use oriented Box
+UseBaseVertex
 UseCustom
 UseFirstAnimationAsDefault
 UseRenderFarm
+UseTintColor
 Used to boost emissive lighting from models. Note that boosting emissive on smaller areas can create more lighting artifacts/noise.
 Used to flag a test as having failed.
 Usegroupcolors
@@ -12634,6 +12983,7 @@ VISIBLESTRING
 VIgq qC:
 VM%G]f
 VMAP_MANUAL_RECOMPILE
+VMDL
 VMDL_CONVERT_TO_MODELDOC
 VMS_BIND_SYM
 VMS_LOAD
@@ -12667,6 +13017,7 @@ ValveSMMem:%s
 ValveSMMut:%s
 Variable "%s" has %i components, a specific component must be specified, for example use: "%s.x"
 Variable %s has bad default value %s (no choices with that name or value)
+Variables
 Variation Id
 Vary cell shift in X.
 Vary cell shift in Y.
@@ -12701,6 +13052,7 @@ VertexGenericIntegerData
 VertexNormalPaintEnabled
 VertexPaintBlendParams
 VertexPaintBlendParams1
+VertexPaintDetailWeight
 VertexPaintTintColor
 VertexPaintTintColor$0
 VertexSnapRadius
@@ -12772,6 +13124,10 @@ WZTR
 W\noB
 WaNd?
 Wait Complete
+Wait For Completion
+Wait For Cursors With Tag
+Wait For Observable Condition
+Wait for a duration, firing a child cursor at regular (or randomized) intervals
 Wait, Resume=%s
 WaitForSingleObject
 Wake Resume
@@ -12793,7 +13149,9 @@ When False
 When True
 When enabled, the normals of the final surface will use the normals from the base polygons of the overlay instead of the normals of the surface that the overlay is being projected onto.
 When the up direction is not orthogonal to the line direction normally the up vector will be adjusted to make it orthogonal to the line direction. If prioritize up is true, then the up direction will be maintained and the forward direction will be adjusted.
+When we start waiting, how should we handle existing cursors?
 Whether to continue executing
+While active, activate a child state based on the results of a boolean condition. Any referenced variables must be marked as observable.
 WhiteLevel
 WhiteOnBlack
 WhitePoint
@@ -12801,6 +13159,7 @@ Whole object tint color
 WideCharToMultiByte
 Widget Debugger
 Widget Properties
+Width
 WindController
 Window
 WindowStateChanged
@@ -12808,6 +13167,7 @@ WipeRedo '%s'\n
 WipeUndo '%s'\n
 Wmn|CH
 Wn4'
+World
 World Files
 World Height
 World Layer
@@ -13182,11 +13542,9 @@ Z~wl
 \f\f?columnCount@QStandardItemModel@@UEBAHAEBVQModelIndex@@@Z
 \f\f?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
-\f\tV_atofloat32
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\v`PPx
 \ful2
 \fy&3Gl
 \l:ArR
@@ -13233,12 +13591,11 @@ Z~wl
 \n?editorDestroyed@QAbstractItemView@@MEAAXPEAVQObject@@@Z
 \nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
 \nNo game entities will be available for creation.\n
-\nPLpx
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 \n\r?heightForWidth@QBoxLayout@@UEBAHH@Z
 \n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
 \n\tIPSec/IKE/Oakley curve #4 over a 185 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
-\n\tV_atanf
+\n\tV_atof
 \ndummyfilename.tif
 \nh?oT
 \nk>oB
@@ -13268,6 +13625,7 @@ Z~wl
 \rKT8v
 \rLAM
 \rMinghuaQu\f
+\rPYN
 \rTxL
 \rUHz4Z}\r
 \rWhO
@@ -13276,6 +13634,7 @@ Z~wl
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\f\v\v\n\n\t\t\t\t\t
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
+\r\tV_atoi
 \r\vpL1
 \r^mX
 \ri1I
@@ -13310,21 +13669,19 @@ Z~wl
 \tLa0+
 \tN1a
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
-\tPPPx
 \tV_acosd
 \tV_acosf
 \tV_asind
 \tV_asinf
 \tV_atan2d
 \tV_atan2f
-\tV_atoi
+\tV_atand
 \tV_cosd
 \tV_cosf
 \tV_coshf
 \tV_exp2f
 \tV_expd
 \tV_expf
-\tV_strlower_fast
 \tV_strnchr
 \tV_strtod
 \tV_tand
@@ -13332,7 +13689,7 @@ Z~wl
 \tV_tanhf
 \tV_vsnprintf
 \tWarning
-\t\tV_atand
+\t\tV_atanf
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_MakeGlobalSymbol
 \t_MakeGlobalSymbolCaseSensitive
@@ -13347,8 +13704,6 @@ Z~wl
 \tbody_groups = %s\n
 \tcQr
 \tg_Mathlib_GammaToLinearByteTable
-\tg_TSPointerListNodes
-\tg_bUpdateStringTokenDatabase
 \tg_flConfigMaxCoord
 \tg_pMemAlloc
 \tg_pThreadPool
@@ -13380,13 +13735,10 @@ Z~wl
 \vNCE\v
 \vUY6[E
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
-\v\tV_atof
+\v\tV_atofloat32
 \v\vTSG
-\v`PPx
 \vj0k
 \vjC7
-\vpDSx
-\vpLpx
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -13417,6 +13769,7 @@ _TIFFVGetField
 _TIFFVSetField
 _YWL
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
+_\tV_powd
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 __CACHED_editcontext_provider_lookup
 __CursorQueue__
@@ -13454,6 +13807,7 @@ _editor/next_element_id
 _entname_fixup_prefix
 _fgd
 _flt.vpk
+_fov
 _g@Cg
 _hypot
 _jPo
@@ -13470,17 +13824,15 @@ _wjb
 _xU`u
 _}eOk
 `28)fk
+`68w
 `:zQF
 `D$daM-l
 `DZG
 `H(hqA1p
 `ITS
-`Lpx
-`PPx
 `RTTI
 `VX:H
-`\rP\f0Lpx
-`\tV_powd
+`\tV_powf
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `anonymous namespace'
 `copy constructor closure'
@@ -13558,7 +13910,7 @@ aRWZ5
 aRecord
 aSRP
 aXvC
-a\tV_powf
+a\tV_qsort
 a]?xG
 aaControls
 aaaaaaaazzzzzzzz
@@ -13653,8 +14005,10 @@ alpha_fade_out_random
 alpha_random
 already connected
 already loaded
+altrendercolor
 alwaysOrientUp
 alwaysRender
+always_hit_test
 ambientOcclusionMode
 ambient_occlusion
 ambientcolor2
@@ -13801,6 +14155,7 @@ aux error
 awO8
 axfb5
 axies
+axis
 axisSystem
 axisrotator
 aybSr
@@ -13850,7 +14205,7 @@ bValue
 bViewFocusStealing
 bV}TS
 b\fzUkm
-b\tV_qsort
+b\tV_qsort_s
 b\v?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
 b]jY
 backFacingAngle
@@ -14027,6 +14382,7 @@ blendindex3
 blendindices
 blendindices$0
 blendindices$0Indices
+blendtobackground
 blendweight
 blendweight0
 blendweight1
@@ -14064,6 +14420,7 @@ boneRotations
 boneTransforms
 bone_index_and_weight
 bonemask
+bonename
 bookmarkSets
 bookmarks
 bookmarksW
@@ -14102,6 +14459,7 @@ brainpoolP384r1
 brainpoolP384t1
 brainpoolP512r1
 brainpoolP512t1
+brightness
 brightness_candelas
 brightness_legacy
 brightness_lumens
@@ -14151,7 +14509,6 @@ cNDS
 cNUGK
 cRLSign
 c\r1m
-c\tV_qsort_s
 c`FE%
 ca dn length mismatch
 ca dn too long
@@ -14186,6 +14543,7 @@ camellia-256-ofb
 camellia128
 camellia192
 camellia256
+camera
 cameras
 can't find SRP server param
 can_override_npc_state
@@ -14264,6 +14622,7 @@ cessationOfOperation
 challenge
 challenge is different
 challengePassword
+channel
 character
 characteristic-two-field
 checkstate
@@ -14286,6 +14645,7 @@ cipher parameter error
 cipher parameter initialisation error
 cipher table src error
 cisc
+cl_aggregate_particles
 cl_particle_batch_mode
 cl_particle_fallback_base
 cl_particle_fallback_multiplier
@@ -14294,6 +14654,8 @@ cl_particle_retire_cost
 cl_particle_sim_fallback_base_multiplier
 cl_particle_sim_fallback_threshold_ms
 cl_particle_simulate
+cl_particles_dumplist
+cl_particles_dumpsimlist
 class 
 class_game_keys
 cleanup method function failed
@@ -14354,10 +14716,12 @@ collisionmesh
 color log
 color$0
 color$0Indices
+color1
 color255
 color255alpha
 colorValue
 color_array
+color_blend_noise
 color_blue
 color_fade
 color_green
@@ -14730,6 +15094,7 @@ des-ede3-ofb
 des-ofb
 des3
 desc
+description
 descriptions
 dest
 destination address required
@@ -14820,6 +15185,7 @@ distpoint
 distpoint already set
 div by zero
 dmdName
+dme_position_map
 dmemesh
 dmfbxserializer
 dmp1
@@ -14925,12 +15291,18 @@ eC z
 eContent
 eContentType
 eF>t
+eFast
 eLK(w
+eMoveWithGait
 eN.d\tA
 eNULL
 eO@R
 eODj
+eSlow
 eTU\n
+eTeleport
+eWait
+eWaitFacing
 eXQd
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
@@ -15102,6 +15474,7 @@ enhancedSearchGuide
 ent_dota_lightinfo
 ent_dota_tree
 enterprises
+entity
 entityKeys
 entitySpawnFlags
 entityTag
@@ -15214,6 +15587,7 @@ extra_vertex_data
 extracted_motion
 eyBH_
 eyeOffset
+eye_data_list
 eye_target
 eye_target_bone_index
 eye_target_forward
@@ -15270,6 +15644,7 @@ fademaxdist
 fademindist
 failed loading private key
 failed loading public key
+falloff
 falloff_left
 falloff_right
 fast
@@ -15325,6 +15700,7 @@ flDisplayRadius
 flDisplayScale
 flDuration
 flElapsed
+flExecTime
 flExponent
 flFloat
 flFrac
@@ -15337,6 +15713,8 @@ flInitialMinY
 flInitialMinZ
 flInputA
 flInputB
+flLastReferenced
+flMaxAngle
 flMinAngle
 flOffsetAlongPath
 flOriginOffset
@@ -15465,6 +15843,7 @@ gTH.M
 gXC.nT\v
 g\r?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 g\r?horizontalScrollbarAction@QTableView@@MEAAXH@Z
+g\tV_roundf
 g]i/H
 g_flBrightnessExposureBias
 g_pApplication is not yet initialized!\n
@@ -15575,6 +15954,7 @@ g|FeW\v
 g|MT
 h&eC
 h*Ax
+h,\nPvb
 h0'D
 h0XB
 h2Wl
@@ -15592,7 +15972,6 @@ hW1M
 hW_z
 hX@e
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
-h\tV_roundf
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
 h`Zr
 ha?window@QPalette@@QEBAAEBVQBrush@@XZ
@@ -15601,6 +15980,7 @@ half_extent_z
 halfgridsnap
 hammer
 hammerClipboard
+hammerMeshDataBuffer
 hammerUniqueId
 hammer_bevel_leave_edges
 hammer_dota_path_falloff
@@ -15628,7 +16008,6 @@ hammer_isosurface_remove_interior
 hammer_isosurface_sample_offset
 hammer_isosurface_subtract
 hammer_overlay_draw_projection_triangles
-hammer_parallel_terrain_update
 hammer_preview_lighting
 hammer_raytrace_debug_draw
 hammer_render_model_bounding_spheres
@@ -15718,6 +16097,10 @@ hscript
 hscript_lightbinding
 http request
 https proxy request
+hullivr_edge_merge_tan
+hullivr_faceisland_merge_disp
+hullivr_faceisland_merge_tan
+hullivr_version
 hvL&
 h|gg
 i <= EVP_MAX_MD_SIZE
@@ -16058,6 +16441,7 @@ index too small
 indirectCRL
 indirectlight
 infinite
+info
 info_blob_spit_path
 info_hlvr_toner_path_node
 info_node
@@ -16075,6 +16459,7 @@ initials
 inity
 inner_angle
 innerconeangle
+input
 input not initialized
 input not reduced
 inputName
@@ -16093,6 +16478,7 @@ intchoices
 integer
 integer not ascii format
 integer too large for long
+intensity
 interactAs
 interactExclude
 interactWith
@@ -16427,6 +16813,7 @@ lC57
 lDcW
 lM2p
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+l\tV_sincosf
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 ladder
 language
@@ -16517,6 +16904,7 @@ limitMin
 limit_max_key
 limit_min_key
 lineOrder
+linear
 linear_interp
 list cannot be null
 list error
@@ -16529,6 +16917,7 @@ local_point
 local_vector
 localaxis
 localityName
+locallightscale
 location
 locator
 locatorAngles
@@ -16565,7 +16954,7 @@ mS'7
 mXRecord
 mZKB
 m\nXo
-m\tV_sincosf
+m\tV_sind
 m\ta=\ruWb
 m_ActiveValue
 m_AdditionalExtensions
@@ -16579,37 +16968,53 @@ m_AssetWarnings
 m_AutoDataTag
 m_AutoFilterTag
 m_Bindings
+m_BlackboardReferences
+m_BlackboardResource
 m_BlockID
 m_Blocks
+m_CallInfos
+m_CallMethodID
+m_Cells
 m_Checks
 m_ChoiceGroups
 m_ChoiceSelection
 m_ChoiceValues
 m_ChoiceVariables
+m_Chunks
 m_ClassNames
 m_ClassVersions
 m_ColorPosition
 m_ColorSelection
+m_Command
 m_Comparison
 m_CompileDependsOnResourceTypes
 m_CompilerIdentifier
+m_Completed
 m_Components
+m_Condition
+m_Connection
+m_Constants
 m_Context
 m_ControlPointPositions
 m_CoordinateSpace
 m_CoordinateSpaceA
 m_CoordinateSpaceB
 m_CurveSegmentMidpointPositions
+m_Data
 m_DefaultOption
 m_DefaultPath
 m_DefaultPathInWorldSpace
 m_Deformers
 m_DeltaTransform
+m_DependentObservableBlackboardReferences
+m_DependentObservableVars
+m_DestinationFlowNodeID
 m_DirectionVector
 m_DisallowedMaterialAttributes
 m_DisplayColor
 m_DistributionMode
 m_DistributionMode == RANDOM
+m_DomainValues
 m_DrawCalls
 m_ElementPath
 m_Encoding
@@ -16617,22 +17022,30 @@ m_EndPointA
 m_EndPointB
 m_EndPointSpaceA
 m_EndPointSpaceB
+m_EndTime
 m_Endpoints
 m_EngineCommands
 m_EngineModulesThatReferenceAssets
 m_EngineTools
+m_EvaluateConnection
+m_EventOutflow
 m_ExcludeAddonNames
 m_ExcludeFromMods
 m_Executable
+m_ExpectedParamType
 m_Ext
 m_ExternalTools
 m_ExtraStreams
+m_FailOutflow
 m_FilterFunc
 m_Filters
 m_FixDescription
 m_FixType
 m_ForwardDirectionSpace
 m_FriendlyName
+m_FuncName
+m_GameBlackboard
+m_Gradient
 m_GridArrangement
 m_GridArrangement == FILL
 m_GridArrangement == FILL || m_bAlternateShift == false
@@ -16644,20 +17057,27 @@ m_HandleShape
 m_HandleSize
 m_HideExpression
 m_HideForRetailMods
+m_HookName
 m_IR
 m_Icon
 m_IconLg
 m_IconSm
 m_ImageFileRelativePath
+m_Input
 m_InputMacros
 m_InputPositionA
 m_InputPositionB
 m_InputVector
 m_InputVectorA
 m_InputVectorB
+m_InstructionEditorIDs
+m_Instructions
 m_InterfaceName
 m_IntrospectedRootStruct
+m_InvokeBindings
 m_Keys
+m_LastMax
+m_LastMin
 m_Library
 m_LimitToMods
 m_LocalToWorld
@@ -16666,21 +17086,34 @@ m_LocatorName
 m_Luminaire
 m_Manifests
 m_MatchSystemExecutable
+m_Material
 m_MaterialGroup
 m_MaterialGroupChoices
+m_MaterialGroupName
 m_MaterialOverrideTables
 m_MaterialReplacements
 m_MaterialTintTables
 m_MeshResourceName
 m_Mod
+m_ModelName
 m_Models
 m_NavAreas.Count() < CNavMarkerData::MAX_ELEMENTS
+m_NodeName
 m_Normals
+m_OnInterval
+m_OnTrue
 m_Options
+m_Origin
+m_OriginName
 m_OriginSpace
 m_OriginalMaterial
+m_OutflowList
+m_OutflowRegisterMap
+m_Outflows
 m_OutputChoiceVariableName
+m_OutputConnections
 m_OutputCoordinateSpace
+m_OutputIndex
 m_OutputVariable
 m_OutputVariableMaxX
 m_OutputVariableMaxY
@@ -16689,8 +17122,12 @@ m_OutputVariableMinX
 m_OutputVariableMinY
 m_OutputVariableMinZ
 m_OutputVariableName
+m_Outputs
 m_OverrideToolShortcutName
+m_ParentMapName
+m_ParentXmlName
 m_Parts
+m_PassOutflow
 m_PathName
 m_PathSpace
 m_Place
@@ -16698,15 +17135,21 @@ m_PlaceAtPositions
 m_PlacementMode
 m_PlacementMode == SPHERE
 m_PointSpace
+m_PortName
 m_Positions
 m_PriorityExts
+m_PublicOutputs
 m_ReadOnlyExpression
+m_RefCount
 m_ReferencedMeshSnapshots
+m_Registers
 m_ReplacementMaterial
 m_ReplacementTable
 m_RequireSearchableIntKey
 m_RequireSearchableIntValue
+m_RequiredRuntimeType
 m_RequiredSpecialDependency
+m_RequirementNodeIDs
 m_ResourceNames
 m_ResourceVersion
 m_Resources
@@ -16717,36 +17160,68 @@ m_SelectionMode
 m_SelectionMode != GRADIENT_LOCATION
 m_SelectionMode != SPECIFIC_COLOR
 m_SelectionMode == SPECIFIC_COLOR
+m_Shuffle
+m_SourceEntity
 m_SourceFile
+m_SourceOutput
 m_SpecificChildIndex
+m_StartTime
 m_StateName
 m_Stops
 m_Streams
+m_SubGraph
 m_SupportedExts
 m_SuppressSubstrings
+m_SurfacePropertyOverride
 m_TagAliases
 m_TagColor
 m_TagDescription
 m_TagIcon
+m_TagName
 m_TagValue
 m_Tangents
+m_TargetEntity
+m_TargetInput
 m_TargetPoint
 m_TargetPointSpace
 m_TargetSpace
 m_Test_InjectSearchable
 m_Texcoords
 m_ThumbnailOverlayImage
+m_TimelineEvents
+m_TintColor
 m_TintTable
 m_Title
 m_ToolIcon
+m_Transform
+m_UnknownKeys
+m_UnyieldResume
 m_UpDirectionSpace
 m_UpSpace
 m_VariableComparison
 m_VariableValue.m_TargetName
 m_VariableValues
+m_Vars
+m_WaitComplete
+m_WhenFalse
+m_WhenTrue
 m_WorkingDir
+m_agentBorderErosion
+m_agentCrawlEnabled
+m_agentCrawlHeight
+m_agentHeight
+m_agentMaxClimb
+m_agentMaxJumpDownDist
+m_agentMaxJumpHorizDistBase
+m_agentMaxJumpUpDist
+m_agentMaxSlope
+m_agentRadius
+m_agentShortHeight
+m_agentShortHeightEnabled
+m_bAgentEnabled
 m_bAlignOrientation
 m_bAlignOrientation == false
+m_bAllocated
 m_bAllowAtEnd
 m_bAllowAtStart
 m_bAllowRotation
@@ -16755,15 +17230,20 @@ m_bAllowScale == false
 m_bAllowTranslation
 m_bAllowedToCompileInTestMode
 m_bAlternateShift
+m_bAnd
 m_bApplyToCurrentTransform
+m_bAutoUpdateBBox
 m_bBakedTwoSided
 m_bBringEngineToFront
 m_bCanBatchWithDynamicShaderConstants
+m_bCanFreeze
 m_bCanHighlightSubassets
 m_bCannotBeAMultiParentChildCompile
 m_bCannotBeShown
+m_bCastShadows
 m_bCastStaticShadows
 m_bClearCurrentOverrides
+m_bCompleteOnNextWake
 m_bConditionValue
 m_bConfigurable
 m_bConfigurable == false
@@ -16771,6 +17251,7 @@ m_bContentFileIsText
 m_bContinuousSpline
 m_bCordonsVisible
 m_bDebugCommandline
+m_bDefault
 m_bDeformationEnabled
 m_bDetailObject
 m_bDetailObject == false
@@ -16779,6 +17260,7 @@ m_bDisableDynamicDeformable
 m_bDiscardIfUknown
 m_bDisplayModel
 m_bDoNotWarnAboutLargeAssetBatches
+m_bDontRemove
 m_bDrawLast
 m_bEnd
 m_bEnforceLimits
@@ -16786,8 +17268,11 @@ m_bEnforceLimits == false
 m_bExposeAsParameter
 m_bExposeAsParameter == false
 m_bFirstEvaluate
+m_bForceNoDraw
 m_bForceStatic
 m_bForceStatic == true
+m_bFreezeTargetState
+m_bFreezeTransitionActive
 m_bHACK_ProvideResultMaxX
 m_bHACK_ProvideResultMaxY
 m_bHACK_ProvideResultMaxZ
@@ -16801,15 +17286,19 @@ m_bIgnoreCables
 m_bIgnoreCompiledState
 m_bIgnoreObjectRotation
 m_bIgnoreObjectScale
+m_bIsAsyncCreate
 m_bIsCordoning
+m_bIsFirstFrame
 m_bIsNontrivialChildAssetType
 m_bIsNotMatchedToMaterial
+m_bIsObservable
 m_bIsSecondaryTool
 m_bIsWorkshopItemTool
 m_bIsWorkshopManagerTool
 m_bLightInsideFrustum
 m_bLiveParameterUpdate
 m_bLocalEvaluationState
+m_bNeedsBBoxUpdate
 m_bNoShadow
 m_bNormalized
 m_bOnlyShadow
@@ -16823,6 +17312,7 @@ m_bPrefersLivePreview
 m_bPresentInGameTree
 m_bPreventDirectCompile
 m_bPrioritizeUp
+m_bRemove
 m_bRenderClusteredProbesOnly
 m_bRenderProbeRadius
 m_bResetPitch
@@ -16830,12 +17320,22 @@ m_bResetRoll
 m_bResetYaw
 m_bRestoreState
 m_bRigidDeformation
+m_bSelfReference
+m_bShouldCheckFoW
 m_bShouldCompileErrorFallbackToDisk
+m_bShouldPerformCullCheck
+m_bShouldSave
+m_bShouldSimulateDuringGamePaused
 m_bShowInRevisionSubMenu
+m_bSimulate
+m_bSphericalCookie
 m_bStart
+m_bStartAsleep
 m_bSuppressFullFingerprintCalculation
+m_bSuppressScreenSpaceEffect
 m_bTagHidesAssetByDefault
 m_bTagIndicatesRejectedAsset
+m_bTagSelfWhenComplete
 m_bTraceAway
 m_bTraceAway == false
 m_bUnrecognizedReferencesAreErrors
@@ -16847,6 +17347,7 @@ m_bVerticalLength
 m_externalMethodTargetGraph
 m_fFalloff
 m_fMoveTo
+m_fRadius
 m_flAlternateShiftLength
 m_flAlternateShiftWidth
 m_flBendAngle
@@ -16863,11 +17364,16 @@ m_flConstraintMinX
 m_flConstraintMinY
 m_flConstraintMinZ
 m_flDeltaValue
+m_flDensity
 m_flDimensionsInOutValue
 m_flDimensionsSizeValue
 m_flDisplayRadius
 m_flDisplayScale
+m_flEndFadeSize
 m_flEndcapAreaPercentage
+m_flFreezeTransitionDuration
+m_flFreezeTransitionOverride
+m_flFreezeTransitionStart
 m_flInitialAngle
 m_flInitialMaxX
 m_flInitialMaxY
@@ -16876,7 +17382,9 @@ m_flInitialMinX
 m_flInitialMinY
 m_flInitialMinZ
 m_flLightColorToRadiance
+m_flMaxAngle
 m_flMaxSurfaceSlope
+m_flMinAngle
 m_flMinSurfaceSlope
 m_flOcclusionDeviation
 m_flOcclusionDistanceRatio
@@ -16892,15 +17400,18 @@ m_flOrientToSurface
 m_flParamaterMaxValue
 m_flParamaterMinValue
 m_flPathingDistanceRatio
+m_flPosition
 m_flPositionRadiusInner
 m_flPositionRadiusOuter
 m_flProbeRadius
+m_flRadius
 m_flRandomVerticalOffsetMax
 m_flRandomVerticalOffsetMin
 m_flRandomness
 m_flReverbTimeHigh
 m_flReverbTimeLow
 m_flReverbTimeMid
+m_flShape
 m_flSlopeIncoming
 m_flSlopeOutgoing
 m_flSnapIncrement
@@ -16908,42 +17419,83 @@ m_flSnappingIncrement
 m_flSpacing
 m_flSpacingLength
 m_flSpacingWidth
+m_flStartFadeSize
+m_flTimeFromPrevious
 m_flUniformModelScale
+m_flWaitInterval
+m_flWaitIntervalHigh
 m_flWeight0
 m_flWeight1
 m_flWeight2
+m_flWidth
+m_flowMapGenerationEnabled
+m_flowMapNodeMaxRadius
+m_hBlackboardResource
 m_hDef
+m_hOwner
 m_hPulseGraph
 m_hSmartProp
 m_iszNPC
 m_mFromClipSpace
 m_mToClipSpace
+m_mapCellDesc
+m_mapCursorDesc
 m_materialsValues
 m_nAssetTypeVersion
+m_nAsyncCallMode
+m_nBlackboardReference
+m_nBlackboardReferenceIdx
+m_nCallInfoIndex
+m_nCellIndex
+m_nCheckType
+m_nChunk
 m_nClusterIndex
+m_nCode
+m_nConstIdx
 m_nContentVersion
 m_nCookie
 m_nCountL
 m_nCountMax
 m_nCountMin
 m_nCountW
+m_nCurrentCount
 m_nCurrentWakeIndex
+m_nCursorStateBlockIndex
+m_nCursorsAllowedToRunParallel
+m_nCursorsAllowedToWait
 m_nDefinitionVersion
 m_nDeformableAttachmentMode
 m_nDeformableOrientationMode
 m_nDeformationMode
 m_nDeformerIndex
+m_nDesiredKillPriority
+m_nDestChunk
+m_nDestInstruction
 m_nDetailObjectFadeLevel
+m_nDomainValueIdx
 m_nDrawCall
+m_nDrawCallIndex
 m_nFieldDataStates
+m_nFlowNodeID
 m_nHash
+m_nIndex1
+m_nIndex2
+m_nInstanceID
+m_nInstruction
 m_nInterpolationMode
+m_nInvokeBindingIndex
+m_nLastReadByInstruction
+m_nLimitCount
 m_nLodLevel
 m_nLuminaireType
 m_nMaterialOverrideTableIndex
 m_nMaterialTintTableIndex
 m_nMaxDepth
+m_nMeshIndex
 m_nMovableReverbIndex
+m_nNextIndex
+m_nNextShuffle
+m_nNodeID
 m_nNthPositionIndexOffset
 m_nParamaterMaxValue
 m_nParamaterMinValue
@@ -16952,21 +17504,39 @@ m_nPlaceEveryNthPosition
 m_nProbeIndex
 m_nProbeIndexSource
 m_nProbeType
+m_nReg
+m_nReg0
+m_nReg1
+m_nReg2
 m_nResourceNameIndex
 m_nScaleMode
 m_nSelectedProbeType
 m_nSourceLine
+m_nSplitScreenUser
+m_nSrcChunk
+m_nSrcInstruction
+m_nVar
+m_nWrittenByInstruction
+m_pDebugName
 m_pInstanceProceduralConnectionsClass
+m_pOwningParticleProperty
+m_pParticles
 m_pVertexData
 m_pathingCoeffs
 m_pathingEQ
+m_qOrientation
 m_reverbScales
 m_reverbTimes
+m_sId
 m_sLabel
+m_sModelName
 m_sSmartProp
 m_sValue0
+m_strFileName
 m_vAlignDirection
 m_vAngleFade
+m_vAngles
+m_vCenter
 m_vColor
 m_vDeltaMax
 m_vDeltaMin
@@ -16974,26 +17544,38 @@ m_vDimensionsInsideSizeField
 m_vDimensionsOutsideField
 m_vDistanceFade
 m_vEnd
+m_vExtent
 m_vForwardVector
+m_vGravity
 m_vHandleOffset
 m_vInnerRadius
 m_vLightPosition
 m_vModelScale
 m_vNearPlane
 m_vNonUniformScale
+m_vNormal
 m_vNumDivisions
+m_vOffset
+m_vOrigin
 m_vOriginPos
 m_vPathOffset
+m_vPathingDirection
 m_vPlaneUpDirection
 m_vRotationAxis
 m_vScale
 m_vSize
 m_vSkirt
 m_vSnapIncrement
+m_vSortOrigin
+m_vStart
 m_vTargetPos
 m_vTraceDirection
 m_vUpDirection
 m_vUpPos
+m_vUpVector
+m_vecAggregationCenter
+m_vecHistory
+m_vecNavHulls
 m_vecNavLinkMovementNames
 ma\v\r01!
 mac absent
@@ -17052,6 +17634,7 @@ material_group
 materialgroup
 materialindex
 materialoverride
+materials
 materials/
 materials/dev/gray_50.vmat
 materials/dev/reflectivity_30.vmat
@@ -17107,6 +17690,7 @@ max_occlusion_distance
 max_thrust
 maxgust
 maxgustdelay
+maximum
 maxsize=
 maxvalue
 maxwind
@@ -17136,6 +17720,9 @@ merchant initiated auth
 meshData
 meshNodeId
 meshUtilsKeyValues
+mesh_calculate_curvature_smooth_invert
+mesh_calculate_curvature_smooth_pass_count
+mesh_calculate_curvature_smooth_weight
 mesh_edge_connectivity
 mesh_edge_convexity
 mesh_edge_convexity_or_tileset
@@ -17171,6 +17758,7 @@ mingust
 mingustdelay
 minigame
 minimized
+minimum
 minroughness
 minsize=
 minvalue
@@ -17219,6 +17807,7 @@ model_breakpiece
 model_cloth_effect
 model_cloth_node
 model_cloth_vertex_map
+model_dump_convert_info
 model_morphchannel
 model_path
 model_physics_shape
@@ -17295,15 +17884,20 @@ nApplyMode
 nCRD
 nCompressedSize == nUncompressedSize
 nCoordinateSpace
+nCount
 nCountMax
 nCountMin
+nCursorID
 nDelayInMS
 nDenominator
 nDetailObjectFadeLevel
 nDirectionSpace
 nDistributionMode
+nEditorID
 nHandleSize
+nIndex
 nKillPriority
+nLastValidEntryIdx
 nLayoffState
 nLodLevel
 nMaxElements
@@ -17314,9 +17908,11 @@ nPathSpace
 nPickMode
 nPlacementMode
 nPointSpace
+nRetiredAtNodeID
 nSRecord
 nScaleMode
 nSelectionMode
+nSpawnNodeID
 nSpecificChildIndex
 nStf,a
 nSw}Z\tu
@@ -17326,7 +17922,7 @@ nValue
 nX?setBold@QFont@@QEAAX_N@Z
 n\n?dragEnterEvent@QTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
 n\r2S
-n\tV_sind
+n\tV_sinf
 n\v?event@QToolButton@@MEAA_NPEAVQEvent@@@Z
 n]?iJ
 n`3i
@@ -17339,13 +17935,16 @@ name=
 nameAssigner
 nameConstraints
 named_curve
+names
 nan(ind)
 nan(snan)
 navData
+nav_ignore_vpk_navdata
 nav_link_movement
 nav_link_movement_reverse
 nav_link_preview
 nav_link_preview_reverse
+nav_pathfind_multithread
 nav_unmark; nav_mark ladder %d; nav_warp_to_mark\n
 nav_validate
 navclip
@@ -17503,6 +18102,7 @@ node_name
 nodeid
 nodelink
 nodes
+noise_frequency_scale
 nombstr
 non fips dsa method
 non fips method
@@ -17603,7 +18203,6 @@ oOffset
 oWnS
 oXHT
 o\n?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
-o\tV_sinf
 o\v?event@QTreeWidget@@MEAA_NPEAVQEvent@@@Z
 oad2:,
 oaep
@@ -17637,6 +18236,7 @@ odMsh
 odd number of chars
 odd number of digits
 oeap
+offset
 offsetTime
 oi3o
 old session cipher not returned
@@ -17713,6 +18313,7 @@ outTangentType
 out_tangent_local
 outer_angle
 outerconeangle
+output
 outputFormat
 outputName
 outputs
@@ -17754,11 +18355,10 @@ pEvent
 pFilter
 pG_*h
 pIp 
-pLpx
+pItem
 pMaterialGroupName
 pModelResourceName
 pO0h
-pPPx
 pPrevFocusWidget
 pRTH
 pSPo
@@ -17770,6 +18370,7 @@ pV?read@QImageReader@@QEAA?AVQImage@@XZ
 pWidget
 p\n?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z
 p\r0\fP
+p\tV_sinhf
 p\v?event@QWidget@@MEAA_NPEAVQEvent@@@Z
 p^i9
 p`?type@QStandardItem@@UEBAHXZ
@@ -17877,6 +18478,7 @@ photo
 phrase is too short, needs to be at least %d chars\n
 phys
 physicalDeliveryOfficeName
+physics
 physicsCollisionProperty
 physicsGroup
 physicsInteractsAs
@@ -18009,6 +18611,7 @@ prefab_relays
 prefab_root
 preferredDeliveryMethod
 presentationAddress
+preset
 presetGroups
 presetRemap
 presets
@@ -18028,6 +18631,7 @@ prime239v3
 prime256v1
 prime2:
 prime:
+priority
 priv [ %d ] 
 priv:
 priv_key
@@ -18128,7 +18732,7 @@ qS>g?h3
 qTm_fC=
 qUN1
 q\n?dragLeaveEvent@QAbstractScrollArea@@MEAAXPEAVQDragLeaveEvent@@@Z
-q\tV_sinhf
+q\tV_snprintf
 q\v?event@QWidgetAction@@MEAA_NPEAVQEvent@@@Z
 qangle log
 qangle_array
@@ -18158,13 +18762,13 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpLpx
-r\tV_snprintf
 r\tVr.>T
 r\vDi
 r_freezeparticles
 r_limit_particle_job_duration
 r_particle_timescale
+r_threaded_particle_creation
+r_threaded_particles
 rad2deg
 radiusScale
 radius_key
@@ -18301,6 +18905,7 @@ responseStatus
 responseType
 responses
 restrict(
+result
 result out of range
 result too large
 result too small
@@ -18421,10 +19026,12 @@ saturation
 sbgp-autonomousSysNum
 sbgp-ipAddrBlock
 sbgp-routerIdentifier
+scale
 scale_bone_relative
 scale_world
 scales
 scanline
+scattering
 scene
 scope_to_dependency_name
 screenWindowCenter
@@ -18511,6 +19118,7 @@ self_handle
 semanticIndex
 semanticName
 separator
+sequence
 sequence length mismatch
 sequence not constructed
 sequence or set needs config
@@ -18866,6 +19474,7 @@ solid
 solidclass
 solidity
 sort_priority
+sound
 soundEventScript
 soundname
 sourceDag
@@ -19042,6 +19651,7 @@ stacked_one
 staggerinterval
 standard
 standardAttributeName
+start
 startJoint
 startOffset
 startTime
@@ -19062,6 +19672,8 @@ stereoSingleFile
 stereoscopic
 store
 store init error
+strBindingName
+strCellDesc
 stream timeout
 streamSourceType
 stream_data
@@ -19120,7 +19732,9 @@ supports_loop
 suppress_expr
 suppressed
 suppressed_field
+surfacePropertyOverride
 surface_properties
+surface_property_override
 surname
 syncEngineFramerate
 synched
@@ -19146,6 +19760,7 @@ tabs
 tag mismatch
 tag value too high
 tag=
+tagName
 tagValue
 tag_list
 tag_list_dynamic
@@ -19156,7 +19771,10 @@ tangent_3d
 tangent_and_flip
 tangents
 tangentsIndices
+tangentu
 tangentu_signv
+tangentv
+target
 targetBodyName
 targetDataType
 targetFilePath
@@ -19212,6 +19830,7 @@ text:
 textEncodedORAddress
 textNotice
 text_block
+texture
 textureAxisU
 textureAxisU1
 textureAxisV
@@ -19329,7 +19948,15 @@ toolhud_enable
 tools.light_volume_boundary
 tools.reference_notrace
 tools/images/pulse_editor/cursor_kill.png
+tools/images/pulse_editor/cursor_tag.png
+tools/images/pulse_editor/cursor_wait_zone.png
+tools/images/pulse_editor/exit_cycle_random.png
+tools/images/pulse_editor/inflow_statecell.png
+tools/images/pulse_editor/inflow_wait.png
 tools/images/pulse_editor/kill_cursor_with_tag.png
+tools/images/pulse_editor/node_timer.png
+tools/images/pulse_editor/observable_variable_listener.png
+tools/images/pulse_editor/requirements.png
 tools/keybindings/global_key_bindings.txt
 toolsMaterial
 tools_preview
@@ -19394,6 +20021,7 @@ uint64 log
 uint64_array
 uint8 log
 uint8_array
+unFlags
 unable to bind socket
 unable to create new section
 unable to create socket
@@ -19543,6 +20171,7 @@ unsupported ssl version
 unsupported status type
 unsupported type
 unsupported version
+unused
 unwrap error
 unwrap failure
 upAxis
@@ -19587,8 +20216,10 @@ vAr>
 vAu&
 vEnd
 vF'l
+vForward
 vHandleOffset
 vModelScale
+vOffset
 vOrigin
 vPathOffset
 vPlaneUpDirection
@@ -19658,6 +20289,7 @@ vcenter
 vdata
 vdata_choice
 vdataderived
+vecAncestorCursorIDs
 vecOffset
 vecValue
 vecValueA
@@ -19674,6 +20306,7 @@ vector4_array
 vector<T> too long
 vectorws
 velTolerance
+velocity
 velocity_random
 velocity_tolerance
 verification failure
@@ -19716,6 +20349,7 @@ vmdl_c
 vmesh
 vmks
 vnotify_ui
+volume
 volume_box_maxs
 volume_box_mins
 volume_resolution_xy
@@ -19755,6 +20389,7 @@ wRlb.
 wY[K,
 w\n?connectImpl@QObject@@CA?AVConnection@QMetaObject@@PEBV1@PEAPEAX01PEAVQSlotObjectBase@QtPrivate@@W4ConnectionType@Qt@@PEBHPEBU3@@Z
 w\n?dragLeaveEvent@QLineEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
+w\tV_sscanf
 w_5&#R4
 waiting_group
 wap-wsg
@@ -19775,6 +20410,7 @@ water
 water_tube
 wci.
 we?0
+weight
 weight$0
 weights
 weightweight$0
@@ -19856,7 +20492,7 @@ xQfF
 xT?V
 xUN'
 x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
-x\tV_sscanf
+x\tV_sscanf_s
 x\v6V
 xg-9Ja
 xp$=S
@@ -19880,7 +20516,6 @@ yRnkB\t
 yS/h
 yU\n2`
 yWTb?
-y\tV_sscanf_s
 y\teE
 y_jO
 ya<O
@@ -19899,12 +20534,18 @@ zRXU
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
+zfar
 zip_line_node
 zlVO
 zlib compression
+znear
 zone
 zxNIjo
 zz2K
+{ className = 'IsControlFlowNode' }
+{ className = 'IsStateNode' item_factory = 'BooleanSwitchState' }
+{ className = 'IsWaitNode IsControlFlowNode' }
+{ className='IsControlFlowNode AllOutflowsInSpecialSection IsSelectorNode' create_special_outflows_section=true }
 {5`q@roz?
 {8w1
 {9d:c
@@ -19920,8 +20561,10 @@ zz2K
 |11Jv
 |3ox
 |<C!FReQ
+|Bmodel_default_preview_sequence_name
 |InzT
 |XYl
+|\tV_stricmp_fast
 |hdX)
 |sG2
 |}Eq1
@@ -19931,7 +20574,6 @@ zz2K
 }W70d
 }Xee+
 }\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
-}\tV_stricmp_fast
 }gE3
 }n2W
 ~9ob
@@ -19942,6 +20584,7 @@ zz2K
 ~P2T
 ~R65Fu
 ~\n?dragMoveEvent@QAbstractScrollArea@@MEAAXPEAVQDragMoveEvent@@@Z
+~\tV_strlower_fast
 ~jLRG
 ~w]UG
 ~yhZ
