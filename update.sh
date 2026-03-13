@@ -11,7 +11,7 @@ $STEAM_FILE_DOWNLOADER_PATH --username "$STEAM_USERNAME" --password "$STEAM_PASS
 echo "Processing CS2..."
 
 set +e
-../tools/dump_source2.sh csgo CS2
+../tools/dump_source2.sh CS2
 DUMPER_EXIT_CODE=$?
 set -e
 
