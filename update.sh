@@ -4,6 +4,10 @@ set -euo pipefail
 cd "${0%/*}"
 . ../common.sh
 
+echo "Downloading CS2..."
+
+$STEAM_FILE_DOWNLOADER_PATH --username "$STEAM_USERNAME" --password "$STEAM_PASSWORD" --appid 730 --output . --branch $STEAM_BRANCH --save-manifest
+
 echo "Processing CS2..."
 
 set +e
@@ -46,7 +50,7 @@ ProcessToolAssetInfo
 
 FixUCS2
 
-CreateCommit "$(grep "ClientVersion=" game/csgo/steam.inf | grep -o '[0-9\.]*')" "${1:-}"
+CreateCommit "$(grep "ClientVersion=" game/csgo/steam.inf | grep -o '[0-9\.]*')" "$(grep -o '[0-9\.]*' steam_buildid.txt)"
 
 echo "Done"
 
