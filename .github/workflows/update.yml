@@ -17,7 +17,10 @@ jobs:
     process:
         permissions:
             contents: write
+        # TODO : switch to inherit for SteamTracking & the real repo
+        #uses: steamtracking/gametracking/.github/workflows/gametracking.yml@master    
         uses: lifeismana/gametracking/.github/workflows/gametracking.yml@master
+        #secrets: inherit
         secrets: 
             STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
             STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
