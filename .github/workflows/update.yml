@@ -1,0 +1,26 @@
+name: Update
+
+on:
+    workflow_dispatch:
+        inputs:
+            branch:
+                description: 'Steam VR Branch'
+                required: false
+                default: 'beta'
+                type: string      
+
+concurrency:
+    group: ${{ github.workflow }}
+    cancel-in-progress: true
+
+jobs:
+    process:
+        permissions:
+            contents: write
+        uses: lifeismana/gametracking/.github/workflows/gametracking.yml@master
+        secrets: 
+            STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+            STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
+        with:
+          folder: cs2
+          branch: ${{ github.event.inputs.branch }}
