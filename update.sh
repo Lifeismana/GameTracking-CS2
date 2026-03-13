@@ -6,7 +6,7 @@ cd "${0%/*}"
 
 echo "Downloading CS2..."
 
-$STEAM_FILE_DOWNLOADER_PATH --username "$STEAM_USERNAME" --password "$STEAM_PASSWORD" --appid 730 --output . --branch $STEAM_BRANCH --save-manifest
+$STEAM_FILE_DOWNLOADER_PATH --username "$STEAM_USERNAME" --password "$STEAM_PASSWORD" --appid 730 --output . --branch $STEAM_BRANCH
 
 echo "Processing CS2..."
 
