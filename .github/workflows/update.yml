@@ -6,7 +6,7 @@ on:
             branch:
                 description: 'Steam VR Branch'
                 required: false
-                default: 'beta'
+                default: 'public'
                 type: string      
 
 concurrency:
@@ -22,5 +22,5 @@ jobs:
             STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
             STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
         with:
-          folder: cs2
+          folder: csgo
           branch: ${{ github.event.inputs.branch }}
