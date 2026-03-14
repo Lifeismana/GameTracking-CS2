@@ -4,10 +4,6 @@ set -euo pipefail
 cd "${0%/*}"
 . ../common.sh
 
-echo "Downloading CS2..."
-
-$STEAM_FILE_DOWNLOADER_PATH --username "$STEAM_USERNAME" --password "$STEAM_PASSWORD" --appid 730 --output . --branch $STEAM_BRANCH
-
 echo "Processing CS2..."
 
 set +e

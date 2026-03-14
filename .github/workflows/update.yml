@@ -28,3 +28,4 @@ jobs:
           folder: csgo
           branch: ${{ github.event.inputs.branch }}
           run-on-windows: true
+          appid: 730
